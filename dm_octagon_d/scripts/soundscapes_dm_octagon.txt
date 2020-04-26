@@ -1,0 +1,57 @@
+"automatic"
+{
+	"dsp"	"1"
+	"dsp_volume" "1"
+}
+
+"soundscapes_oc"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient/atmosphere/corridor.wav"
+		"pitch"		"100"
+	}
+
+
+	"playrandom"
+	{
+		"time"		"5,15"
+		"volume"	"0.2,0.8"
+		"pitch"		"100"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/atmosphere/thunder3.wav"
+			"wave"	"ambient/atmosphere/thunder4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"30,60"
+		"volume"	"0.1,0.2"
+		"pitch"		"95,105"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/atmosphere/tone_quiet.wav"
+		}
+	}
+}
+
+"soundscapes_oc2"
+{
+
+	"playlooping"
+	{
+		"volume"	"0.42"
+		"wave"		"ambient/atmosphere/ambience6.wav"
+		"pitch"		"100"
+	}
+
+
+}

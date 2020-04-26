@@ -1,0 +1,234 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "16032"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "16035"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_light" "221 185 108 250"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"origin" "0 0 -12"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "16040"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "4.0"
+	"gmod_allowphysgun" "1"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "175"
+	"rendercolor" "247 200 136"
+	"renderfx" "0"
+	"rendermode" "5"
+	"scale" ".75"
+	"origin" "0 0 -6"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 1000]"
+	}
+}
+entity
+{
+	"id" "16109"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "16033"
+		side
+		{
+			"id" "9437"
+			"plane" "(-9 -16 0) (-9 -16 -4) (-9 16 -4)"
+			"material" "CS_HAVANA/METAL02"
+			"uaxis" "[0 -1 0 256] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9436"
+			"plane" "(9 16 0) (9 16 -4) (9 -16 -4)"
+			"material" "CS_HAVANA/METAL02"
+			"uaxis" "[0 -1 0 256] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9435"
+			"plane" "(9 -16 0) (9 -16 -4) (-9 -16 -4)"
+			"material" "CS_HAVANA/METAL02"
+			"uaxis" "[1 0 0 -252] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9434"
+			"plane" "(-9 16 0) (-9 16 -4) (9 16 -4)"
+			"material" "CS_HAVANA/METAL02"
+			"uaxis" "[1 0 0 -252] 0.25"
+			"vaxis" "[0 0 -1 128] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9433"
+			"plane" "(-9 16 -4) (-9 -16 -4) (9 -16 -4)"
+			"material" "GLASS/OFFLIGHTCOVER"
+			"uaxis" "[1 0 0 -84] 0.25"
+			"vaxis" "[0 -1 0 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9432"
+			"plane" "(-9 -16 0) (-9 16 0) (9 16 0)"
+			"material" "METAL/METALWALL061F"
+			"uaxis" "[0 -1 0 108] 0.5"
+			"vaxis" "[-1 0 0 10] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "16034"
+		side
+		{
+			"id" "9443"
+			"plane" "(-9 -16 -4) (-9 16 -4) (9 16 -4)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -24] 0.25"
+			"vaxis" "[-1 0 0 20] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9442"
+			"plane" "(-5 12 -8) (-9 16 -4) (-9 -16 -4)"
+			"material" "GLASS/OFFLIGHTCOVER"
+			"uaxis" "[0 -1 0 128] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9441"
+			"plane" "(5 -12 -8) (9 -16 -4) (9 16 -4)"
+			"material" "GLASS/OFFLIGHTCOVER"
+			"uaxis" "[0 -1 0 128] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9440"
+			"plane" "(9 16 -4) (-9 16 -4) (-5 12 -8)"
+			"material" "GLASS/OFFLIGHTCOVER"
+			"uaxis" "[1 0 0 -124] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9439"
+			"plane" "(-5 -12 -8) (-9 -16 -4) (9 -16 -4)"
+			"material" "GLASS/OFFLIGHTCOVER"
+			"uaxis" "[1 0 0 -124] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9438"
+			"plane" "(-5 12 -8) (-5 -12 -8) (5 -12 -8)"
+			"material" "GLASS/OFFLIGHTCOVER"
+			"uaxis" "[0 -1 0 128] 0.25"
+			"vaxis" "[-1 0 0 4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}

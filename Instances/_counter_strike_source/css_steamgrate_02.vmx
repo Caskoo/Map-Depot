@@ -1,0 +1,99 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8061"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"LowPriority" "0"
+	"texture" "decals/decalmetalgrate001a"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 6000]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "env_steam"
+	"angles" "-90 0 0"
+	"EndSize" "15"
+	"InitialState" "1"
+	"JetLength" "45"
+	"Rate" "15"
+	"renderamt" "100"
+	"rendercolor" "35 35 35"
+	"rollspeed" "8"
+	"spawnflags" "1"
+	"Speed" "45"
+	"SpreadSpeed" "15"
+	"StartSize" "5"
+	"origin" "0 0 9"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 6500]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "ambient/gas/steam2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "248"
+	"spawnflags" "0"
+	"origin" "0 0 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 7000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
