@@ -1,0 +1,599 @@
+//------------------------------------------------------------------
+//------------------------------------------------------------------
+//-------------------- utility soundscapes -------------------------
+//------------------------------------------------------------------
+"forest.util_windgusts"
+{
+	"playrandom"
+	{
+		"volume"	"0.2,0.6"
+		"time"		"10.0, 30.0"
+		"pitch"		"90,130"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave" "ambient/levels/forest/treewind1.wav"
+			"wave" "ambient/levels/forest/treewind2.wav"
+			"wave" "ambient/levels/forest/treewind3.wav"
+			"wave" "ambient/levels/forest/treewind4.wav"
+		}
+	}
+}
+"forest.util_birds"
+{
+	"playrandom"
+	{
+		"time"		"7,25"
+		"volume"	"0.25,0.45"
+		"pitch"		"90,115"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/forest/dist_birds1.wav"
+			"wave"	"ambient/levels/forest/dist_birds2.wav"
+			"wave"	"ambient/levels/forest/dist_birds3.wav"
+			"wave"	"ambient/levels/forest/dist_birds4.wav"
+			"wave"	"ambient/levels/forest/dist_birds5.wav"
+			"wave"	"ambient/levels/forest/dist_birds6.wav"
+		}
+	}
+}
+"forest.util_critters"
+{
+	"playrandom"
+	{
+		"time"		"7, 16"
+		"volume"	"0.2,0.4"
+		"pitch"		"95,110"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/forest/peckr1.wav"
+			"wave"	"ambient/levels/forest/peckr2.wav"
+			"wave"	"ambient/levels/forest/buzz1.wav"
+			"wave"	"ambient/levels/forest/buzz2.wav"
+			"wave"	"ambient/levels/forest/buzz3.wav"
+			"wave"	"ambient/levels/forest/buzz4.wav"
+			"wave"	"ambient/levels/forest/chicka1.wav"
+			"wave"	"ambient/levels/forest/chicka2.wav"
+			"wave"	"ambient/levels/forest/chicka3.wav"
+			"wave"	"ambient/levels/forest/chirp1.wav"
+			"wave"	"ambient/levels/forest/chirp2.wav"
+			"wave"	"ambient/levels/forest/chirp3.wav"
+			"wave"	"ambient/levels/forest/crik1.wav"
+			"wave"	"ambient/levels/forest/crik2.wav"
+			"wave"	"ambient/levels/forest/crik3.wav"
+			"wave"	"ambient/levels/forest/flit1.wav"
+			"wave"	"ambient/levels/forest/squeek1.wav"
+			"wave"	"ambient/levels/forest/squeek2.wav"
+			"wave"	"ambient/levels/forest/squeek3.wav"
+		}
+	}
+}
+//------------------------------------------------------------------------------------------
+//
+// Bare lightbulb hums - used for all lightbulbs in the map
+//
+"militia.LightbulbHum"
+{
+	"playlooping"
+	{
+		"position"		"0"	
+		"pitch"			"100"
+		"volume"		"0.7"
+		"soundlevel"  	"SNDLVL_45dB"
+
+		"wave"	"ambient/machines/power_transformer_loop_1.wav"
+	}
+}
+"militia.FluorescentLightHum"
+{
+	"playlooping"
+	{
+		"position"		"0"	
+		"pitch"			"100"
+		"volume"		"0.2"
+		"soundlevel"  	"SNDLVL_50dB"
+
+		"wave"	"ambient/machines/fluorescent_hum_1.wav"
+	}
+}
+"militia.FluorescentLightHum2"
+{
+	"playlooping"
+	{
+		"position"		"0"	
+		"pitch"			"100"
+		"volume"		"0.2"
+		"soundlevel"  	"SNDLVL_50dB"
+
+		"wave"	"ambient/machines/fluorescent_hum_2.wav"
+	}
+}
+"assault.humminglight"
+{
+	"playlooping"
+	{
+		"volume"		"0.20"
+		"pitch"		"100"
+		"soundlevel"  	"SNDLVL_70dB"
+		"wave"		"ambient/misc/flour_light.wav"
+	}
+}
+"nuke.light"
+{
+	"playlooping"
+	{	
+		"pitch"			"100"
+		"volume"		".5"
+		"soundlevel"  	"SNDLVL_65dB"
+
+		"wave"	"ambient/misc/flour_light_loud.wav"
+	}
+}
+"RefrigeratorHum"
+{
+	"playrandom"
+	{
+		"position"		"0"
+		"pitch"			"100"
+		"volume"		"0.6"
+		"time"			"40,40"
+		"soundlevel" 	"SNDLVL_65dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/machines/refrigerator.wav"
+		}
+	}
+}
+"nuke.ac"
+{
+	"playrandom"
+	{
+		"pitch"			"100"
+		"volume"		"1"
+		"time"			"20,30"
+		"soundlevel" 	"SNDLVL_75dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/machines/air_conditioner_cycle.wav"
+		}
+	}
+}
+"nuke.acloop"
+{
+	"playlooping"
+	{
+		"pitch"			"100"
+		"volume"		"1"
+		"soundlevel" 	"SNDLVL_75dB"
+		"wave"	"ambient/machines/air_conditioner_loop_1.wav"
+	}
+}
+"nuke.transformer"
+{
+	"playlooping"
+	{	
+		"pitch"			"100"
+		"volume"		"1"
+		"soundlevel"  	"SNDLVL_60dB"
+
+		"wave"	"ambient/machines/power_transformer_loop_1.wav"
+	}
+}
+"nuke.transformerlrg"
+{
+	"playlooping"
+	{	
+		"pitch"			"100"
+		"volume"		"1"
+		"soundlevel"  	"SNDLVL_90dB"
+
+		"wave"	"ambient/machines/power_transformer_loop_2.wav"
+	}
+}
+// Air conditioning unit
+"assault.acunit"
+{
+	"playlooping"
+	{
+		"volume"		"0.30"
+		"pitch"		"100"
+		"soundlevel"  	"SNDLVL_70dB"
+		"wave"		"ambient/machines/air_conditioner_loop_1.wav"
+	}
+}
+
+// Alternate air conditioning unit
+"assault.acunit_alt"
+{
+	"playrandom"
+	{
+		"volume"		"0.3,0.4"
+		"time"		"20,35"
+		"pitch"		"90,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/machines/air_conditioner_cycle.wav"
+		}
+	}
+}
+// Indoor areas utility
+"assault.inside"
+{
+
+	"playlooping"
+	{
+		"volume"		"0.12"
+		"pitch"		"100"
+		"wave"		"ambient/tones/garage.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"0.3"
+		"pitch"		"90"
+		"wave"		"ambient/tones/industrial3_loop.wav"
+	}
+
+
+	"playrandom"
+	{
+
+		"time"		"25,48"
+		"volume"		".08,.12"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/tones/pipes.wav"
+			"wave"	"ambient/tones/pipes2.wav"
+		}
+	}
+}
+//-----------------------------------------------------------------------------
+// Generic outdoor area surrounded by concrete
+//-----------------------------------------------------------------------------
+//------------------------------------------------------------------------------------------
+//
+// Generic indoors ambience
+//
+"casko.mineoutside"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"		"forest.util_birds"
+		"volume"	"0.5"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/town_ambience.wav"
+		"pitch"		"100"
+	}
+
+	"playrandom"
+	{
+		"time"		"7,14"
+		"volume"	"0.15,0.3"
+		"pitch"		"95,105"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_snippet1.wav"
+			"wave"	"ambient/wind/wind_snippet2.wav"
+			"wave"	"ambient/wind/wind_snippet3.wav"
+			"wave"	"ambient/wind/wind_snippet4.wav"
+			"wave"	"ambient/wind/wind_snippet5.wav"
+			"wave"	"ambient/materials/shutter7.wav"
+			"wave"	"ambient/materials/shutter8.wav"
+			"wave"	"ambient/materials/metal_rattle3.wav"
+			"wave"	"ambient/materials/metal9.wav"
+		}	
+	}
+}
+"casko.minetunnel"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.35"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/cave_outdoor1.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"10, 20"
+		"volume"	"0.45, 0.55"
+		"pitch"		"98,102"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/rock1.wav"
+			"wave"	"ambient/materials/rock2.wav"
+			"wave"	"ambient/materials/rock3.wav"
+			"wave"	"ambient/materials/rock4.wav"
+			"wave"	"ambient/materials/rock5.wav"
+		}	
+	}
+
+	"playrandom"
+	{
+		"time"		"3, 15"
+		"volume"	"0.35,0.6"
+		"pitch"		"50,80"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/wood_creak1.wav"
+			"wave"	"ambient/materials/wood_creak2.wav"
+			"wave"	"ambient/materials/wood_creak3.wav"
+			"wave"	"ambient/materials/wood_creak4.wav"
+			"wave"	"ambient/materials/wood_creak5.wav"
+			"wave"	"ambient/materials/wood_creak6.wav"
+		}
+	}
+}
+"casko.techroom"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.07"
+		"wave"		"ambient/levels/labs/equipment_beep_loop1.wav"
+		"position"	"0"
+		"soundlevel"	"SNDLVL_90db"
+		"pitch"		"80"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"	"ambient/atmosphere/undercity_loop1.wav"
+		"pitch"		"100"
+	}
+}
+// play when inside concrete room
+"casko.mineconcreteroom"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"pitch"		"100"
+		"soundlevel" "SNDLVL_140dB"
+		"wave"		"ambient/atmosphere/underground_hall_loop1.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"	"ambient/atmosphere/tunnel1.wav"
+		"pitch"		"100"
+	}
+}
+"casko.ware"
+{
+	"dsp"	"3"
+
+	"playsoundscape"
+	{
+		"name" "assault.inside"
+	}
+
+	// Position 0: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"0"
+	}
+
+	// Position 1: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"1"
+	}
+
+	// Position 2: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"2"
+	}
+
+	// Position 3: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"3"
+	}
+	// Position 4: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"4"
+	}
+	// Position 5: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"5"
+	}
+}
+"industrial.garage"
+{
+	"dsp"	"1"
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"wave"		"ambient/atmosphere/laundry_amb.wav"
+		"pitch"		"100"
+	}
+}
+
+
+//------------------------------------------------------------------------------------------
+"casko.bathroom"
+{
+	"dsp"	"3"
+
+	"playsoundscape"
+	{
+		"name" "militia.Inside"
+	}
+
+	// 0 = The floor drain (drips, etc)
+	"playlooping"
+	{
+		"position"		"0"
+		"volume"		"1"
+		"pitch"			"100"
+		"soundlevel"  	"SNDLVL_50dB"
+		"wave"			"ambient/weather/drip_loop1.wav"
+	}
+
+	// 1 = The toilet (constantly running)
+	"playlooping"
+	{
+		"position"		"1"
+		"volume"		"1"
+		"pitch"			"100"
+		"soundlevel"  	"SNDLVL_50dB"
+		"wave"			"ambient/misc/toilet_refill_loop.wav"
+	}
+}
+//------------------------------------------------------------------------------------------
+//
+// Generic indoors ambience
+//
+"casko.nukeinside"
+{
+	// underlying area "tone"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/indoor1.wav"
+	}
+}
+
+"nuke.computerroom"
+{
+	"dsp"	"6"
+
+	"playsoundscape"
+	{
+		"name" "casko.nukeinside"
+	}
+
+	// Position 0: ac vent on the ceiling
+	"playsoundscape"
+	{
+		"positionoverride"	"0"
+		"name"				"nuke.acloop"
+	}
+
+	// Position 1: wall computers
+	"playrandom"
+	{
+		"position"	"1"
+		"time"		"2"
+		"volume"	".5,.8"
+		"soundlevel"  	"SNDLVL_75dB"
+		"pitch"		"60,100"
+
+		"rndwave"
+		{
+		"wave"			"ambient/machines/combine_terminal_idle1.wav"
+		"wave"			"ambient/machines/combine_terminal_idle2.wav"
+		"wave"			"ambient/machines/combine_terminal_idle3.wav"
+		"wave"			"ambient/machines/combine_terminal_idle4.wav"
+		}
+
+	}
+
+	// Position 2: light
+	"playsoundscape"
+	{
+		"positionoverride"	"2"
+		"name"				"nuke.light"
+	}
+}
+"nuke.tunnel"
+{
+	"dsp"	"6"
+
+	// underlying area "tone"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/underground.wav"
+	}
+
+	// Position 0: light
+	"playsoundscape"
+	{
+		"positionoverride"	"0"
+		"name"				"nuke.light"
+	}
+
+	// Position 1: vent
+	"playlooping"
+	{
+		"position"		"1"	
+		"pitch"			"100"
+		"volume"		"1"
+		"soundlevel"  		"SNDLVL_65dB"
+		"wave"			"ambient/wind/wind_tunnel1.wav"
+	}
+
+	// Position 2: pipes
+	"playlooping"
+	{
+		"position"		"2"	
+		"pitch"			"100"
+		"volume"		"0.3"
+		"soundlevel"  		"SNDLVL_65dB"
+		"wave"			"ambient/gas/steam_loop1.wav"
+	}
+
+	// Position 3: ceiling fan
+	"playlooping"
+	{
+		"position"		"3"	
+		"pitch"			"80"
+		"volume"		"0.6"
+		"soundlevel"  		"SNDLVL_65dB"
+		"wave"			"ambient/tones/fan1.wav"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
