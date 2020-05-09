@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "8"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "2456795"
-	"mapversion" "8"
+	"mapversion" "4826"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -789,125 +789,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 12000]"
-	}
-}
-entity
-{
-	"id" "2456864"
-	"classname" "logic_choreographed_scene"
-	"busyactor" "1"
-	"SceneFile" "scenes/outland_06a/al_radio_01.vcd"
-	"target1" "radio_operator"
-	"targetname" "al_radio_01"
-	connections
-	{
-		"OnTrigger1" "camera_silo,SetOnAndTurnOthersOff,,0,-1"
-		"OnStart" "radio_mic,Enable,,0,-1"
-		"OnCompletion" "radio_mic,Disable,,0,-1"
-		"OnStart" "alyx,StartScripting,,0,-1"
-		"OnStart" "template_magnusson,ForceSpawn,,0,-1"
-		"OnTrigger1" "destination_monitor_1,SetCamera,camera_silo,0,-1"
-		"OnTrigger2" "cam_advisor,SetOnAndTurnOthersOff,,0,-1"
-		"OnTrigger2" "destination_monitor_1,SetCamera,cam_advisor,0,-1"
-		"OnTrigger3" "destination_monitor_1,Disable,,0,-1"
-		"OnTrigger3" "monitor_blackscreen,Enable,,0,-1"
-		"OnStart" "radio_operator,StartScripting,,0.1,-1"
-		"OnStart" "magnusson,StartScripting,,0.1,-1"
-		"OnTrigger4" "monitor_static_1,Enable,,0,-1"
-		"OnTrigger4" "monitor_static_1,Disable,,0.1,-1"
-		"OnTrigger4" "static_sound,PlaySound,,0,-1"
-		"OnTrigger2" "advisor_pulse,PlaySound,,0.1,-1"
-		"OnTrigger5" "destination_monitor_1,Disable,,0,-1"
-		"OnTrigger1" "destination_monitor_1,Enable,,0,-1"
-		"OnTrigger5" "monitor_light,TurnOn,,0,-1"
-		"OnTrigger3" "monitor_light,TurnOff,,0,-1"
-		"OnCompletion" "alyx,StopScripting,,0,-1"
-		"OnTrigger8" "destination_monitor_1,SetCamera,camera_gate,0,-1"
-		"OnTrigger9" "destination_monitor_1,Disable,,0,-1"
-		"OnCompletion" "trigger_wrongway,Enable,,0,-1"
-		"OnCompletion" "jeep,AddOutput,PlayerOn timer_timetogo_nag:kill::0:1,0,-1"
-		"OnCompletion" "follow_alyx,Activate,,0,-1"
-		"OnCompletion" "jeep,UnlockEntrance,,0,-1"
-		"OnCompletion" "jeep,AddOutput,OnCompanionEnteredVehicle lcs_leavingtower:start::0:1,0,-1"
-		"OnCompletion" "timer_timetogo_nag,Enable,,0,-1"
-		"OnTrigger8" "exit_gate_1,Open,,0.1,-1"
-		"OnTrigger8" "camera_gate,SetOnAndTurnOthersOff,,0,-1"
-		"OnTrigger5" "monitor_static_1,Disable,,0,-1"
-		"OnTrigger1" "monitor_static_1,Disable,,0,-1"
-		"OnTrigger1" "static_sound,PlaySound,,0,-1"
-		"OnTrigger5" "static_sound,PlaySound,,0,-1"
-		"OnTrigger10" "ss_alyx_radio,BeginSequence,,0,-1"
-		"OnTrigger5" "monitor_blackscreen,Disable,,0,-1"
-		"OnTrigger9" "monitor_blackscreen,Enable,,0,-1"
-		"OnTrigger8" "destination_monitor_1,Enable,,0,-1"
-		"OnTrigger8" "monitor_blackscreen,Disable,,0,-1"
-		"OnTrigger9" "camera_gate,SetOff,,0,-1"
-		"OnTrigger6" "sound_advisor_glimpse,PlaySound,,0,-1"
-		"OnTrigger5" "sound_transmission_static,PlaySound,,0,1"
-		"OnCompletion" "sc_player_in_car,Enable,,0.1,-1"
-	}
-	"origin" "98.6968 -103.039 -56.2496"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 9000]"
-	}
-}
-entity
-{
-	"id" "2456866"
-	"classname" "point_camera"
-	"angles" "-11.4444 81.3825 0.753102"
-	"fogColor" "0 0 0"
-	"fogEnd" "4096"
-	"fogMaxDensity" "1"
-	"fogStart" "2048"
-	"FOV" "45"
-	"spawnflags" "1"
-	"targetname" "camera_silo"
-	"origin" "28.5269 -43.3291 -25.0796"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -2268]"
-	}
-}
-entity
-{
-	"id" "2456868"
-	"classname" "info_target"
-	"angles" "0 254.5 0"
-	"targetname" "mark_look_camera"
-	"origin" "29.1868 -39.9692 -21.0597"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -1768]"
-	}
-}
-entity
-{
-	"id" "2456870"
-	"classname" "env_microphone"
-	"MaxRange" "240"
-	"Sensitivity" "1"
-	"spawnflags" "18"
-	"SpeakerName" "monitor_speaker"
-	"StartDisabled" "1"
-	"targetname" "radio_mic"
-	"origin" "31.1868 -28.9692 -20.2496"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -1268]"
 	}
 }
 entity

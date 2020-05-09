@@ -2,19 +2,27 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "2640141"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -25,7 +33,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "171.7 -9973.7 154.57"
+	"origin" "-24.53 11.02 154.57"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -40,9 +48,9 @@ entity
 		side
 		{
 			"id" "13972"
-			"plane" "(160.232 -9962.72 167.57) (164.231 -9962.72 149.577) (164.231 -9984.72 149.578)"
+			"plane" "(-35.9998 21.9971 167.569) (-32.0007 21.9971 149.575) (-32 0 149.573)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05A"
-			"uaxis" "[0 1 0 415] 0.25"
+			"uaxis" "[0 1 0 -99.8789] 0.25"
 			"vaxis" "[0 0 -1 34] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -51,10 +59,10 @@ entity
 		side
 		{
 			"id" "13973"
-			"plane" "(164.231 -9962.72 149.576) (162.232 -9962.72 148.575) (162.235 -9984.72 148.574)"
+			"plane" "(-34.0005 0 148.571) (-32.0007 0 149.573) (-32.0014 22 149.575)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 117] 0.25"
-			"vaxis" "[0 -1 0 -31] 0.25"
+			"uaxis" "[-1 0 0 -27.9272] 0.25"
+			"vaxis" "[0 -1 0 99.8789] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -62,9 +70,9 @@ entity
 		side
 		{
 			"id" "13974"
-			"plane" "(162.231 -9984.72 148.574) (158.231 -9984.72 167.57) (164.231 -9984.72 149.577)"
+			"plane" "(-36.0011 0 167.57) (-32.0014 0 149.574) (-34.0002 0 148.573)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 -101] 0.25"
+			"uaxis" "[1 0 0 43.9272] 0.25"
 			"vaxis" "[0 0 -1 34] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -73,9 +81,9 @@ entity
 		side
 		{
 			"id" "13975"
-			"plane" "(164.229 -9962.72 149.578) (158.227 -9962.72 167.57) (162.227 -9962.72 148.575)"
+			"plane" "(-33.9978 22.002 148.576) (-32.0019 22.002 149.576) (-36.0012 22.002 167.57)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 117] 0.25"
+			"uaxis" "[-1 0 0 -27.9272] 0.25"
 			"vaxis" "[0 0 -1 34] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -84,10 +92,10 @@ entity
 		side
 		{
 			"id" "13976"
-			"plane" "(160.231 -9984.72 167.57) (158.227 -9984.72 167.57) (158.231 -9962.72 167.57)"
+			"plane" "(-38.0001 22.001 167.57) (-35.9996 22.001 167.57) (-35.9994 0 167.57)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 -101] 0.25"
-			"vaxis" "[0 -1 0 -31] 0.25"
+			"uaxis" "[1 0 0 43.9272] 0.25"
+			"vaxis" "[0 -1 0 99.8789] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -95,9 +103,9 @@ entity
 		side
 		{
 			"id" "13977"
-			"plane" "(158.231 -9984.72 167.57) (162.231 -9984.72 148.576) (162.233 -9962.72 148.578)"
+			"plane" "(-33.9995 0 148.573) (-33.9977 22 148.576) (-37.9977 22 167.57)"
 			"material" "EFFECTS/MONITORSCREEN_SCANLINE1A"
-			"uaxis" "[0 -1 0 -77] 0.2"
+			"uaxis" "[0 -1 0 182.598] 0.2"
 			"vaxis" "[0 0 -1 150] 0.2"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -137,7 +145,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "174.231 -9973.67 165.577"
+	"origin" "-22.0008 11.0498 165.577"
 	editor
 	{
 		"color" "255 255 0"

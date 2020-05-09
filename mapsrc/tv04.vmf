@@ -2,19 +2,27 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "7"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "2862618"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -25,7 +33,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "334 -8397.5 -172"
+	"origin" "205.26 358.7 -172"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -41,9 +49,9 @@ entity
 		side
 		{
 			"id" "6274"
-			"plane" "(320 -8398 -159) (320 -8398 -185) (320 -8397 -185)"
+			"plane" "(191.258 358.202 -159) (191.258 358.202 -185) (191.258 359.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -52,9 +60,9 @@ entity
 		side
 		{
 			"id" "6275"
-			"plane" "(348 -8397 -159) (348 -8397 -185) (348 -8398 -185)"
+			"plane" "(219.258 359.202 -159) (219.258 359.202 -185) (219.258 358.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -63,9 +71,9 @@ entity
 		side
 		{
 			"id" "6276"
-			"plane" "(348 -8398 -159) (348 -8398 -185) (320 -8398 -185)"
+			"plane" "(219.258 358.202 -159) (219.258 358.202 -185) (191.258 358.202 -185)"
 			"material" "DEV/DEV_TVMONITOR1A"
-			"uaxis" "[1 0 0 100] 0.46"
+			"uaxis" "[1 0 0 123.873] 0.46"
 			"vaxis" "[0 0 -1 -97] 0.45"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -74,9 +82,9 @@ entity
 		side
 		{
 			"id" "6277"
-			"plane" "(320 -8397 -159) (320 -8397 -185) (348 -8397 -185)"
+			"plane" "(191.258 359.202 -159) (191.258 359.202 -185) (219.258 359.202 -185)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-1 0 0 -392] 0.25"
+			"uaxis" "[-1 0 0 -394.967] 0.25"
 			"vaxis" "[0 0 -1 -480] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -85,10 +93,10 @@ entity
 		side
 		{
 			"id" "6278"
-			"plane" "(320 -8397 -185) (320 -8398 -185) (348 -8398 -185)"
+			"plane" "(191.258 359.202 -185) (191.258 358.202 -185) (219.258 358.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -96,10 +104,10 @@ entity
 		side
 		{
 			"id" "6279"
-			"plane" "(320 -8398 -159) (320 -8397 -159) (348 -8397 -159)"
+			"plane" "(191.258 358.202 -159) (191.258 359.202 -159) (219.258 359.202 -159)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -114,7 +122,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -2768]"
@@ -129,7 +136,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "366 -8401.5 -172.98"
+	"origin" "237.26 354.7 -172.98"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -145,10 +152,10 @@ entity
 		side
 		{
 			"id" "6"
-			"plane" "(352 -8399.9 -185.894) (380 -8400.9 -185.974) (380 -8399.9 -185.893)"
+			"plane" "(251.258 356.302 -185.893) (223.258 356.302 -185.894) (223.258 355.301 -186)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9969 -0.0785 -23] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 -0.9969 -0.0785 77.2344] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -156,10 +163,10 @@ entity
 		side
 		{
 			"id" "5"
-			"plane" "(352 -8402 -159.98) (352 -8399.9 -185.894) (380 -8399.9 -185.894)"
+			"plane" "(223.258 354.202 -160) (223.258 356.304 -185.893) (251.258 356.304 -185.892)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-1 0 0 -264] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -405] 0.25"
+			"uaxis" "[-1 0 0 -266.967] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -82.4475] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -167,10 +174,10 @@ entity
 		side
 		{
 			"id" "4"
-			"plane" "(380 -8403 -160.058) (380 -8400.9 -185.974) (352 -8400.9 -185.972)"
+			"plane" "(251.258 353.202 -160.058) (251.258 355.301 -186) (223.258 355.301 -186)"
 			"material" "DEV/DEV_TVMONITOR1A"
-			"uaxis" "[1 0 0 100] 0.46"
-			"vaxis" "[0 0.0785 -0.9969 -170] 0.45"
+			"uaxis" "[1 0 0 123.873] 0.46"
+			"vaxis" "[0 0.0785 -0.9969 -161.471] 0.45"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -178,10 +185,10 @@ entity
 		side
 		{
 			"id" "3"
-			"plane" "(352 -8400.9 -185.973) (352 -8399.9 -185.893) (352 -8403 -160.059)"
+			"plane" "(223.258 353.202 -160.06) (223.258 355.3 -186) (223.258 356.302 -185.895)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9969 -0.0785 -23] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -25] 0.25"
+			"uaxis" "[0 -0.9969 -0.0785 77.2344] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -86.4475] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -189,10 +196,10 @@ entity
 		side
 		{
 			"id" "2"
-			"plane" "(380 -8399.9 -185.894) (380 -8400.9 -185.974) (380 -8402 -159.977)"
+			"plane" "(251.258 354.202 -160) (251.258 356.302 -185.893) (251.258 355.301 -186)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9969 0.0785 19] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -25] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -81.2344] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -86.4475] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -200,10 +207,10 @@ entity
 		side
 		{
 			"id" "1"
-			"plane" "(352 -8403 -160.059) (352 -8402 -159.979) (380 -8402 -159.979)"
+			"plane" "(251.258 353.202 -160.059) (223.258 353.202 -160.059) (223.258 354.202 -160)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9969 0.0785 19] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -81.2344] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -218,7 +225,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -2268]"
@@ -230,7 +236,7 @@ entity
 	"classname" "func_monitor"
 	"disableshadows" "1"
 	"gmod_allowphysgun" "1"
-	"origin" "399 -8397.5 -172"
+	"origin" "270.26 358.7 -172"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2"
@@ -242,10 +248,10 @@ entity
 		side
 		{
 			"id" "12"
-			"plane" "(412.648 -8398 -185.361) (385.348 -8398 -158.64) (413.344 -8398 -159.37)"
+			"plane" "(283.909 358.202 -185.362) (255.923 358.202 -184.632) (256.601 358.202 -158.639)"
 			"material" "DEV/DEV_TVMONITOR2A"
-			"uaxis" "[1 0 -0.0262 93] 0.4598"
-			"vaxis" "[-0.0262 0 -1 -73] 0.4498"
+			"uaxis" "[1 0 -0.0262 116.995] 0.4598"
+			"vaxis" "[-0.0262 0 -1 -80.499] 0.4498"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -253,10 +259,10 @@ entity
 		side
 		{
 			"id" "11"
-			"plane" "(384.664 -8397 -184.629) (413.34 -8397 -159.368) (385.345 -8397 -158.638)"
+			"plane" "(255.925 359.202 -184.63) (283.905 359.202 -185.36) (284.596 359.202 -159.369)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-1 0 0.0262 -123] 0.2499"
-			"vaxis" "[-0.0262 0 -1 -436] 0.2499"
+			"uaxis" "[-1 0 0.0262 -126.173] 0.2499"
+			"vaxis" "[-0.0262 0 -1 -449.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -264,10 +270,10 @@ entity
 		side
 		{
 			"id" "10"
-			"plane" "(413.34 -8398 -159.369) (385.344 -8397 -158.639) (413.34 -8397 -159.369)"
+			"plane" "(284.601 358.202 -159.369) (256.603 358.202 -158.639) (256.605 359.202 -158.639)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[1 0 -0.0262 3] 0.2499"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
+			"vaxis" "[1 0 -0.0262 6.17322] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -275,10 +281,10 @@ entity
 		side
 		{
 			"id" "9"
-			"plane" "(412.648 -8397 -185.36) (384.664 -8398 -184.631) (412.652 -8398 -185.361)"
+			"plane" "(283.909 359.202 -185.36) (255.923 359.202 -184.63) (255.925 358.202 -184.631)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
-			"vaxis" "[1 0 -0.0262 3] 0.2499"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
+			"vaxis" "[1 0 -0.0262 6.17322] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -286,10 +292,10 @@ entity
 		side
 		{
 			"id" "8"
-			"plane" "(413.34 -8397 -159.371) (412.65 -8398 -185.359) (413.341 -8398 -159.363)"
+			"plane" "(284.598 359.202 -159.369) (283.907 359.202 -185.36) (283.908 358.202 -185.359)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[-0.0262 0 -1 -56] 0.2499"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
+			"vaxis" "[-0.0262 0 -1 -69.4975] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -297,10 +303,10 @@ entity
 		side
 		{
 			"id" "7"
-			"plane" "(385.345 -8398 -158.637) (384.665 -8398 -184.63) (384.665 -8397 -184.633)"
+			"plane" "(256.603 358.202 -158.638) (255.923 358.202 -184.631) (255.923 359.202 -184.629)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
-			"vaxis" "[-0.0262 0 -1 -56] 0.2499"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
+			"vaxis" "[-0.0262 0 -1 -69.4975] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -315,7 +321,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -1768]"
@@ -327,7 +332,7 @@ entity
 	"classname" "func_monitor"
 	"disableshadows" "1"
 	"gmod_allowphysgun" "1"
-	"origin" "334 -8397.5 -204"
+	"origin" "205.26 358.7 -204"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2"
@@ -339,9 +344,9 @@ entity
 		side
 		{
 			"id" "18"
-			"plane" "(348 -8397 -191) (348 -8397 -217) (348 -8398 -217)"
+			"plane" "(219.258 359.202 -191) (219.258 359.202 -217) (219.258 358.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -350,9 +355,9 @@ entity
 		side
 		{
 			"id" "17"
-			"plane" "(348 -8398 -191) (348 -8398 -217) (320 -8398 -217)"
+			"plane" "(219.258 358.202 -191) (219.258 358.202 -217) (191.258 358.202 -217)"
 			"material" "DEV/DEV_TVMONITOR1A"
-			"uaxis" "[1 0 0 100] 0.46"
+			"uaxis" "[1 0 0 123.873] 0.46"
 			"vaxis" "[0 0 -1 -97] 0.45"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -361,9 +366,9 @@ entity
 		side
 		{
 			"id" "16"
-			"plane" "(320 -8397 -191) (320 -8397 -217) (348 -8397 -217)"
+			"plane" "(191.258 359.202 -217) (219.258 359.202 -217) (219.258 359.202 -191)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-1 0 0 -392] 0.25"
+			"uaxis" "[-1 0 0 -394.967] 0.25"
 			"vaxis" "[0 0 -1 -96] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -372,10 +377,10 @@ entity
 		side
 		{
 			"id" "15"
-			"plane" "(320 -8397 -217) (320 -8398 -217) (348 -8398 -217)"
+			"plane" "(191.258 358.202 -217) (219.258 358.202 -217) (219.258 359.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -383,10 +388,10 @@ entity
 		side
 		{
 			"id" "14"
-			"plane" "(320 -8398 -191) (320 -8397 -191) (348 -8397 -191)"
+			"plane" "(191.258 359.202 -191) (219.258 359.202 -191) (219.258 358.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -394,9 +399,9 @@ entity
 		side
 		{
 			"id" "13"
-			"plane" "(320 -8398 -191) (320 -8398 -217) (320 -8397 -217)"
+			"plane" "(191.258 358.202 -191) (191.258 358.202 -217) (191.258 359.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -412,7 +417,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -1268]"
@@ -424,7 +428,7 @@ entity
 	"classname" "func_monitor"
 	"disableshadows" "1"
 	"gmod_allowphysgun" "1"
-	"origin" "366 -8397.5 -204"
+	"origin" "237.26 358.7 -204"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2"
@@ -436,9 +440,9 @@ entity
 		side
 		{
 			"id" "24"
-			"plane" "(352 -8398 -191) (352 -8398 -217) (352 -8397 -217)"
+			"plane" "(223.258 358.202 -191) (223.258 358.202 -217) (223.258 359.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -447,9 +451,9 @@ entity
 		side
 		{
 			"id" "23"
-			"plane" "(380 -8397 -191) (380 -8397 -217) (380 -8398 -217)"
+			"plane" "(251.258 359.202 -191) (251.258 359.202 -217) (251.258 358.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -458,9 +462,9 @@ entity
 		side
 		{
 			"id" "22"
-			"plane" "(380 -8398 -191) (380 -8398 -217) (352 -8398 -217)"
+			"plane" "(251.258 358.202 -191) (251.258 358.202 -217) (223.258 358.202 -217)"
 			"material" "DEV/DEV_TVMONITOR1A"
-			"uaxis" "[1 0 0 100] 0.46"
+			"uaxis" "[1 0 0 123.873] 0.46"
 			"vaxis" "[0 0 -1 -97] 0.45"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -469,9 +473,9 @@ entity
 		side
 		{
 			"id" "21"
-			"plane" "(352 -8397 -191) (352 -8397 -217) (380 -8397 -217)"
+			"plane" "(223.258 359.202 -191) (223.258 359.202 -217) (251.258 359.202 -217)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-1 0 0 -264] 0.25"
+			"uaxis" "[-1 0 0 -266.967] 0.25"
 			"vaxis" "[0 0 -1 -96] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -480,10 +484,10 @@ entity
 		side
 		{
 			"id" "20"
-			"plane" "(352 -8397 -217) (352 -8398 -217) (380 -8398 -217)"
+			"plane" "(223.258 359.202 -217) (223.258 358.202 -217) (251.258 358.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -491,10 +495,10 @@ entity
 		side
 		{
 			"id" "19"
-			"plane" "(352 -8398 -191) (352 -8397 -191) (380 -8397 -191)"
+			"plane" "(223.258 358.202 -191) (223.258 359.202 -191) (251.258 359.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -509,7 +513,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -768]"
@@ -521,7 +524,7 @@ entity
 	"classname" "func_monitor"
 	"disableshadows" "1"
 	"gmod_allowphysgun" "1"
-	"origin" "398 -8397.5 -205"
+	"origin" "269.26 358.7 -205"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2"
@@ -533,10 +536,10 @@ entity
 		side
 		{
 			"id" "30"
-			"plane" "(384 -8398 -192) (384 -8397 -192) (412 -8397 -192)"
+			"plane" "(255.258 358.202 -192) (255.258 359.202 -192) (283.258 359.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -544,9 +547,9 @@ entity
 		side
 		{
 			"id" "29"
-			"plane" "(384 -8398 -192) (384 -8398 -218) (384 -8397 -218)"
+			"plane" "(255.258 359.202 -218) (255.258 359.202 -192) (255.258 358.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
 			"vaxis" "[0 0 -1 -104] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -555,9 +558,9 @@ entity
 		side
 		{
 			"id" "28"
-			"plane" "(412 -8397 -192) (412 -8397 -218) (412 -8398 -218)"
+			"plane" "(283.258 358.202 -218) (283.258 358.202 -192) (283.258 359.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
 			"vaxis" "[0 0 -1 -104] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -566,9 +569,9 @@ entity
 		side
 		{
 			"id" "27"
-			"plane" "(412 -8398 -192) (412 -8398 -218) (384 -8398 -218)"
+			"plane" "(255.258 358.202 -218) (255.258 358.202 -192) (283.258 358.202 -192)"
 			"material" "DEV/DEV_TVMONITOR2A"
-			"uaxis" "[1 0 0 100] 0.46"
+			"uaxis" "[1 0 0 123.873] 0.46"
 			"vaxis" "[0 0 -1 -100] 0.45"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -577,9 +580,9 @@ entity
 		side
 		{
 			"id" "26"
-			"plane" "(384 -8397 -192) (384 -8397 -218) (412 -8397 -218)"
+			"plane" "(283.258 359.202 -218) (283.258 359.202 -192) (255.258 359.202 -192)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-1 0 0 -136] 0.25"
+			"uaxis" "[-1 0 0 -138.967] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -588,10 +591,10 @@ entity
 		side
 		{
 			"id" "25"
-			"plane" "(384 -8397 -218) (384 -8398 -218) (412 -8398 -218)"
+			"plane" "(255.258 359.202 -218) (255.258 358.202 -218) (283.258 358.202 -218)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -606,7 +609,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3000 0]"
@@ -618,7 +620,7 @@ entity
 	"classname" "func_monitor"
 	"disableshadows" "1"
 	"gmod_allowphysgun" "1"
-	"origin" "366 -8397.5 -236"
+	"origin" "237.26 358.7 -236"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2"
@@ -630,9 +632,9 @@ entity
 		side
 		{
 			"id" "36"
-			"plane" "(352 -8398 -223) (352 -8398 -249) (352 -8397 -249)"
+			"plane" "(223.258 358.202 -223) (223.258 358.202 -249) (223.258 359.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -641,9 +643,9 @@ entity
 		side
 		{
 			"id" "35"
-			"plane" "(380 -8397 -223) (380 -8397 -249) (380 -8398 -249)"
+			"plane" "(251.258 359.202 -223) (251.258 359.202 -249) (251.258 358.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
 			"vaxis" "[0 0 -1 -100] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -652,9 +654,9 @@ entity
 		side
 		{
 			"id" "34"
-			"plane" "(380 -8398 -223) (380 -8398 -249) (352 -8398 -249)"
+			"plane" "(251.258 358.202 -223) (251.258 358.202 -249) (223.258 358.202 -249)"
 			"material" "DEV/DEV_TVMONITOR2A"
-			"uaxis" "[1 0 0 100] 0.46"
+			"uaxis" "[1 0 0 123.873] 0.46"
 			"vaxis" "[0 0 -1 -97] 0.45"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -663,9 +665,9 @@ entity
 		side
 		{
 			"id" "33"
-			"plane" "(352 -8397 -223) (352 -8397 -249) (380 -8397 -249)"
+			"plane" "(223.258 359.202 -223) (223.258 359.202 -249) (251.258 359.202 -249)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-1 0 0 -264] 0.25"
+			"uaxis" "[-1 0 0 -266.967] 0.25"
 			"vaxis" "[0 0 -1 -224] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -674,10 +676,10 @@ entity
 		side
 		{
 			"id" "32"
-			"plane" "(352 -8397 -249) (352 -8398 -249) (380 -8398 -249)"
+			"plane" "(223.258 359.202 -249) (223.258 358.202 -249) (251.258 358.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -56] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 -1 0 24.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -685,10 +687,10 @@ entity
 		side
 		{
 			"id" "31"
-			"plane" "(352 -8398 -223) (352 -8397 -223) (380 -8397 -223)"
+			"plane" "(223.258 358.202 -223) (223.258 359.202 -223) (251.258 359.202 -223)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[1 0 0 16] 0.25"
+			"uaxis" "[0 1 0 -28.8086] 0.25"
+			"vaxis" "[1 0 0 18.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -703,7 +705,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3000 500]"
@@ -715,7 +716,7 @@ entity
 	"classname" "func_monitor"
 	"disableshadows" "1"
 	"gmod_allowphysgun" "1"
-	"origin" "399.98 -8397.4 -237.09"
+	"origin" "271.24 358.8 -237.09"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "2"
@@ -727,10 +728,10 @@ entity
 		side
 		{
 			"id" "42"
-			"plane" "(414.476 -8394.7 -249.25) (386.588 -8396.8 -250.711) (386.668 -8397.8 -250.801)"
+			"plane" "(257.846 359.401 -250.711) (257.926 358.402 -250.801) (285.814 360.504 -249.34)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -32] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 -17] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 103.406] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -40.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -738,10 +739,10 @@ entity
 		side
 		{
 			"id" "41"
-			"plane" "(414.555 -8395.7 -249.34) (413.295 -8397.1 -223.383) (414.475 -8394.7 -249.251)"
+			"plane" "(285.733 361.501 -249.25) (285.813 360.5 -249.34) (284.625 358.202 -223.465)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-0.0782 0.9931 0.0872 28] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 64] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -107.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -24.4268] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -749,10 +750,10 @@ entity
 		side
 		{
 			"id" "40"
-			"plane" "(385.489 -8400.1 -224.934) (386.668 -8397.8 -250.801) (386.588 -8396.8 -250.711)"
+			"plane" "(256.747 356.102 -224.934) (257.926 358.399 -250.801) (257.846 359.402 -250.711)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -32] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 64] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 103.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -24.4268] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -760,10 +761,10 @@ entity
 		side
 		{
 			"id" "39"
-			"plane" "(414.558 -8395.7 -249.34) (386.668 -8397.8 -250.801) (413.367 -8398 -223.466)"
+			"plane" "(284.621 358.202 -223.465) (285.809 360.5 -249.34) (257.926 358.401 -250.801)"
 			"material" "DEV/DEV_TVMONITOR1A"
-			"uaxis" "[0.9959 0.0738 0.0521 194] 0.46"
-			"vaxis" "[0.0453 0.0909 -0.9948 22] 0.45"
+			"uaxis" "[0.9959 0.0738 0.0521 -164.073] 0.46"
+			"vaxis" "[0.0453 0.0909 -0.9948 -197.793] 0.45"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -771,10 +772,10 @@ entity
 		side
 		{
 			"id" "38"
-			"plane" "(386.589 -8396.8 -250.711) (414.476 -8394.7 -249.25) (413.296 -8397.1 -223.385)"
+			"plane" "(256.675 357.004 -224.852) (257.846 359.402 -250.713) (285.735 361.502 -249.252)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER05B"
-			"uaxis" "[-0.9959 -0.0738 -0.0521 -103] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -316] 0.25"
+			"uaxis" "[-0.9959 -0.0738 -0.0521 432.975] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -404.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -782,10 +783,10 @@ entity
 		side
 		{
 			"id" "37"
-			"plane" "(413.367 -8398 -223.465) (385.488 -8400.1 -224.934) (413.293 -8397.1 -223.383)"
+			"plane" "(256.747 356.105 -224.934) (256.675 357.003 -224.852) (284.553 359.104 -223.384)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-0.0782 0.9931 0.0872 28] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 -17] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -107.406] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -40.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -800,7 +801,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3000 1000]"
@@ -820,11 +820,10 @@ entity
 	"_quadratic_attn" "1"
 	"_zero_percent_distance" "134"
 	"style" "0"
-	"origin" "331.59 -8408 -238.5"
+	"origin" "202.848 348.202 -238.5"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 8500]"
@@ -848,11 +847,10 @@ entity
 	"pitch" "-30"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "356 -8398 -202.51"
+	"origin" "227.258 358.202 -202.51"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 9000]"
@@ -875,11 +873,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "399 -8396 -172"
+	"origin" "270.258 360.202 -172"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 9500]"
@@ -902,11 +899,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "366 -8399 -173"
+	"origin" "237.258 357.202 -173"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 10000]"
@@ -929,11 +925,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "334 -8396 -172"
+	"origin" "205.258 360.202 -172"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 10500]"
@@ -956,11 +951,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "334 -8396 -204"
+	"origin" "205.258 360.202 -204"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 11000]"
@@ -983,11 +977,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "366 -8396 -204"
+	"origin" "237.258 360.202 -204"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 11500]"
@@ -1010,11 +1003,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "398.41 -8396 -204.53"
+	"origin" "269.668 360.202 -204.53"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 12000]"
@@ -1037,11 +1029,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "400 -8396 -237"
+	"origin" "271.258 360.202 -237"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 12500]"
@@ -1064,11 +1055,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "366 -8396 -236"
+	"origin" "237.258 360.202 -236"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 13000]"
@@ -1091,11 +1081,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "0.9"
-	"origin" "332 -8396 -239"
+	"origin" "203.258 360.202 -239"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 13500]"
@@ -1117,11 +1106,10 @@ entity
 	"angles" "-27 294 0"
 	"pitch" "-27"
 	"spawnflags" "0"
-	"origin" "434 -8462 -218.77"
+	"origin" "305.258 294.202 -218.77"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -16268]"
@@ -1145,11 +1133,10 @@ entity
 	"pitch" "-44.3844"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "396 -8410 -220"
+	"origin" "267.258 346.202 -220"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4500 14000]"
@@ -1164,7 +1151,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "523 168.01 324"
+	"origin" "383 168.01 -212"
 	"parentname" "borcam_1"
 	"renderamt" "255"
 	"rendercolor" "206 206 206"
@@ -1181,9 +1168,9 @@ entity
 		side
 		{
 			"id" "48"
-			"plane" "(513 148.01 344) (513 188.01 344) (517 188.01 344)"
+			"plane" "(373 148 -192) (373 188 -192) (377 188 -192)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1192,10 +1179,10 @@ entity
 		side
 		{
 			"id" "47"
-			"plane" "(513 148.01 344) (513 148.01 304) (513 188.01 304)"
+			"plane" "(373 188 -232) (373 188 -192) (373 148 -192)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1203,10 +1190,10 @@ entity
 		side
 		{
 			"id" "46"
-			"plane" "(517 188.01 344) (517 188.01 304) (517 148.01 304)"
+			"plane" "(377 148 -232) (377 148 -192) (377 188 -192)"
 			"material" "EFFECTS/BOREALIS_PLANS_02"
 			"uaxis" "[0 1 0 -314] 0.08"
-			"vaxis" "[0 0 -1 204] 0.08"
+			"vaxis" "[0 0 -1 -352] 0.08"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1214,10 +1201,10 @@ entity
 		side
 		{
 			"id" "45"
-			"plane" "(517 148.01 344) (517 148.01 304) (513 148.01 304)"
+			"plane" "(373 148 -232) (373 148 -192) (377 148 -192)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1225,10 +1212,10 @@ entity
 		side
 		{
 			"id" "44"
-			"plane" "(513 188.01 344) (513 188.01 304) (517 188.01 304)"
+			"plane" "(377 188 -232) (377 188 -192) (373 188 -192)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1236,9 +1223,9 @@ entity
 		side
 		{
 			"id" "43"
-			"plane" "(513 188.01 304) (513 148.01 304) (517 148.01 304)"
+			"plane" "(373 188 -232) (373 148 -232) (377 148 -232)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1254,7 +1241,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -3268]"
@@ -1281,11 +1267,10 @@ entity
 	"targetname" "camera_animation_parent"
 	"wakeradius" "0"
 	"wakesquad" "0"
-	"origin" "-242.606 279.016 -103"
+	"origin" "672 279.016 -192"
 	editor
 	{
 		"color" "0 200 200"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 9000]"
@@ -1305,11 +1290,10 @@ entity
 	"parentname" "camera_animation_parent"
 	"spawnflags" "1"
 	"targetname" "borcam_1"
-	"origin" "568 168 320"
+	"origin" "428 168 -216"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 9500]"
@@ -1356,11 +1340,10 @@ entity
 		"OnScriptEvent06" "borcam_1,ChangeFOV,20,0.5,-1"
 		"OnScriptEvent08" "relay_bor_stop,Trigger,,0.6,-1"
 	}
-	"origin" "816 136 -111"
+	"origin" "480 136 -256"
 	editor
 	{
 		"color" "255 0 255"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 10000]"
@@ -1375,7 +1358,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "525 168.01 324"
+	"origin" "385 168.01 -212"
 	"parentname" "borcam_1"
 	"renderamt" "70"
 	"rendercolor" "255 255 255"
@@ -1392,10 +1375,10 @@ entity
 		side
 		{
 			"id" "54"
-			"plane" "(515 148.01 344) (515 148.01 304) (515 188.01 304)"
+			"plane" "(375 148 -192) (375 148 -232) (375 188 -232)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1403,10 +1386,10 @@ entity
 		side
 		{
 			"id" "53"
-			"plane" "(519 188.01 344) (519 188.01 304) (519 148.01 304)"
+			"plane" "(379 188 -192) (379 188 -232) (379 148 -232)"
 			"material" "DEV/DEV_PRISONTVOVERLAY004"
 			"uaxis" "[0 -1 0 19] 10"
-			"vaxis" "[0 0 -1 30] 10"
+			"vaxis" "[0 0 -1 -23.6] 10"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1414,10 +1397,10 @@ entity
 		side
 		{
 			"id" "52"
-			"plane" "(519 148.01 344) (519 148.01 304) (515 148.01 304)"
+			"plane" "(379 148 -192) (379 148 -232) (375 148 -232)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1425,10 +1408,10 @@ entity
 		side
 		{
 			"id" "51"
-			"plane" "(515 188.01 344) (515 188.01 304) (519 188.01 304)"
+			"plane" "(375 188 -192) (375 188 -232) (379 188 -232)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1436,9 +1419,9 @@ entity
 		side
 		{
 			"id" "50"
-			"plane" "(515 188.01 304) (515 148.01 304) (519 148.01 304)"
+			"plane" "(375 188 -232) (375 148 -232) (379 148 -232)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1447,9 +1430,9 @@ entity
 		side
 		{
 			"id" "49"
-			"plane" "(515 148.01 344) (515 188.01 344) (519 188.01 344)"
+			"plane" "(375 148 -192) (375 188 -192) (379 188 -192)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1465,7 +1448,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 10500]"
@@ -1480,7 +1462,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "530 168 324"
+	"origin" "390 168 -212"
 	"parentname" "borcam_1"
 	"renderamt" "60"
 	"rendercolor" "206 206 206"
@@ -1497,10 +1479,10 @@ entity
 		side
 		{
 			"id" "60"
-			"plane" "(520 148 344) (520 148 304) (520 188 304)"
+			"plane" "(380 148 -192) (380 148 -232) (380 188 -232)"
 			"material" "EFFECTS/TVSCREEN_NOISE003A"
 			"uaxis" "[0 -1 0 179] 0.1563"
-			"vaxis" "[0 0 -1 -102] 0.1563"
+			"vaxis" "[0 0 -1 -203.303] 0.1563"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1508,10 +1490,10 @@ entity
 		side
 		{
 			"id" "59"
-			"plane" "(524 188 344) (524 188 304) (524 148 304)"
+			"plane" "(384 188 -192) (384 188 -232) (384 148 -232)"
 			"material" "EFFECTS/TVSCREEN_NOISE001A"
 			"uaxis" "[0 -1 0 90] 0.3125"
-			"vaxis" "[0 0 -1 -51] 0.3125"
+			"vaxis" "[0 0 -1 -102.2] 0.3125"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1519,10 +1501,10 @@ entity
 		side
 		{
 			"id" "58"
-			"plane" "(524 148 344) (524 148 304) (520 148 304)"
+			"plane" "(384 148 -192) (384 148 -232) (380 148 -232)"
 			"material" "EFFECTS/TVSCREEN_NOISE003A"
-			"uaxis" "[-1 0 0 0] 0.0156"
-			"vaxis" "[0 0 -1 -102] 0.1563"
+			"uaxis" "[-1 0 0 -14.3594] 0.0156"
+			"vaxis" "[0 0 -1 -203.303] 0.1563"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1530,10 +1512,10 @@ entity
 		side
 		{
 			"id" "57"
-			"plane" "(520 188 344) (520 188 304) (524 188 304)"
+			"plane" "(380 188 -192) (380 188 -232) (384 188 -232)"
 			"material" "EFFECTS/TVSCREEN_NOISE003A"
-			"uaxis" "[-1 0 0 0] 0.0156"
-			"vaxis" "[0 0 -1 -102] 0.1563"
+			"uaxis" "[-1 0 0 -14.3594] 0.0156"
+			"vaxis" "[0 0 -1 -203.303] 0.1563"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1541,9 +1523,9 @@ entity
 		side
 		{
 			"id" "56"
-			"plane" "(520 188 304) (520 148 304) (524 148 304)"
+			"plane" "(380 188 -232) (380 148 -232) (384 148 -232)"
 			"material" "EFFECTS/TVSCREEN_NOISE003A"
-			"uaxis" "[-1 0 0 0] 0.0156"
+			"uaxis" "[-1 0 0 -14.3594] 0.0156"
 			"vaxis" "[0 1 0 -179] 0.1563"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1552,9 +1534,9 @@ entity
 		side
 		{
 			"id" "55"
-			"plane" "(520 148 344) (520 188 344) (524 188 344)"
+			"plane" "(380 148 -192) (380 188 -192) (384 188 -192)"
 			"material" "EFFECTS/TVSCREEN_NOISE003A"
-			"uaxis" "[-1 0 0 0] 0.0156"
+			"uaxis" "[-1 0 0 -14.3594] 0.0156"
 			"vaxis" "[0 1 0 -179] 0.1563"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1570,7 +1552,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 11500]"
@@ -1585,7 +1566,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "546 168 308"
+	"origin" "406 168 -228"
 	"parentname" "borcam_1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -1603,10 +1584,10 @@ entity
 		side
 		{
 			"id" "66"
-			"plane" "(513 188 324) (513 188 304) (517 188 304)"
+			"plane" "(373 188 -232) (377 188 -232) (377 188 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1614,9 +1595,9 @@ entity
 		side
 		{
 			"id" "65"
-			"plane" "(513 188 304) (513 168 304) (517 168 304)"
+			"plane" "(377 188 -232) (373 188 -232) (373 168 -232)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1625,9 +1606,9 @@ entity
 		side
 		{
 			"id" "64"
-			"plane" "(513 168 324) (513 188 324) (517 188 324)"
+			"plane" "(373 168 -212) (373 188 -212) (377 188 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1636,10 +1617,10 @@ entity
 		side
 		{
 			"id" "63"
-			"plane" "(513 168 324) (513 168 304) (513 188 304)"
+			"plane" "(373 168 -232) (373 188 -232) (373 188 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1647,10 +1628,10 @@ entity
 		side
 		{
 			"id" "62"
-			"plane" "(517 188 324) (517 188 304) (517 168 304)"
+			"plane" "(377 188 -212) (377 188 -232) (377 168 -232)"
 			"material" "PROPS/CAMERA_VIGNETTECORNER_1"
 			"uaxis" "[0 -1 0 41] 0.09"
-			"vaxis" "[0 0 -1 -206] 0.09"
+			"vaxis" "[0 0 -1 -17.5552] 0.09"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1658,10 +1639,10 @@ entity
 		side
 		{
 			"id" "61"
-			"plane" "(517 168 324) (517 168 304) (513 168 304)"
+			"plane" "(377 168 -232) (373 168 -232) (373 168 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1679,10 +1660,10 @@ entity
 		side
 		{
 			"id" "72"
-			"plane" "(513 168 344) (513 168 324) (513 188 324)"
+			"plane" "(373 168 -192) (373 168 -212) (373 188 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1690,10 +1671,10 @@ entity
 		side
 		{
 			"id" "71"
-			"plane" "(517 188 344) (517 188 324) (517 168 324)"
+			"plane" "(377 188 -192) (377 188 -212) (377 168 -212)"
 			"material" "PROPS/CAMERA_VIGNETTECORNER_1"
 			"uaxis" "[0 -1 0 41] 0.09"
-			"vaxis" "[0 0 1 18] 0.09"
+			"vaxis" "[0 0 1 85.5552] 0.09"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1701,10 +1682,10 @@ entity
 		side
 		{
 			"id" "70"
-			"plane" "(517 168 344) (517 168 324) (513 168 324)"
+			"plane" "(377 168 -192) (377 168 -212) (373 168 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1712,10 +1693,10 @@ entity
 		side
 		{
 			"id" "69"
-			"plane" "(513 188 344) (513 188 324) (517 188 324)"
+			"plane" "(373 188 -192) (373 188 -212) (377 188 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1723,9 +1704,9 @@ entity
 		side
 		{
 			"id" "68"
-			"plane" "(513 188 324) (513 168 324) (517 168 324)"
+			"plane" "(373 188 -212) (373 168 -212) (377 168 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1734,9 +1715,9 @@ entity
 		side
 		{
 			"id" "67"
-			"plane" "(513 168 344) (513 188 344) (517 188 344)"
+			"plane" "(373 168 -192) (373 188 -192) (377 188 -192)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1755,10 +1736,10 @@ entity
 		side
 		{
 			"id" "78"
-			"plane" "(513 148 344) (513 148 324) (513 168 324)"
+			"plane" "(373 148 -192) (373 148 -212) (373 168 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1766,10 +1747,10 @@ entity
 		side
 		{
 			"id" "77"
-			"plane" "(517 168 344) (517 168 324) (517 148 324)"
+			"plane" "(377 168 -192) (377 168 -212) (377 148 -212)"
 			"material" "PROPS/CAMERA_VIGNETTECORNER_1"
 			"uaxis" "[0 1 0 -108] 0.09"
-			"vaxis" "[0 0 1 18] 0.09"
+			"vaxis" "[0 0 1 85.5552] 0.09"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1777,10 +1758,10 @@ entity
 		side
 		{
 			"id" "76"
-			"plane" "(517 148 344) (517 148 324) (513 148 324)"
+			"plane" "(377 148 -192) (377 148 -212) (373 148 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1788,10 +1769,10 @@ entity
 		side
 		{
 			"id" "75"
-			"plane" "(513 168 344) (513 168 324) (517 168 324)"
+			"plane" "(373 168 -192) (373 168 -212) (377 168 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1799,9 +1780,9 @@ entity
 		side
 		{
 			"id" "74"
-			"plane" "(513 168 324) (513 148 324) (517 148 324)"
+			"plane" "(373 168 -212) (373 148 -212) (377 148 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1810,9 +1791,9 @@ entity
 		side
 		{
 			"id" "73"
-			"plane" "(513 148 344) (513 168 344) (517 168 344)"
+			"plane" "(373 148 -192) (373 168 -192) (377 168 -192)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1831,10 +1812,10 @@ entity
 		side
 		{
 			"id" "84"
-			"plane" "(517 168 324) (517 168 304) (517 148 304)"
+			"plane" "(377 168 -212) (377 168 -232) (377 148 -232)"
 			"material" "PROPS/CAMERA_VIGNETTECORNER_1"
 			"uaxis" "[0 1 0 -108] 0.09"
-			"vaxis" "[0 0 -1 -206] 0.09"
+			"vaxis" "[0 0 -1 -17.5552] 0.09"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1842,10 +1823,10 @@ entity
 		side
 		{
 			"id" "83"
-			"plane" "(517 148 324) (517 148 304) (513 148 304)"
+			"plane" "(377 148 -212) (377 148 -232) (373 148 -232)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1853,10 +1834,10 @@ entity
 		side
 		{
 			"id" "82"
-			"plane" "(513 168 324) (513 168 304) (517 168 304)"
+			"plane" "(373 168 -232) (377 168 -232) (377 168 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1864,9 +1845,9 @@ entity
 		side
 		{
 			"id" "81"
-			"plane" "(513 168 304) (513 148 304) (517 148 304)"
+			"plane" "(373 148 -232) (377 148 -232) (377 168 -232)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1875,9 +1856,9 @@ entity
 		side
 		{
 			"id" "80"
-			"plane" "(513 148 324) (513 168 324) (517 168 324)"
+			"plane" "(373 168 -212) (377 168 -212) (377 148 -212)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 48] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1886,10 +1867,10 @@ entity
 		side
 		{
 			"id" "79"
-			"plane" "(513 148 324) (513 148 304) (513 168 304)"
+			"plane" "(373 148 -212) (373 148 -232) (373 168 -232)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1904,7 +1885,6 @@ entity
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 12000]"
@@ -1928,11 +1908,10 @@ entity
 		"OnTrigger" "destination_monitor_1,SetCamera,cam_borealis_1,0,-1"
 		"OnTrigger" "fx_borealis_snow,Stop,,0,-1"
 	}
-	"origin" "872.956 152 -84.8621"
+	"origin" "536.956 152 -229.862"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 -14768]"
@@ -1954,11 +1933,10 @@ entity
 		"OnTrigger" "ghost_anim_start,BeginSequence,,0,-1"
 		"OnTrigger" "borcam_1,SetParent,camera_animation_parent,0,-1"
 	}
-	"origin" "872.956 152 -68.8621"
+	"origin" "536.956 152 -213.862"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 -14268]"
@@ -1984,11 +1962,10 @@ entity
 		"OnTrigger" "ghost_anim_start,CancelSequence,,0,-1"
 		"OnTrigger" "relay_bor_resume,Trigger,,5.25,-1"
 	}
-	"origin" "868.984 151 -34.2576"
+	"origin" "532.984 151 -179.258"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 -13768]"
@@ -2009,11 +1986,10 @@ entity
 		"OnTrigger" "ghost_anim_start,BeginSequence,,0,-1"
 		"OnTrigger" "sound_borcam_wind_1,PlaySound,,0.1,-1"
 	}
-	"origin" "888 152 -34.2576"
+	"origin" "552 152 -179.258"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 -13268]"
@@ -2029,10 +2005,10 @@ entity
 		side
 		{
 			"id" "90"
-			"plane" "(320 -8397 -191) (320 -8371 -191) (348 -8371 -191)"
+			"plane" "(191.258 359.202 -191) (191.258 385.202 -191) (219.258 385.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2040,9 +2016,9 @@ entity
 		side
 		{
 			"id" "89"
-			"plane" "(320 -8397 -191) (320 -8397 -217) (320 -8371 -217)"
+			"plane" "(191.258 385.202 -217) (191.258 385.202 -191) (191.258 359.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[0 -1 0 80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2051,9 +2027,9 @@ entity
 		side
 		{
 			"id" "88"
-			"plane" "(348 -8371 -191) (348 -8371 -217) (348 -8397 -217)"
+			"plane" "(219.258 359.202 -217) (219.258 359.202 -191) (219.258 385.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2062,9 +2038,9 @@ entity
 		side
 		{
 			"id" "87"
-			"plane" "(348 -8397 -191) (348 -8397 -217) (320 -8397 -217)"
+			"plane" "(191.258 359.202 -217) (191.258 359.202 -191) (219.258 359.202 -191)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[-1 0 0 -73] 0.2187"
+			"uaxis" "[-1 0 0 -21.6685] 0.2187"
 			"vaxis" "[0 0 -1 -22] 0.4062"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2073,9 +2049,9 @@ entity
 		side
 		{
 			"id" "86"
-			"plane" "(320 -8371 -191) (320 -8371 -217) (348 -8371 -217)"
+			"plane" "(219.258 385.202 -217) (219.258 385.202 -191) (191.258 385.202 -191)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2084,10 +2060,10 @@ entity
 		side
 		{
 			"id" "85"
-			"plane" "(320 -8371 -217) (320 -8397 -217) (348 -8397 -217)"
+			"plane" "(191.258 385.202 -217) (191.258 359.202 -217) (219.258 359.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2105,9 +2081,9 @@ entity
 		side
 		{
 			"id" "96"
-			"plane" "(320 -8371 -159) (320 -8371 -185) (348 -8371 -185)"
+			"plane" "(191.258 385.202 -185) (219.258 385.202 -185) (219.258 385.202 -159)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2116,10 +2092,10 @@ entity
 		side
 		{
 			"id" "95"
-			"plane" "(320 -8371 -185) (320 -8397 -185) (348 -8397 -185)"
+			"plane" "(219.258 385.202 -185) (191.258 385.202 -185) (191.258 359.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2127,10 +2103,10 @@ entity
 		side
 		{
 			"id" "94"
-			"plane" "(320 -8397 -159) (320 -8371 -159) (348 -8371 -159)"
+			"plane" "(191.258 359.202 -159) (191.258 385.202 -159) (219.258 385.202 -159)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2138,9 +2114,9 @@ entity
 		side
 		{
 			"id" "93"
-			"plane" "(320 -8397 -159) (320 -8397 -185) (320 -8371 -185)"
+			"plane" "(191.258 359.202 -185) (191.258 385.202 -185) (191.258 385.202 -159)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[0 -1 0 80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2149,9 +2125,9 @@ entity
 		side
 		{
 			"id" "92"
-			"plane" "(348 -8371 -159) (348 -8371 -185) (348 -8397 -185)"
+			"plane" "(219.258 385.202 -159) (219.258 385.202 -185) (219.258 359.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2160,9 +2136,9 @@ entity
 		side
 		{
 			"id" "91"
-			"plane" "(348 -8397 -159) (348 -8397 -185) (320 -8397 -185)"
+			"plane" "(219.258 359.202 -185) (191.258 359.202 -185) (191.258 359.202 -159)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[-1 0 0 -73] 0.2187"
+			"uaxis" "[-1 0 0 -21.6685] 0.2187"
 			"vaxis" "[0 0 -1 -7] 0.4062"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2181,10 +2157,10 @@ entity
 		side
 		{
 			"id" "102"
-			"plane" "(352 -8374 -183.858) (352 -8401.9 -186.059) (352 -8404 -160.141)"
+			"plane" "(223.258 382.202 -183.86) (223.258 354.3 -186.06) (223.258 352.202 -160.141)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -0.9969 -0.0785 -283] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 -0.9969 -0.0785 329.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2192,10 +2168,10 @@ entity
 		side
 		{
 			"id" "101"
-			"plane" "(352 -8404 -160.145) (350 -8401.9 -186.059) (350 -8404 -160.141)"
+			"plane" "(223.258 352.202 -160.141) (223.258 354.302 -186.06) (221.258 354.302 -186.06)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 18] 0.33"
+			"uaxis" "[1 0 0 10.9672] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -16.9148] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2203,10 +2179,10 @@ entity
 		side
 		{
 			"id" "100"
-			"plane" "(350 -8404 -160.14) (350 -8376.1 -157.94) (352 -8376.1 -157.94)"
+			"plane" "(221.258 380.1 -157.94) (223.258 380.1 -157.94) (223.258 352.202 -160.14)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9969 0.0785 43] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -57.2344] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2214,10 +2190,10 @@ entity
 		side
 		{
 			"id" "99"
-			"plane" "(350 -8374 -183.86) (350 -8401.9 -186.06) (352 -8401.9 -186.06)"
+			"plane" "(221.258 354.301 -186.06) (223.258 354.301 -186.06) (223.258 382.202 -183.86)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9969 -0.0785 -27] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 -0.9969 -0.0785 73.2344] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2225,10 +2201,10 @@ entity
 		side
 		{
 			"id" "98"
-			"plane" "(350 -8376.1 -157.941) (350 -8374 -183.86) (352 -8374 -183.859)"
+			"plane" "(221.258 382.202 -183.861) (223.258 382.202 -183.861) (223.258 380.104 -157.94)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0807 -0.9967 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0807 -0.9967 -266.502] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2236,10 +2212,10 @@ entity
 		side
 		{
 			"id" "97"
-			"plane" "(350 -8404 -160.141) (350 -8401.9 -186.06) (350 -8376.1 -157.94)"
+			"plane" "(221.258 352.202 -160.141) (221.258 354.304 -186.06) (221.258 382.202 -183.86)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2257,9 +2233,9 @@ entity
 		side
 		{
 			"id" "108"
-			"plane" "(352 -8397 -223) (352 -8397 -249) (352 -8371 -249)"
+			"plane" "(223.258 359.202 -223) (223.258 359.202 -249) (223.258 385.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[0 -1 0 80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2268,9 +2244,9 @@ entity
 		side
 		{
 			"id" "107"
-			"plane" "(380 -8371 -223) (380 -8371 -249) (380 -8397 -249)"
+			"plane" "(251.258 385.202 -223) (251.258 385.202 -249) (251.258 359.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2279,9 +2255,9 @@ entity
 		side
 		{
 			"id" "106"
-			"plane" "(380 -8397 -223) (380 -8397 -249) (352 -8397 -249)"
+			"plane" "(251.258 359.202 -223) (251.258 359.202 -249) (223.258 359.202 -249)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[-1 0 0 -55] 0.2187"
+			"uaxis" "[-1 0 0 -3.66846] 0.2187"
 			"vaxis" "[0 0 -1 -37] 0.4062"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2290,9 +2266,9 @@ entity
 		side
 		{
 			"id" "105"
-			"plane" "(352 -8371 -223) (352 -8371 -249) (380 -8371 -249)"
+			"plane" "(223.258 385.202 -223) (223.258 385.202 -249) (251.258 385.202 -249)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2301,10 +2277,10 @@ entity
 		side
 		{
 			"id" "104"
-			"plane" "(352 -8371 -249) (352 -8397 -249) (380 -8397 -249)"
+			"plane" "(223.258 385.202 -249) (223.258 359.202 -249) (251.258 359.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2312,10 +2288,10 @@ entity
 		side
 		{
 			"id" "103"
-			"plane" "(352 -8397 -223) (352 -8371 -223) (380 -8371 -223)"
+			"plane" "(223.258 359.202 -223) (223.258 385.202 -223) (251.258 385.202 -223)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2333,9 +2309,9 @@ entity
 		side
 		{
 			"id" "114"
-			"plane" "(412 -8371 -192) (412 -8371 -218) (412 -8397 -218)"
+			"plane" "(283.258 385.202 -192) (283.258 385.202 -218) (283.258 359.202 -218)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2344,9 +2320,9 @@ entity
 		side
 		{
 			"id" "113"
-			"plane" "(412 -8397 -192) (412 -8397 -218) (384 -8397 -218)"
+			"plane" "(283.258 359.202 -192) (283.258 359.202 -218) (255.258 359.202 -218)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[-1 0 0 -37] 0.2187"
+			"uaxis" "[-1 0 0 -113.668] 0.2187"
 			"vaxis" "[0 0 -1 -25] 0.4062"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2355,9 +2331,9 @@ entity
 		side
 		{
 			"id" "112"
-			"plane" "(384 -8371 -192) (384 -8371 -218) (412 -8371 -218)"
+			"plane" "(255.258 385.202 -218) (283.258 385.202 -218) (283.258 385.202 -192)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2366,10 +2342,10 @@ entity
 		side
 		{
 			"id" "111"
-			"plane" "(384 -8371 -218) (384 -8397 -218) (412 -8397 -218)"
+			"plane" "(255.258 359.202 -218) (283.258 359.202 -218) (283.258 385.202 -218)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2377,10 +2353,10 @@ entity
 		side
 		{
 			"id" "110"
-			"plane" "(384 -8397 -192) (384 -8371 -192) (412 -8371 -192)"
+			"plane" "(255.258 385.202 -192) (283.258 385.202 -192) (283.258 359.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2388,9 +2364,9 @@ entity
 		side
 		{
 			"id" "109"
-			"plane" "(384 -8397 -192) (384 -8397 -218) (384 -8371 -218)"
+			"plane" "(255.258 359.202 -192) (255.258 359.202 -218) (255.258 385.202 -218)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[0 -1 0 80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2409,9 +2385,9 @@ entity
 		side
 		{
 			"id" "120"
-			"plane" "(350 -8371 -159) (350 -8371 -185) (350 -8399 -185)"
+			"plane" "(221.258 385.202 -159) (221.258 385.202 -185) (221.258 357.202 -185)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2420,9 +2396,9 @@ entity
 		side
 		{
 			"id" "119"
-			"plane" "(350 -8399 -159) (350 -8399 -185) (348 -8399 -185)"
+			"plane" "(221.258 357.202 -159) (221.258 357.202 -185) (219.258 357.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -58] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2431,9 +2407,9 @@ entity
 		side
 		{
 			"id" "118"
-			"plane" "(348 -8371 -159) (348 -8371 -185) (350 -8371 -185)"
+			"plane" "(219.258 385.202 -185) (221.258 385.202 -185) (221.258 385.202 -159)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2442,10 +2418,10 @@ entity
 		side
 		{
 			"id" "117"
-			"plane" "(348 -8371 -185) (348 -8399 -185) (350 -8399 -185)"
+			"plane" "(219.258 357.202 -185) (221.258 357.202 -185) (221.258 385.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2453,10 +2429,10 @@ entity
 		side
 		{
 			"id" "116"
-			"plane" "(348 -8399 -159) (348 -8371 -159) (350 -8371 -159)"
+			"plane" "(219.258 385.202 -159) (221.258 385.202 -159) (221.258 357.202 -159)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2464,9 +2440,9 @@ entity
 		side
 		{
 			"id" "115"
-			"plane" "(348 -8399 -159) (348 -8399 -185) (348 -8371 -185)"
+			"plane" "(219.258 357.202 -159) (219.258 357.202 -185) (219.258 385.202 -185)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2485,10 +2461,10 @@ entity
 		side
 		{
 			"id" "126"
-			"plane" "(352 -8402 -159.98) (380 -8376.1 -157.94) (380 -8402 -159.98)"
+			"plane" "(251.258 354.202 -160) (223.258 354.202 -160) (223.258 380.102 -157.94)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9969 0.0785 43] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -57.2344] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2496,10 +2472,10 @@ entity
 		side
 		{
 			"id" "125"
-			"plane" "(352 -8374 -183.86) (380 -8399.9 -185.9) (380 -8374 -183.86)"
+			"plane" "(251.258 382.202 -183.86) (223.258 382.202 -183.86) (223.258 356.302 -185.9)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9969 -0.0785 -27] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 -0.9969 -0.0785 73.2344] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2507,10 +2483,10 @@ entity
 		side
 		{
 			"id" "124"
-			"plane" "(352 -8376.1 -157.941) (352 -8374 -183.86) (380 -8374 -183.859)"
+			"plane" "(223.258 382.202 -183.861) (251.258 382.202 -183.861) (251.258 380.101 -157.941)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0807 -0.9967 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0807 -0.9967 -266.502] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2518,10 +2494,10 @@ entity
 		side
 		{
 			"id" "123"
-			"plane" "(380 -8402 -159.977) (380 -8399.9 -185.9) (352 -8399.9 -185.898)"
+			"plane" "(251.258 356.301 -185.899) (223.258 356.301 -185.899) (223.258 354.202 -160)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[-1 0 0 -55] 0.2187"
-			"vaxis" "[0 0.0785 -0.9969 14] 0.4063"
+			"uaxis" "[-1 0 0 -3.66846] 0.2187"
+			"vaxis" "[0 0.0785 -0.9969 -13.7594] 0.4063"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2529,9 +2505,9 @@ entity
 		side
 		{
 			"id" "122"
-			"plane" "(352 -8399.9 -185.9) (352 -8374 -183.86) (352 -8376.1 -157.938)"
+			"plane" "(223.258 356.301 -185.899) (223.258 382.202 -183.86) (223.258 380.101 -157.94)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[0 -1 0 80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2540,9 +2516,9 @@ entity
 		side
 		{
 			"id" "121"
-			"plane" "(380 -8374 -183.858) (380 -8402 -159.98) (380 -8376.1 -157.94)"
+			"plane" "(251.258 382.202 -183.861) (251.258 356.302 -185.9) (251.258 354.202 -160)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2561,10 +2537,10 @@ entity
 		side
 		{
 			"id" "132"
-			"plane" "(415.33 -8371 -159.414) (414.65 -8371 -185.41) (414.65 -8399 -185.41)"
+			"plane" "(285.908 385.202 -185.411) (285.908 357.202 -185.411) (286.588 357.202 -159.419)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2572,10 +2548,10 @@ entity
 		side
 		{
 			"id" "131"
-			"plane" "(415.328 -8399 -159.42) (413.34 -8371 -159.37) (415.336 -8371 -159.42)"
+			"plane" "(284.599 357.202 -159.37) (284.599 385.202 -159.37) (286.589 385.202 -159.42)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 -52] 0.25"
-			"vaxis" "[1 0 -0.0262 -5] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 -0.0262 126.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2583,10 +2559,10 @@ entity
 		side
 		{
 			"id" "130"
-			"plane" "(414.652 -8371 -185.41) (412.648 -8399 -185.36) (414.652 -8399 -185.41)"
+			"plane" "(283.908 385.202 -185.36) (283.908 357.202 -185.36) (285.91 357.202 -185.41)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -60] 0.25"
-			"vaxis" "[1 0 -0.0262 -5] 0.2499"
+			"uaxis" "[0 -1 0 20.8086] 0.25"
+			"vaxis" "[1 0 -0.0262 126.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2594,10 +2570,10 @@ entity
 		side
 		{
 			"id" "129"
-			"plane" "(413.34 -8399 -159.371) (412.65 -8399 -185.36) (412.65 -8371 -185.359)"
+			"plane" "(283.908 357.202 -185.36) (283.908 385.202 -185.36) (284.598 385.202 -159.37)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2605,10 +2581,10 @@ entity
 		side
 		{
 			"id" "128"
-			"plane" "(415.331 -8399 -159.418) (414.651 -8399 -185.41) (412.65 -8399 -185.36)"
+			"plane" "(286.588 357.202 -159.421) (285.908 357.202 -185.41) (283.908 357.202 -185.36)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 -0.0262 -14] 0.2499"
-			"vaxis" "[-0.0262 0 -1 -26] 0.3299"
+			"uaxis" "[1 0 -0.0262 117.173] 0.2499"
+			"vaxis" "[-0.0262 0 -1 -36.2244] 0.3299"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2616,9 +2592,9 @@ entity
 		side
 		{
 			"id" "127"
-			"plane" "(412.648 -8371 -185.36) (414.653 -8371 -185.41) (413.34 -8371 -159.368)"
+			"plane" "(283.907 385.202 -185.361) (285.908 385.202 -185.411) (286.588 385.202 -159.421)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2637,9 +2613,9 @@ entity
 		side
 		{
 			"id" "138"
-			"plane" "(318 -8399 -159) (318 -8399 -185) (318 -8371 -185)"
+			"plane" "(189.258 357.202 -159) (189.258 357.202 -185) (189.258 385.202 -185)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2648,9 +2624,9 @@ entity
 		side
 		{
 			"id" "137"
-			"plane" "(320 -8371 -159) (320 -8371 -185) (320 -8399 -185)"
+			"plane" "(191.258 385.202 -159) (191.258 385.202 -185) (191.258 357.202 -185)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2659,9 +2635,9 @@ entity
 		side
 		{
 			"id" "136"
-			"plane" "(320 -8399 -159) (320 -8399 -185) (318 -8399 -185)"
+			"plane" "(191.258 357.202 -159) (191.258 357.202 -185) (189.258 357.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -58] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2670,9 +2646,9 @@ entity
 		side
 		{
 			"id" "135"
-			"plane" "(318 -8371 -159) (318 -8371 -185) (320 -8371 -185)"
+			"plane" "(189.258 385.202 -159) (189.258 385.202 -185) (191.258 385.202 -185)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2681,10 +2657,10 @@ entity
 		side
 		{
 			"id" "134"
-			"plane" "(318 -8371 -185) (318 -8399 -185) (320 -8399 -185)"
+			"plane" "(189.258 385.202 -185) (189.258 357.202 -185) (191.258 357.202 -185)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2692,10 +2668,10 @@ entity
 		side
 		{
 			"id" "133"
-			"plane" "(318 -8399 -159) (318 -8371 -159) (320 -8371 -159)"
+			"plane" "(189.258 357.202 -159) (189.258 385.202 -159) (191.258 385.202 -159)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2713,10 +2689,10 @@ entity
 		side
 		{
 			"id" "144"
-			"plane" "(382.59 -8399 -187.582) (382.67 -8399 -184.58) (414.58 -8399 -188.41)"
+			"plane" "(253.848 357.202 -187.583) (253.928 357.202 -184.58) (285.908 357.202 -185.41)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 -0.0262 -14] 0.2499"
-			"vaxis" "[-0.0262 0 -1 -26] 0.3299"
+			"uaxis" "[1 0 -0.0262 117.173] 0.2499"
+			"vaxis" "[-0.0262 0 -1 -36.2244] 0.3299"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2724,9 +2700,9 @@ entity
 		side
 		{
 			"id" "143"
-			"plane" "(382.671 -8371 -184.58) (382.591 -8371 -187.58) (414.58 -8371 -188.41)"
+			"plane" "(253.928 385.202 -184.58) (253.848 385.202 -187.58) (285.838 385.202 -188.413)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2735,10 +2711,10 @@ entity
 		side
 		{
 			"id" "142"
-			"plane" "(382.67 -8399 -184.58) (382.59 -8371 -187.582) (382.67 -8371 -184.58)"
+			"plane" "(253.928 357.202 -184.58) (253.848 357.202 -187.581) (253.848 385.202 -187.578)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2746,10 +2722,10 @@ entity
 		side
 		{
 			"id" "141"
-			"plane" "(414.65 -8371 -185.41) (414.58 -8399 -188.414) (414.65 -8399 -185.41)"
+			"plane" "(285.908 385.202 -185.41) (285.838 385.202 -188.41) (285.838 357.202 -188.41)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2757,10 +2733,10 @@ entity
 		side
 		{
 			"id" "140"
-			"plane" "(414.578 -8371 -188.41) (382.59 -8399 -187.58) (414.58 -8399 -188.41)"
+			"plane" "(285.838 385.202 -188.41) (253.848 385.202 -187.58) (253.848 357.202 -187.58)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
-			"vaxis" "[1 0 -0.0262 379] 0.2499"
+			"uaxis" "[0 -1 0 404.809] 0.25"
+			"vaxis" "[1 0 -0.0262 382.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2768,10 +2744,10 @@ entity
 		side
 		{
 			"id" "139"
-			"plane" "(414.652 -8399 -185.41) (382.668 -8371 -184.58) (414.65 -8371 -185.41)"
+			"plane" "(285.906 357.202 -185.41) (253.928 357.202 -184.58) (253.928 385.202 -184.58)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0.0262 5] 0.2499"
-			"vaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[-1 0 0.0262 -510.173] 0.2499"
+			"vaxis" "[0 -1 0 404.809] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2789,10 +2765,10 @@ entity
 		side
 		{
 			"id" "150"
-			"plane" "(415.44 -8398.9 -223.445) (416.62 -8396.5 -249.319) (413.451 -8399.1 -223.565)"
+			"plane" "(286.7 357.303 -223.448) (287.879 359.703 -249.319) (285.889 359.502 -249.42)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9959 0.0738 0.0521 103] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -42] 0.33"
+			"uaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -4.2627] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2800,9 +2776,9 @@ entity
 		side
 		{
 			"id" "149"
-			"plane" "(414.432 -8368.7 -246.879) (413.252 -8371.1 -221.008) (411.254 -8371.2 -221.119)"
+			"plane" "(285.687 387.504 -246.879) (284.508 385.104 -221) (282.512 385.004 -221.119)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[0 -1 0 -405] 0.25"
+			"uaxis" "[0 -1 0 827.809] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2811,10 +2787,10 @@ entity
 		side
 		{
 			"id" "148"
-			"plane" "(413.25 -8371.1 -221.008) (416.62 -8396.5 -249.32) (415.441 -8398.9 -223.445)"
+			"plane" "(284.508 385.103 -221) (285.687 387.502 -246.88) (287.879 359.702 -249.318)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.0782 0.9931 0.0872 180] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -339.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2822,10 +2798,10 @@ entity
 		side
 		{
 			"id" "147"
-			"plane" "(415.44 -8398.89 -223.45) (413.451 -8399.09 -223.57) (411.254 -8371.2 -221.12)"
+			"plane" "(286.699 357.306 -223.451) (284.709 357.106 -223.571) (282.512 385.003 -221.12)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-0.0782 0.9931 0.0872 52] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 103] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -83.4063] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2833,10 +2809,10 @@ entity
 		side
 		{
 			"id" "146"
-			"plane" "(414.63 -8396.7 -249.42) (416.621 -8396.5 -249.319) (412.433 -8368.8 -246.972)"
+			"plane" "(285.889 359.499 -249.42) (287.877 359.7 -249.319) (285.687 387.502 -246.88)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -36] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 103] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 99.4063] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2844,10 +2820,10 @@ entity
 		side
 		{
 			"id" "145"
-			"plane" "(413.451 -8399.1 -223.566) (412.434 -8368.8 -246.973) (411.254 -8371.2 -221.117)"
+			"plane" "(284.709 357.104 -223.568) (285.889 359.503 -249.42) (283.692 387.402 -247)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -292] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 227.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2865,10 +2841,10 @@ entity
 		side
 		{
 			"id" "156"
-			"plane" "(380 -8404 -160.14) (382 -8376.1 -157.939) (382 -8404 -160.14)"
+			"plane" "(253.258 352.202 -160.14) (251.258 352.202 -160.14) (251.258 380.102 -157.939)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9969 0.0785 43] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -57.2344] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2876,10 +2852,10 @@ entity
 		side
 		{
 			"id" "155"
-			"plane" "(380 -8374 -183.86) (380 -8401.9 -186.06) (382 -8401.9 -186.06)"
+			"plane" "(251.258 382.202 -183.86) (251.258 354.303 -186.06) (253.258 354.303 -186.06)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9969 -0.0785 -27] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 -0.9969 -0.0785 73.2344] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2887,10 +2863,10 @@ entity
 		side
 		{
 			"id" "154"
-			"plane" "(382 -8404 -160.145) (380 -8401.9 -186.059) (380 -8404 -160.141)"
+			"plane" "(253.258 354.302 -186.06) (251.258 354.302 -186.06) (251.258 352.202 -160.139)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 18] 0.33"
+			"uaxis" "[1 0 0 10.9672] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -16.9148] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2898,10 +2874,10 @@ entity
 		side
 		{
 			"id" "153"
-			"plane" "(380 -8401.9 -186.059) (380 -8374 -183.859) (380 -8376.1 -157.934)"
+			"plane" "(251.258 354.301 -186.06) (251.258 382.202 -183.86) (251.258 380.1 -157.94)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2909,10 +2885,10 @@ entity
 		side
 		{
 			"id" "152"
-			"plane" "(382 -8376.1 -157.941) (382 -8401.9 -186.06) (382 -8404 -160.142)"
+			"plane" "(253.258 382.202 -183.861) (253.258 354.301 -186.061) (253.258 352.202 -160.14)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2920,10 +2896,10 @@ entity
 		side
 		{
 			"id" "151"
-			"plane" "(380 -8376.1 -157.941) (380 -8374 -183.86) (382 -8374 -183.859)"
+			"plane" "(251.258 382.202 -183.86) (253.258 382.202 -183.86) (253.258 380.104 -157.938)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0807 -0.9967 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0807 -0.9967 -266.502] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2941,9 +2917,9 @@ entity
 		side
 		{
 			"id" "162"
-			"plane" "(350 -8371 -220) (350 -8371 -223) (382 -8371 -223)"
+			"plane" "(221.258 385.202 -223) (253.258 385.202 -223) (253.258 385.202 -220)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2952,10 +2928,10 @@ entity
 		side
 		{
 			"id" "161"
-			"plane" "(350 -8371 -223) (350 -8399 -223) (382 -8399 -223)"
+			"plane" "(253.258 385.202 -223) (221.258 385.202 -223) (221.258 357.202 -223)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -136] 0.25"
-			"vaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[-1 0 0 -138.967] 0.25"
+			"vaxis" "[0 1 0 -4.80859] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2963,10 +2939,10 @@ entity
 		side
 		{
 			"id" "160"
-			"plane" "(350 -8399 -220) (350 -8371 -220) (382 -8371 -220)"
+			"plane" "(221.258 357.202 -220) (221.258 385.202 -220) (253.258 385.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2974,9 +2950,9 @@ entity
 		side
 		{
 			"id" "159"
-			"plane" "(350 -8399 -220) (350 -8399 -223) (350 -8371 -223)"
+			"plane" "(221.258 357.202 -223) (221.258 385.202 -223) (221.258 385.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2985,9 +2961,9 @@ entity
 		side
 		{
 			"id" "158"
-			"plane" "(382 -8371 -220) (382 -8371 -223) (382 -8399 -223)"
+			"plane" "(253.258 385.202 -220) (253.258 385.202 -223) (253.258 357.202 -223)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2996,9 +2972,9 @@ entity
 		side
 		{
 			"id" "157"
-			"plane" "(382 -8399 -220) (382 -8399 -223) (350 -8399 -223)"
+			"plane" "(253.258 357.202 -223) (221.258 357.202 -223) (221.258 357.202 -220)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -124] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3017,9 +2993,9 @@ entity
 		side
 		{
 			"id" "168"
-			"plane" "(384.543 -8370.9 -248.432) (412.441 -8368.9 -246.98) (411.259 -8371.2 -221.111)"
+			"plane" "(255.799 385.303 -248.431) (283.697 387.303 -247) (282.516 385.003 -221.109)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[0 -1 0 -405] 0.25"
+			"uaxis" "[0 -1 0 827.809] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3028,10 +3004,10 @@ entity
 		side
 		{
 			"id" "167"
-			"plane" "(413.289 -8397.01 -223.373) (385.411 -8399.11 -224.842) (383.371 -8373.2 -222.571)"
+			"plane" "(256.67 357.104 -224.841) (254.632 383.003 -222.571) (282.518 385.001 -221.111)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-0.0782 0.9931 0.0872 52] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 103] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -83.4063] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3039,10 +3015,10 @@ entity
 		side
 		{
 			"id" "166"
-			"plane" "(386.582 -8396.8 -250.711) (414.473 -8394.71 -249.251) (384.542 -8370.9 -248.432)"
+			"plane" "(283.698 387.304 -247) (255.8 385.304 -248.432) (257.839 359.402 -250.711)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -36] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 103] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 99.4063] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3050,10 +3026,10 @@ entity
 		side
 		{
 			"id" "165"
-			"plane" "(411.259 -8371.2 -221.105) (414.47 -8394.7 -249.25) (413.289 -8397.01 -223.371)"
+			"plane" "(282.517 385.001 -221.112) (283.699 387.301 -247) (285.729 361.491 -249.251)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-0.0782 0.9931 0.0872 52] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 52] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -83.4063] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -36.4268] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3061,10 +3037,10 @@ entity
 		side
 		{
 			"id" "164"
-			"plane" "(385.411 -8399.11 -224.844) (386.581 -8396.81 -250.71) (383.372 -8373.2 -222.566)"
+			"plane" "(257.839 359.404 -250.711) (255.8 385.306 -248.431) (254.63 383.007 -222.571)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -36] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 52] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 99.4063] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -36.4268] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3072,10 +3048,10 @@ entity
 		side
 		{
 			"id" "163"
-			"plane" "(414.47 -8394.71 -249.25) (386.58 -8396.8 -250.71) (413.289 -8397.01 -223.371)"
+			"plane" "(285.728 361.493 -249.251) (257.838 359.403 -250.711) (256.669 357.105 -224.841)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[0.9959 0.0738 0.0521 108] 0.2188"
-			"vaxis" "[0.0453 0.0909 -0.9948 5] 0.4064"
+			"uaxis" "[0.9959 0.0738 0.0521 -83.4304] 0.2188"
+			"vaxis" "[0.0453 0.0909 -0.9948 -19.1602] 0.4064"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3093,10 +3069,10 @@ entity
 		side
 		{
 			"id" "174"
-			"plane" "(382 -8399 -192) (382 -8371 -192) (384 -8371 -192)"
+			"plane" "(253.258 357.202 -192) (253.258 385.202 -192) (255.258 385.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3104,9 +3080,9 @@ entity
 		side
 		{
 			"id" "173"
-			"plane" "(382 -8399 -192) (382 -8399 -218) (382 -8371 -218)"
+			"plane" "(253.258 385.202 -218) (253.258 385.202 -192) (253.258 357.202 -192)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3115,9 +3091,9 @@ entity
 		side
 		{
 			"id" "172"
-			"plane" "(384 -8371 -192) (384 -8371 -218) (384 -8399 -218)"
+			"plane" "(255.258 357.202 -218) (255.258 357.202 -192) (255.258 385.202 -192)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3126,9 +3102,9 @@ entity
 		side
 		{
 			"id" "171"
-			"plane" "(384 -8399 -192) (384 -8399 -218) (382 -8399 -218)"
+			"plane" "(253.258 357.202 -218) (253.258 357.202 -192) (255.258 357.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -30] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3137,9 +3113,9 @@ entity
 		side
 		{
 			"id" "170"
-			"plane" "(382 -8371 -192) (382 -8371 -218) (384 -8371 -218)"
+			"plane" "(255.258 385.202 -218) (255.258 385.202 -192) (253.258 385.202 -192)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3148,10 +3124,10 @@ entity
 		side
 		{
 			"id" "169"
-			"plane" "(382 -8371 -218) (382 -8399 -218) (384 -8399 -218)"
+			"plane" "(253.258 385.202 -218) (253.258 357.202 -218) (255.258 357.202 -218)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3169,9 +3145,9 @@ entity
 		side
 		{
 			"id" "180"
-			"plane" "(412 -8399 -192) (412 -8399 -218) (412 -8371 -218)"
+			"plane" "(283.258 357.202 -192) (283.258 357.202 -218) (283.258 385.202 -218)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3180,9 +3156,9 @@ entity
 		side
 		{
 			"id" "179"
-			"plane" "(414 -8371 -192) (414 -8371 -218) (414 -8399 -218)"
+			"plane" "(285.258 385.202 -192) (285.258 385.202 -218) (285.258 357.202 -218)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3191,9 +3167,9 @@ entity
 		side
 		{
 			"id" "178"
-			"plane" "(414 -8399 -192) (414 -8399 -218) (412 -8399 -218)"
+			"plane" "(285.258 357.202 -192) (285.258 357.202 -218) (283.258 357.202 -218)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -30] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3202,9 +3178,9 @@ entity
 		side
 		{
 			"id" "177"
-			"plane" "(412 -8371 -192) (412 -8371 -218) (414 -8371 -218)"
+			"plane" "(283.258 385.202 -192) (283.258 385.202 -218) (285.258 385.202 -218)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3213,10 +3189,10 @@ entity
 		side
 		{
 			"id" "176"
-			"plane" "(412 -8371 -218) (412 -8399 -218) (414 -8399 -218)"
+			"plane" "(283.258 385.202 -218) (283.258 357.202 -218) (285.258 357.202 -218)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3224,10 +3200,10 @@ entity
 		side
 		{
 			"id" "175"
-			"plane" "(412 -8399 -192) (412 -8371 -192) (414 -8371 -192)"
+			"plane" "(283.258 357.202 -192) (283.258 385.202 -192) (285.258 385.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3245,10 +3221,10 @@ entity
 		side
 		{
 			"id" "186"
-			"plane" "(348.661 -8399.1 -250.09) (316.859 -8398.8 -254.754) (316.698 -8399 -251.76)"
+			"plane" "(219.918 357.103 -250.088) (220.078 357.303 -253.08) (188.117 357.402 -254.75)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 58] 0.33"
+			"uaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -107.012] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3256,10 +3232,10 @@ entity
 		side
 		{
 			"id" "185"
-			"plane" "(316.698 -8371.1 -249.813) (348.819 -8371 -251.133) (348.659 -8371.2 -248.14)"
+			"plane" "(187.957 385.102 -249.81) (188.118 385.302 -252.801) (220.078 385.202 -251.132)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0664 -0.9978 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0664 -0.9978 -277.647] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3267,10 +3243,10 @@ entity
 		side
 		{
 			"id" "184"
-			"plane" "(316.699 -8399 -251.762) (316.86 -8370.9 -252.801) (316.699 -8371.1 -249.81)"
+			"plane" "(187.957 357.202 -251.759) (188.118 357.4 -254.751) (188.118 385.301 -252.801)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3278,10 +3254,10 @@ entity
 		side
 		{
 			"id" "183"
-			"plane" "(348.66 -8371.2 -248.141) (348.82 -8398.9 -253.086) (348.66 -8399.1 -250.09)"
+			"plane" "(219.918 385.002 -248.139) (220.078 385.202 -251.13) (220.078 357.301 -253.08)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3289,10 +3265,10 @@ entity
 		side
 		{
 			"id" "182"
-			"plane" "(348.82 -8371 -251.13) (316.859 -8398.8 -254.75) (348.82 -8398.9 -253.08)"
+			"plane" "(220.078 385.202 -251.13) (188.118 385.302 -252.8) (188.12 357.403 -254.75)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -0.9976 -0.0698 -304] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 73] 0.25"
+			"uaxis" "[0 -0.9976 -0.0698 332.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 204.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3300,10 +3276,10 @@ entity
 		side
 		{
 			"id" "181"
-			"plane" "(348.656 -8399.1 -250.09) (316.699 -8399 -251.76) (348.66 -8371.2 -248.14)"
+			"plane" "(219.92 357.104 -250.09) (187.956 357.202 -251.76) (187.957 385.103 -249.81)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.9986 0.0037 -0.0522 -201] 0.25"
-			"vaxis" "[0 -0.9976 -0.0698 -304] 0.25"
+			"uaxis" "[-0.9986 0.0037 -0.0522 -332.838] 0.25"
+			"vaxis" "[0 -0.9976 -0.0698 332.75] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3321,9 +3297,9 @@ entity
 		side
 		{
 			"id" "192"
-			"plane" "(350 -8399 -223) (350 -8399 -249) (350 -8371 -249)"
+			"plane" "(221.258 357.202 -223) (221.258 357.202 -249) (221.258 385.202 -249)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3332,9 +3308,9 @@ entity
 		side
 		{
 			"id" "191"
-			"plane" "(352 -8371 -223) (352 -8371 -249) (352 -8399 -249)"
+			"plane" "(223.258 385.202 -223) (223.258 385.202 -249) (223.258 357.202 -249)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3343,9 +3319,9 @@ entity
 		side
 		{
 			"id" "190"
-			"plane" "(352 -8399 -223) (352 -8399 -249) (350 -8399 -249)"
+			"plane" "(223.258 357.202 -223) (223.258 357.202 -249) (221.258 357.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -124] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3354,9 +3330,9 @@ entity
 		side
 		{
 			"id" "189"
-			"plane" "(350 -8371 -223) (350 -8371 -249) (352 -8371 -249)"
+			"plane" "(221.258 385.202 -223) (221.258 385.202 -249) (223.258 385.202 -249)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3365,10 +3341,10 @@ entity
 		side
 		{
 			"id" "188"
-			"plane" "(350 -8371 -249) (350 -8399 -249) (352 -8399 -249)"
+			"plane" "(221.258 385.202 -249) (221.258 357.202 -249) (223.258 357.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3376,10 +3352,10 @@ entity
 		side
 		{
 			"id" "187"
-			"plane" "(350 -8399 -223) (350 -8371 -223) (352 -8371 -223)"
+			"plane" "(221.258 357.202 -223) (221.258 385.202 -223) (223.258 385.202 -223)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3397,10 +3373,10 @@ entity
 		side
 		{
 			"id" "198"
-			"plane" "(416.611 -8396.5 -249.32) (384.898 -8398.6 -253.97) (384.758 -8398.9 -251)"
+			"plane" "(287.866 359.702 -249.319) (287.998 360.003 -252.294) (256.15 357.604 -254)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9959 0.0738 0.0521 103] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -42] 0.33"
+			"uaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -4.2627] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3408,9 +3384,9 @@ entity
 		side
 		{
 			"id" "197"
-			"plane" "(382.563 -8371.1 -248.547) (382.711 -8370.9 -251.539) (414.429 -8368.7 -246.87)"
+			"plane" "(253.817 385.103 -248.551) (253.965 385.302 -251.538) (285.828 387.701 -249.86)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[0 -1 0 -405] 0.25"
+			"uaxis" "[0 -1 0 827.809] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3419,10 +3395,10 @@ entity
 		side
 		{
 			"id" "196"
-			"plane" "(384.75 -8398.9 -250.996) (382.708 -8370.9 -251.538) (382.56 -8371.1 -248.55)"
+			"plane" "(256.008 357.301 -251) (256.148 357.602 -254) (253.966 385.302 -251.538)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -292] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 227.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3430,10 +3406,10 @@ entity
 		side
 		{
 			"id" "195"
-			"plane" "(414.429 -8368.7 -246.867) (414.57 -8368.5 -249.859) (416.609 -8396.5 -249.32)"
+			"plane" "(285.687 387.502 -246.869) (285.829 387.7 -249.859) (288 360.001 -252.293)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.0782 0.9931 0.0872 180] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -339.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3441,10 +3417,10 @@ entity
 		side
 		{
 			"id" "194"
-			"plane" "(414.57 -8368.5 -249.86) (382.707 -8370.9 -251.538) (416.742 -8396.2 -252.293)"
+			"plane" "(285.827 387.7 -249.86) (253.966 385.301 -251.538) (256.146 357.602 -254)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -292] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 359] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 227.406] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -176.975] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3452,10 +3428,10 @@ entity
 		side
 		{
 			"id" "193"
-			"plane" "(416.605 -8396.5 -249.32) (382.559 -8371.1 -248.55) (414.429 -8368.7 -246.869)"
+			"plane" "(287.866 359.702 -249.32) (256.009 357.302 -251) (253.818 385.101 -248.55)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.0782 0.9931 0.0872 180] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 359] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -339.406] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -176.975] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3473,9 +3449,9 @@ entity
 		side
 		{
 			"id" "204"
-			"plane" "(318 -8399 -217) (318 -8399 -220) (318 -8371 -220)"
+			"plane" "(189.258 357.202 -217) (189.258 357.202 -220) (189.258 385.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3484,9 +3460,9 @@ entity
 		side
 		{
 			"id" "203"
-			"plane" "(350 -8371 -217) (350 -8371 -220) (350 -8399 -220)"
+			"plane" "(221.258 385.202 -217) (221.258 385.202 -220) (221.258 357.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3495,9 +3471,9 @@ entity
 		side
 		{
 			"id" "202"
-			"plane" "(350 -8399 -217) (350 -8399 -220) (318 -8399 -220)"
+			"plane" "(221.258 357.202 -217) (221.258 357.202 -220) (189.258 357.202 -220)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3506,9 +3482,9 @@ entity
 		side
 		{
 			"id" "201"
-			"plane" "(318 -8371 -217) (318 -8371 -220) (350 -8371 -220)"
+			"plane" "(189.258 385.202 -217) (189.258 385.202 -220) (221.258 385.202 -220)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3517,10 +3493,10 @@ entity
 		side
 		{
 			"id" "200"
-			"plane" "(318 -8371 -220) (318 -8399 -220) (350 -8399 -220)"
+			"plane" "(189.258 385.202 -220) (189.258 357.202 -220) (221.258 357.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
-			"vaxis" "[1 0 0 136] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
+			"vaxis" "[1 0 0 138.967] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3528,10 +3504,10 @@ entity
 		side
 		{
 			"id" "199"
-			"plane" "(318 -8399 -217) (318 -8371 -217) (350 -8371 -217)"
+			"plane" "(189.258 357.202 -217) (189.258 385.202 -217) (221.258 385.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -264] 0.25"
-			"vaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[-1 0 0 -266.967] 0.25"
+			"vaxis" "[0 -1 0 404.809] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3549,9 +3525,9 @@ entity
 		side
 		{
 			"id" "210"
-			"plane" "(318 -8399 -188) (318 -8399 -191) (318 -8371 -191)"
+			"plane" "(189.258 357.202 -188) (189.258 357.202 -191) (189.258 385.202 -191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3560,9 +3536,9 @@ entity
 		side
 		{
 			"id" "209"
-			"plane" "(350 -8371 -188) (350 -8371 -191) (350 -8399 -191)"
+			"plane" "(221.258 385.202 -188) (221.258 385.202 -191) (221.258 357.202 -191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3571,9 +3547,9 @@ entity
 		side
 		{
 			"id" "208"
-			"plane" "(350 -8399 -188) (350 -8399 -191) (318 -8399 -191)"
+			"plane" "(221.258 357.202 -188) (221.258 357.202 -191) (189.258 357.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3582,9 +3558,9 @@ entity
 		side
 		{
 			"id" "207"
-			"plane" "(318 -8371 -188) (318 -8371 -191) (350 -8371 -191)"
+			"plane" "(189.258 385.202 -188) (189.258 385.202 -191) (221.258 385.202 -191)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3593,10 +3569,10 @@ entity
 		side
 		{
 			"id" "206"
-			"plane" "(318 -8371 -191) (318 -8399 -191) (350 -8399 -191)"
+			"plane" "(189.258 385.202 -191) (189.258 357.202 -191) (221.258 357.202 -191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -264] 0.25"
-			"vaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[-1 0 0 -266.967] 0.25"
+			"vaxis" "[0 1 0 -4.80859] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3604,10 +3580,10 @@ entity
 		side
 		{
 			"id" "205"
-			"plane" "(318 -8399 -188) (318 -8371 -188) (350 -8371 -188)"
+			"plane" "(189.258 357.202 -188) (189.258 385.202 -188) (221.258 385.202 -188)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[1 0 0 136] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 0 138.967] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3625,9 +3601,9 @@ entity
 		side
 		{
 			"id" "216"
-			"plane" "(382 -8399 -189) (382 -8399 -192) (382 -8371 -192)"
+			"plane" "(253.258 357.202 -189) (253.258 357.202 -192) (253.258 385.202 -192)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3636,9 +3612,9 @@ entity
 		side
 		{
 			"id" "215"
-			"plane" "(414 -8371 -189) (414 -8371 -192) (414 -8399 -192)"
+			"plane" "(285.258 385.202 -189) (285.258 385.202 -192) (285.258 357.202 -192)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3647,9 +3623,9 @@ entity
 		side
 		{
 			"id" "214"
-			"plane" "(414 -8399 -189) (414 -8399 -192) (382 -8399 -192)"
+			"plane" "(285.258 357.202 -189) (285.258 357.202 -192) (253.258 357.202 -192)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -30] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3658,9 +3634,9 @@ entity
 		side
 		{
 			"id" "213"
-			"plane" "(382 -8371 -189) (382 -8371 -192) (414 -8371 -192)"
+			"plane" "(253.258 385.202 -189) (253.258 385.202 -192) (285.258 385.202 -192)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3669,10 +3645,10 @@ entity
 		side
 		{
 			"id" "212"
-			"plane" "(382 -8371 -192) (382 -8399 -192) (414 -8399 -192)"
+			"plane" "(253.258 385.202 -192) (253.258 357.202 -192) (285.258 357.202 -192)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -8] 0.25"
-			"vaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[-1 0 0 -10.9672] 0.25"
+			"vaxis" "[0 1 0 -4.80859] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3680,10 +3656,10 @@ entity
 		side
 		{
 			"id" "211"
-			"plane" "(382 -8399 -189) (382 -8371 -189) (414 -8371 -189)"
+			"plane" "(253.258 357.202 -189) (253.258 385.202 -189) (285.258 385.202 -189)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[1 0 0 392] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 0 394.967] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3701,9 +3677,9 @@ entity
 		side
 		{
 			"id" "222"
-			"plane" "(382 -8371 -249) (382 -8371 -252) (382 -8399 -252)"
+			"plane" "(253.258 385.202 -249) (253.258 385.202 -252) (253.258 357.202 -252)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3712,9 +3688,9 @@ entity
 		side
 		{
 			"id" "221"
-			"plane" "(382 -8399 -249) (382 -8399 -252) (350 -8399 -252)"
+			"plane" "(253.258 357.202 -249) (253.258 357.202 -252) (221.258 357.202 -252)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -124] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3723,9 +3699,9 @@ entity
 		side
 		{
 			"id" "220"
-			"plane" "(350 -8371 -249) (350 -8371 -252) (382 -8371 -252)"
+			"plane" "(221.258 385.202 -252) (253.258 385.202 -252) (253.258 385.202 -249)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3734,10 +3710,10 @@ entity
 		side
 		{
 			"id" "219"
-			"plane" "(350 -8371 -252) (350 -8399 -252) (382 -8399 -252)"
+			"plane" "(221.258 357.202 -252) (253.258 357.202 -252) (253.258 385.202 -252)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3745,10 +3721,10 @@ entity
 		side
 		{
 			"id" "218"
-			"plane" "(350 -8399 -249) (350 -8371 -249) (382 -8371 -249)"
+			"plane" "(221.258 385.202 -249) (253.258 385.202 -249) (253.258 357.202 -249)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -136] 0.25"
-			"vaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[-1 0 0 -138.967] 0.25"
+			"vaxis" "[0 -1 0 404.809] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3756,9 +3732,9 @@ entity
 		side
 		{
 			"id" "217"
-			"plane" "(350 -8399 -249) (350 -8399 -252) (350 -8371 -252)"
+			"plane" "(221.258 357.202 -249) (221.258 357.202 -252) (221.258 385.202 -252)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3777,9 +3753,9 @@ entity
 		side
 		{
 			"id" "228"
-			"plane" "(318 -8399 -185) (318 -8399 -188) (318 -8371 -188)"
+			"plane" "(189.258 357.202 -185) (189.258 357.202 -188) (189.258 385.202 -188)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3788,9 +3764,9 @@ entity
 		side
 		{
 			"id" "227"
-			"plane" "(350 -8371 -185) (350 -8371 -188) (350 -8399 -188)"
+			"plane" "(221.258 385.202 -185) (221.258 385.202 -188) (221.258 357.202 -188)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3799,9 +3775,9 @@ entity
 		side
 		{
 			"id" "226"
-			"plane" "(350 -8399 -185) (350 -8399 -188) (318 -8399 -188)"
+			"plane" "(221.258 357.202 -185) (221.258 357.202 -188) (189.258 357.202 -188)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -58] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3810,9 +3786,9 @@ entity
 		side
 		{
 			"id" "225"
-			"plane" "(318 -8371 -185) (318 -8371 -188) (350 -8371 -188)"
+			"plane" "(189.258 385.202 -185) (189.258 385.202 -188) (221.258 385.202 -188)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3821,10 +3797,10 @@ entity
 		side
 		{
 			"id" "224"
-			"plane" "(318 -8371 -188) (318 -8399 -188) (350 -8399 -188)"
+			"plane" "(189.258 385.202 -188) (189.258 357.202 -188) (221.258 357.202 -188)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
-			"vaxis" "[1 0 0 136] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
+			"vaxis" "[1 0 0 138.967] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3832,10 +3808,10 @@ entity
 		side
 		{
 			"id" "223"
-			"plane" "(318 -8399 -185) (318 -8371 -185) (350 -8371 -185)"
+			"plane" "(189.258 357.202 -185) (189.258 385.202 -185) (221.258 385.202 -185)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -264] 0.25"
-			"vaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[-1 0 0 -266.967] 0.25"
+			"vaxis" "[0 -1 0 404.809] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3853,10 +3829,10 @@ entity
 		side
 		{
 			"id" "234"
-			"plane" "(318.695 -8399 -251.662) (315.341 -8400.8 -225.855) (317.339 -8400.8 -225.755)"
+			"plane" "(189.959 357.202 -251.659) (187.957 357.202 -251.759) (186.597 355.403 -225.86)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 58] 0.33"
+			"uaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -107.012] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3864,10 +3840,10 @@ entity
 		side
 		{
 			"id" "233"
-			"plane" "(315.341 -8372.9 -223.906) (316.701 -8371.1 -249.8) (318.7 -8371.1 -249.7)"
+			"plane" "(186.597 383.302 -223.911) (187.957 385.103 -249.8) (189.958 385.103 -249.7)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 -0.0035 0 0] 0.25"
-			"vaxis" "[0 0.0692 -0.9976 0] 0.25"
+			"uaxis" "[-1 -0.0035 0 -392.38] 0.25"
+			"vaxis" "[0 0.0692 -0.9976 -375.717] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3875,10 +3851,10 @@ entity
 		side
 		{
 			"id" "232"
-			"plane" "(315.34 -8400.8 -225.859) (316.7 -8399 -251.76) (316.7 -8371.1 -249.801)"
+			"plane" "(186.598 355.403 -225.861) (187.958 357.202 -251.76) (187.958 385.104 -249.801)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3886,10 +3862,10 @@ entity
 		side
 		{
 			"id" "231"
-			"plane" "(317.34 -8400.8 -225.76) (315.336 -8372.9 -223.91) (317.34 -8372.9 -223.809)"
+			"plane" "(188.599 355.4 -225.76) (186.596 355.4 -225.861) (186.596 383.302 -223.91)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9976 0.0698 -64] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -60.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3897,10 +3873,10 @@ entity
 		side
 		{
 			"id" "230"
-			"plane" "(318.703 -8371.1 -249.7) (316.699 -8399 -251.76) (318.7 -8399 -251.66)"
+			"plane" "(189.956 385.103 -249.7) (187.955 385.103 -249.8) (187.957 357.202 -251.76)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9976 -0.0698 -48] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
+			"uaxis" "[0 -0.9976 -0.0698 76.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3908,10 +3884,10 @@ entity
 		side
 		{
 			"id" "229"
-			"plane" "(317.34 -8372.9 -223.813) (318.7 -8399 -251.66) (317.34 -8400.8 -225.766)"
+			"plane" "(188.598 383.302 -223.81) (189.958 385.103 -249.7) (189.958 357.202 -251.661)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -0.9976 -0.0698 -304] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 -0.9976 -0.0698 332.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3929,9 +3905,9 @@ entity
 		side
 		{
 			"id" "240"
-			"plane" "(382 -8399 -218) (382 -8399 -221) (382 -8371 -221)"
+			"plane" "(253.258 357.202 -218) (253.258 357.202 -221) (253.258 385.202 -221)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3940,9 +3916,9 @@ entity
 		side
 		{
 			"id" "239"
-			"plane" "(414 -8371 -218) (414 -8371 -221) (414 -8399 -221)"
+			"plane" "(285.258 385.202 -218) (285.258 385.202 -221) (285.258 357.202 -221)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -372] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3951,9 +3927,9 @@ entity
 		side
 		{
 			"id" "238"
-			"plane" "(414 -8399 -218) (414 -8399 -221) (382 -8399 -221)"
+			"plane" "(285.258 357.202 -218) (285.258 357.202 -221) (253.258 357.202 -221)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -30] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3962,9 +3938,9 @@ entity
 		side
 		{
 			"id" "237"
-			"plane" "(382 -8371 -218) (382 -8371 -221) (414 -8371 -221)"
+			"plane" "(253.258 385.202 -218) (253.258 385.202 -221) (285.258 385.202 -221)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3973,10 +3949,10 @@ entity
 		side
 		{
 			"id" "236"
-			"plane" "(382 -8371 -221) (382 -8399 -221) (414 -8399 -221)"
+			"plane" "(253.258 385.202 -221) (253.258 357.202 -221) (285.258 357.202 -221)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
-			"vaxis" "[1 0 0 392] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
+			"vaxis" "[1 0 0 394.967] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3984,10 +3960,10 @@ entity
 		side
 		{
 			"id" "235"
-			"plane" "(382 -8399 -218) (382 -8371 -218) (414 -8371 -218)"
+			"plane" "(253.258 357.202 -218) (253.258 385.202 -218) (285.258 385.202 -218)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -8] 0.25"
-			"vaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[-1 0 0 -10.9672] 0.25"
+			"vaxis" "[0 -1 0 404.809] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4005,9 +3981,9 @@ entity
 		side
 		{
 			"id" "246"
-			"plane" "(350 -8399 -191) (350 -8399 -217) (350 -8371 -217)"
+			"plane" "(221.258 357.202 -191) (221.258 357.202 -217) (221.258 385.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4016,9 +3992,9 @@ entity
 		side
 		{
 			"id" "245"
-			"plane" "(352 -8371 -191) (352 -8371 -217) (352 -8399 -217)"
+			"plane" "(223.258 385.202 -191) (223.258 385.202 -217) (223.258 357.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4027,9 +4003,9 @@ entity
 		side
 		{
 			"id" "244"
-			"plane" "(352 -8399 -191) (352 -8399 -217) (350 -8399 -217)"
+			"plane" "(223.258 357.202 -191) (223.258 357.202 -217) (221.258 357.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4038,9 +4014,9 @@ entity
 		side
 		{
 			"id" "243"
-			"plane" "(350 -8371 -191) (350 -8371 -217) (352 -8371 -217)"
+			"plane" "(221.258 385.202 -191) (221.258 385.202 -217) (223.258 385.202 -217)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4049,10 +4025,10 @@ entity
 		side
 		{
 			"id" "242"
-			"plane" "(350 -8371 -217) (350 -8399 -217) (352 -8399 -217)"
+			"plane" "(221.258 385.202 -217) (221.258 357.202 -217) (223.258 357.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4060,10 +4036,10 @@ entity
 		side
 		{
 			"id" "241"
-			"plane" "(350 -8399 -191) (350 -8371 -191) (352 -8371 -191)"
+			"plane" "(221.258 357.202 -191) (221.258 385.202 -191) (223.258 385.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4081,9 +4057,9 @@ entity
 		side
 		{
 			"id" "252"
-			"plane" "(352 -8371 -191) (352 -8371 -217) (380 -8371 -217)"
+			"plane" "(223.258 385.202 -217) (251.258 385.202 -217) (251.258 385.202 -191)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4092,10 +4068,10 @@ entity
 		side
 		{
 			"id" "251"
-			"plane" "(352 -8371 -217) (352 -8397 -217) (380 -8397 -217)"
+			"plane" "(251.258 385.202 -217) (223.258 385.202 -217) (223.258 359.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4103,10 +4079,10 @@ entity
 		side
 		{
 			"id" "250"
-			"plane" "(352 -8397 -191) (352 -8371 -191) (380 -8371 -191)"
+			"plane" "(223.258 359.202 -191) (223.258 385.202 -191) (251.258 385.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4114,9 +4090,9 @@ entity
 		side
 		{
 			"id" "249"
-			"plane" "(352 -8397 -191) (352 -8397 -217) (352 -8371 -217)"
+			"plane" "(223.258 359.202 -217) (223.258 385.202 -217) (223.258 385.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[0 -1 0 80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4125,9 +4101,9 @@ entity
 		side
 		{
 			"id" "248"
-			"plane" "(380 -8371 -191) (380 -8371 -217) (380 -8397 -217)"
+			"plane" "(251.258 385.202 -191) (251.258 385.202 -217) (251.258 359.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -80.8086] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4136,9 +4112,9 @@ entity
 		side
 		{
 			"id" "247"
-			"plane" "(380 -8397 -191) (380 -8397 -217) (352 -8397 -217)"
+			"plane" "(251.258 359.202 -217) (223.258 359.202 -217) (223.258 359.202 -191)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[-1 0 0 -55] 0.2187"
+			"uaxis" "[-1 0 0 -3.66846] 0.2187"
 			"vaxis" "[0 0 -1 -22] 0.4062"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4157,10 +4133,10 @@ entity
 		side
 		{
 			"id" "258"
-			"plane" "(383.57 -8401.3 -225.121) (415.31 -8399.2 -220.471) (415.448 -8399 -223.459)"
+			"plane" "(254.829 354.901 -225.121) (254.688 354.701 -222.139) (286.568 357.001 -220.469)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9959 0.0738 0.0521 103] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -42] 0.33"
+			"uaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -4.2627] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4168,9 +4144,9 @@ entity
 		side
 		{
 			"id" "257"
-			"plane" "(381.239 -8373.7 -219.699) (413.251 -8371.1 -221) (413.113 -8371.3 -218.02)"
+			"plane" "(252.498 382.5 -219.701) (252.638 382.699 -222.67) (284.507 385.101 -221)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[0 -1 0 -405] 0.25"
+			"uaxis" "[0 -1 0 827.809] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4179,10 +4155,10 @@ entity
 		side
 		{
 			"id" "256"
-			"plane" "(383.43 -8401.5 -222.141) (383.57 -8401.3 -225.12) (381.38 -8373.5 -222.672)"
+			"plane" "(254.688 354.703 -222.138) (254.828 354.903 -225.12) (252.638 382.7 -222.67)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -292] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 227.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4190,10 +4166,10 @@ entity
 		side
 		{
 			"id" "255"
-			"plane" "(415.309 -8399.2 -220.47) (381.239 -8373.7 -219.7) (413.112 -8371.3 -218.021)"
+			"plane" "(286.57 357.001 -220.47) (254.69 354.702 -222.14) (252.499 382.502 -219.7)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.0782 0.9931 0.0872 180] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 359] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -339.406] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -176.975] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4201,10 +4177,10 @@ entity
 		side
 		{
 			"id" "254"
-			"plane" "(413.112 -8371.3 -218.02) (415.449 -8399 -223.457) (415.31 -8399.2 -220.469)"
+			"plane" "(284.37 384.901 -218) (284.509 385.102 -221) (286.707 357.202 -223.46)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.0782 0.9931 0.0872 180] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -339.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4212,10 +4188,10 @@ entity
 		side
 		{
 			"id" "253"
-			"plane" "(413.246 -8371.1 -221) (383.569 -8401.3 -225.12) (415.448 -8399 -223.459)"
+			"plane" "(284.51 385.102 -221) (252.636 382.701 -222.669) (254.829 354.901 -225.12)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -292] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 359] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 227.406] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -176.975] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4233,9 +4209,9 @@ entity
 		side
 		{
 			"id" "264"
-			"plane" "(350 -8399 -217) (350 -8399 -220) (350 -8371 -220)"
+			"plane" "(221.258 357.202 -217) (221.258 357.202 -220) (221.258 385.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4244,9 +4220,9 @@ entity
 		side
 		{
 			"id" "263"
-			"plane" "(382 -8371 -217) (382 -8371 -220) (382 -8399 -220)"
+			"plane" "(253.258 385.202 -217) (253.258 385.202 -220) (253.258 357.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4255,9 +4231,9 @@ entity
 		side
 		{
 			"id" "262"
-			"plane" "(382 -8399 -217) (382 -8399 -220) (350 -8399 -220)"
+			"plane" "(253.258 357.202 -217) (253.258 357.202 -220) (221.258 357.202 -220)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4266,9 +4242,9 @@ entity
 		side
 		{
 			"id" "261"
-			"plane" "(350 -8371 -217) (350 -8371 -220) (382 -8371 -220)"
+			"plane" "(221.258 385.202 -217) (221.258 385.202 -220) (253.258 385.202 -220)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4277,10 +4253,10 @@ entity
 		side
 		{
 			"id" "260"
-			"plane" "(350 -8371 -220) (350 -8399 -220) (382 -8399 -220)"
+			"plane" "(221.258 385.202 -220) (221.258 357.202 -220) (253.258 357.202 -220)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4288,10 +4264,10 @@ entity
 		side
 		{
 			"id" "259"
-			"plane" "(350 -8399 -217) (350 -8371 -217) (382 -8371 -217)"
+			"plane" "(221.258 357.202 -217) (221.258 385.202 -217) (253.258 385.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -136] 0.25"
-			"vaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[-1 0 0 -138.967] 0.25"
+			"vaxis" "[0 -1 0 404.809] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4309,9 +4285,9 @@ entity
 		side
 		{
 			"id" "270"
-			"plane" "(384.664 -8371 -184.629) (413.34 -8371 -159.368) (385.34 -8371 -158.638)"
+			"plane" "(255.919 385.202 -184.631) (283.91 385.202 -185.361) (284.602 385.202 -159.37)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4320,10 +4296,10 @@ entity
 		side
 		{
 			"id" "269"
-			"plane" "(413.34 -8397 -159.37) (385.34 -8371 -158.64) (413.34 -8371 -159.37)"
+			"plane" "(256.598 359.202 -158.64) (256.598 385.202 -158.64) (284.602 385.202 -159.37)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 -52] 0.25"
-			"vaxis" "[1 0 -0.0262 -5] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 -0.0262 126.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4331,10 +4307,10 @@ entity
 		side
 		{
 			"id" "268"
-			"plane" "(412.652 -8371 -185.36) (384.66 -8371 -184.63) (384.664 -8397 -184.63)"
+			"plane" "(283.909 385.202 -185.36) (255.918 385.202 -184.63) (255.918 359.202 -184.63)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -60] 0.25"
-			"vaxis" "[1 0 -0.0262 -5] 0.2499"
+			"uaxis" "[0 -1 0 20.8086] 0.25"
+			"vaxis" "[1 0 -0.0262 126.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4342,10 +4318,10 @@ entity
 		side
 		{
 			"id" "267"
-			"plane" "(413.34 -8371 -159.367) (412.65 -8371 -185.36) (412.65 -8397 -185.363)"
+			"plane" "(284.598 385.202 -159.37) (283.908 385.202 -185.36) (283.908 359.202 -185.36)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-0.0265 0 -1 0] 0.25"
+			"uaxis" "[0 1 0 -80.8086] 0.25"
+			"vaxis" "[-0.0265 0 -1 -13.6466] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4353,10 +4329,10 @@ entity
 		side
 		{
 			"id" "266"
-			"plane" "(385.34 -8397 -158.637) (384.66 -8397 -184.63) (384.66 -8371 -184.633)"
+			"plane" "(255.918 359.202 -184.63) (255.918 385.202 -184.63) (256.598 385.202 -158.641)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-0.0262 0 -1 0] 0.25"
+			"uaxis" "[0 -1 0 80.8086] 0.25"
+			"vaxis" "[-0.0262 0 -1 -13.4921] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4364,10 +4340,10 @@ entity
 		side
 		{
 			"id" "265"
-			"plane" "(412.652 -8397 -185.361) (385.34 -8397 -158.64) (413.344 -8397 -159.37)"
+			"plane" "(283.91 359.202 -185.359) (255.918 359.202 -184.629) (256.599 359.202 -158.64)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[-1 0 0.0262 -13] 0.2188"
-			"vaxis" "[-0.0262 0 -1 -46] 0.4063"
+			"uaxis" "[-1 0 0.0262 -89.3994] 0.2188"
+			"vaxis" "[-0.0262 0 -1 -54.3018] 0.4063"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4385,10 +4361,10 @@ entity
 		side
 		{
 			"id" "276"
-			"plane" "(350 -8401.91 -186.059) (350 -8401.71 -189.051) (350 -8373.8 -186.852)"
+			"plane" "(221.258 354.3 -186.062) (221.258 354.5 -189) (221.258 382.404 -186.85)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4396,10 +4372,10 @@ entity
 		side
 		{
 			"id" "275"
-			"plane" "(382 -8374 -183.859) (382 -8401.7 -189.055) (382 -8401.9 -186.06)"
+			"plane" "(253.258 382.202 -183.862) (253.258 382.403 -186.85) (253.258 354.5 -189)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4407,10 +4383,10 @@ entity
 		side
 		{
 			"id" "274"
-			"plane" "(382 -8401.9 -186.059) (382 -8401.7 -189.055) (350 -8401.7 -189.051)"
+			"plane" "(253.258 354.302 -186.06) (253.258 354.502 -189.05) (221.258 354.503 -189.05)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 18] 0.33"
+			"uaxis" "[1 0 0 10.9672] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -16.9148] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4418,10 +4394,10 @@ entity
 		side
 		{
 			"id" "273"
-			"plane" "(350 -8374 -183.855) (350 -8373.8 -186.848) (382 -8373.8 -186.848)"
+			"plane" "(221.258 382.202 -183.86) (221.258 382.404 -186.851) (253.258 382.404 -186.851)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0668 -0.9978 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0668 -0.9978 -291.657] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4429,10 +4405,10 @@ entity
 		side
 		{
 			"id" "272"
-			"plane" "(350 -8373.8 -186.85) (382 -8401.7 -189.05) (382 -8373.8 -186.85)"
+			"plane" "(221.258 382.403 -186.85) (221.258 354.498 -189.05) (253.258 354.498 -189.05)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -0.9969 -0.0785 -283] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 -0.9969 -0.0785 329.234] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4440,10 +4416,10 @@ entity
 		side
 		{
 			"id" "271"
-			"plane" "(350 -8401.9 -186.06) (382 -8374 -183.86) (382 -8401.9 -186.06)"
+			"plane" "(221.258 354.299 -186.06) (221.258 382.202 -183.86) (253.258 382.202 -183.86)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -136] 0.25"
-			"vaxis" "[0 -0.9969 -0.0785 -283] 0.25"
+			"uaxis" "[-1 0 0 -138.967] 0.25"
+			"vaxis" "[0 -0.9969 -0.0785 329.234] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4461,10 +4437,10 @@ entity
 		side
 		{
 			"id" "282"
-			"plane" "(384.749 -8398.9 -251) (383.569 -8401.3 -225.121) (385.56 -8401.1 -225.021)"
+			"plane" "(256.009 357.304 -251) (254.829 354.904 -225.122) (256.819 355.104 -225)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9959 0.0738 0.0521 103] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -42] 0.33"
+			"uaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -4.2627] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4472,9 +4448,9 @@ entity
 		side
 		{
 			"id" "281"
-			"plane" "(381.38 -8373.5 -222.684) (382.56 -8371.1 -248.56) (383.37 -8373.3 -222.583)"
+			"plane" "(252.637 382.704 -222.679) (253.817 385.104 -248.56) (255.8 385.302 -248.432)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[0 -1 0 -405] 0.25"
+			"uaxis" "[0 -1 0 827.809] 0.25"
 			"vaxis" "[0 0 -1 -256] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4483,10 +4459,10 @@ entity
 		side
 		{
 			"id" "280"
-			"plane" "(383.57 -8401.3 -225.117) (384.75 -8398.9 -251) (382.56 -8371.1 -248.559)"
+			"plane" "(254.828 354.902 -225.119) (256.008 357.302 -251) (253.818 385.102 -248.56)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -292] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 227.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4494,10 +4470,10 @@ entity
 		side
 		{
 			"id" "279"
-			"plane" "(385.56 -8401.1 -225.02) (381.381 -8373.5 -222.68) (383.37 -8373.3 -222.58)"
+			"plane" "(256.818 355.105 -225) (254.828 354.905 -225.12) (252.638 382.703 -222.68)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-0.0782 0.9931 0.0872 52] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 103] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -83.4063] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4505,10 +4481,10 @@ entity
 		side
 		{
 			"id" "278"
-			"plane" "(384.542 -8370.9 -248.432) (384.748 -8398.9 -251) (386.732 -8398.7 -250.872)"
+			"plane" "(255.801 385.297 -248.432) (253.817 385.1 -248.56) (256.009 357.301 -251)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.0782 -0.9931 -0.0872 -36] 0.25"
-			"vaxis" "[0.9959 0.0738 0.0521 103] 0.25"
+			"uaxis" "[0.0782 -0.9931 -0.0872 99.4063] 0.25"
+			"vaxis" "[0.9959 0.0738 0.0521 -48.9751] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4516,10 +4492,10 @@ entity
 		side
 		{
 			"id" "277"
-			"plane" "(383.37 -8373.3 -222.578) (384.542 -8370.9 -248.432) (386.733 -8398.71 -250.873)"
+			"plane" "(254.628 382.901 -222.581) (255.8 385.299 -248.432) (257.991 357.499 -250.872)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.0782 0.9931 0.0872 180] 0.25"
-			"vaxis" "[0.0453 0.0909 -0.9948 -76] 0.25"
+			"uaxis" "[-0.0782 0.9931 0.0872 -339.406] 0.25"
+			"vaxis" "[0.0453 0.0909 -0.9948 -164.427] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4537,10 +4513,10 @@ entity
 		side
 		{
 			"id" "288"
-			"plane" "(317.34 -8398.8 -225.625) (318.7 -8371.1 -249.703) (317.34 -8372.9 -223.801)"
+			"plane" "(188.598 357.402 -225.622) (189.958 359.202 -251.52) (189.958 385.104 -249.702)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9976 -0.0698 -48] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -21] 0.25"
+			"uaxis" "[0 -0.9976 -0.0698 76.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -3.29639] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4548,10 +4524,10 @@ entity
 		side
 		{
 			"id" "287"
-			"plane" "(346.652 -8397.1 -250.06) (317.336 -8398.8 -225.625) (345.297 -8398.9 -224.165)"
+			"plane" "(217.92 359.103 -250.058) (189.956 359.202 -251.52) (188.596 357.402 -225.621)"
 			"material" "EFFECTS/SCREEN_MONITOR_BLANK"
-			"uaxis" "[0.9986 -0.0037 0.0522 1] 0.2187"
-			"vaxis" "[0.0523 0.0697 -0.9962 14] 0.4062"
+			"uaxis" "[0.9986 -0.0037 0.0522 96.9831] 0.2187"
+			"vaxis" "[0.0523 0.0697 -0.9962 -63.9038] 0.4062"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4559,10 +4535,10 @@ entity
 		side
 		{
 			"id" "286"
-			"plane" "(318.699 -8371.1 -249.703) (345.297 -8373 -222.342) (317.34 -8372.9 -223.801)"
+			"plane" "(188.597 383.301 -223.8) (189.957 385.102 -249.702) (217.918 385.002 -248.24)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0693 -0.9976 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0693 -0.9976 -379.219] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4570,10 +4546,10 @@ entity
 		side
 		{
 			"id" "285"
-			"plane" "(345.297 -8398.9 -224.161) (317.34 -8398.8 -225.62) (317.34 -8372.9 -223.8)"
+			"plane" "(216.557 357.303 -224.161) (188.599 357.403 -225.62) (188.599 383.303 -223.8)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9976 0.0698 -64] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -60.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4581,10 +4557,10 @@ entity
 		side
 		{
 			"id" "284"
-			"plane" "(346.656 -8371.2 -248.24) (318.7 -8371.1 -249.702) (318.699 -8397 -251.52)"
+			"plane" "(217.918 385.003 -248.24) (189.958 385.103 -249.702) (189.957 359.202 -251.52)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9976 -0.0698 -48] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
+			"uaxis" "[0 -0.9976 -0.0698 76.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4592,10 +4568,10 @@ entity
 		side
 		{
 			"id" "283"
-			"plane" "(345.3 -8373 -222.34) (346.66 -8371.2 -248.24) (346.66 -8397.1 -250.059)"
+			"plane" "(216.558 383.202 -222.342) (217.918 385.003 -248.24) (217.918 359.102 -250.059)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9976 0.0698 -64] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -21] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -60.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -3.29639] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4613,10 +4589,10 @@ entity
 		side
 		{
 			"id" "294"
-			"plane" "(350 -8404.2 -157.148) (350 -8404 -160.14) (350 -8376.1 -157.938)"
+			"plane" "(221.258 352 -157.149) (221.258 352.202 -160.14) (221.258 380.101 -157.94)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4624,10 +4600,10 @@ entity
 		side
 		{
 			"id" "293"
-			"plane" "(382 -8404 -160.137) (382 -8376.3 -154.949) (382 -8376.1 -157.94)"
+			"plane" "(253.258 352.202 -160.139) (253.258 352 -157.149) (253.258 379.902 -154.949)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 -165] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -354.448] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4635,10 +4611,10 @@ entity
 		side
 		{
 			"id" "292"
-			"plane" "(382 -8404.2 -157.152) (382 -8404 -160.14) (350 -8404 -160.137)"
+			"plane" "(253.258 352.003 -157.15) (253.258 352.202 -160.14) (221.258 352.202 -160.139)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
-			"vaxis" "[0 0.0785 -0.9969 18] 0.33"
+			"uaxis" "[1 0 0 10.9672] 0.25"
+			"vaxis" "[0 0.0785 -0.9969 -16.9148] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4646,10 +4622,10 @@ entity
 		side
 		{
 			"id" "291"
-			"plane" "(350 -8404.2 -157.15) (350 -8376.3 -154.95) (382 -8376.3 -154.95)"
+			"plane" "(221.258 352.001 -157.15) (221.258 379.901 -154.95) (253.258 379.9 -155)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9969 0.0785 171] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 0.9969 0.0785 -441.234] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4657,10 +4633,10 @@ entity
 		side
 		{
 			"id" "290"
-			"plane" "(350 -8376.3 -154.953) (382 -8376.1 -157.941) (382 -8376.3 -154.945)"
+			"plane" "(221.258 379.903 -155) (221.258 380.104 -157.94) (253.258 380.104 -157.939)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0667 -0.9978 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0667 -0.9978 -288.155] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4668,10 +4644,10 @@ entity
 		side
 		{
 			"id" "289"
-			"plane" "(350 -8376.1 -157.94) (382 -8404 -160.14) (382 -8376.1 -157.94)"
+			"plane" "(221.258 380.1 -157.94) (221.258 352.202 -160.14) (253.258 352.202 -160.14)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -136] 0.25"
-			"vaxis" "[0 0.9969 0.0785 171] 0.25"
+			"uaxis" "[-1 0 0 -138.967] 0.25"
+			"vaxis" "[0 0.9969 0.0785 -441.234] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4689,10 +4665,10 @@ entity
 		side
 		{
 			"id" "300"
-			"plane" "(384.66 -8399 -184.632) (382.671 -8399 -184.582) (385.34 -8399 -158.64)"
+			"plane" "(255.92 357.202 -184.629) (253.928 357.202 -184.579) (254.608 357.202 -158.591)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 -0.0262 -14] 0.2499"
-			"vaxis" "[-0.0262 0 -1 -26] 0.3299"
+			"uaxis" "[1 0 -0.0262 117.173] 0.2499"
+			"vaxis" "[-0.0262 0 -1 -36.2244] 0.3299"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4700,9 +4676,9 @@ entity
 		side
 		{
 			"id" "299"
-			"plane" "(383.351 -8371 -158.59) (382.671 -8371 -184.58) (384.66 -8371 -184.63)"
+			"plane" "(254.608 385.202 -158.591) (253.928 385.202 -184.58) (255.918 385.202 -184.63)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4711,10 +4687,10 @@ entity
 		side
 		{
 			"id" "298"
-			"plane" "(383.35 -8399 -158.594) (382.67 -8371 -184.582) (383.35 -8371 -158.59)"
+			"plane" "(254.608 357.202 -158.59) (253.928 357.202 -184.58) (253.928 385.202 -184.58)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4722,10 +4698,10 @@ entity
 		side
 		{
 			"id" "297"
-			"plane" "(385.34 -8399 -158.64) (383.352 -8371 -158.59) (385.34 -8371 -158.64)"
+			"plane" "(256.6 357.202 -158.64) (254.608 357.202 -158.59) (254.608 385.202 -158.59)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 1 0 -52] 0.25"
-			"vaxis" "[1 0 -0.0262 -5] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 -0.0262 126.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4733,10 +4709,10 @@ entity
 		side
 		{
 			"id" "296"
-			"plane" "(384.66 -8371 -184.63) (382.672 -8371 -184.58) (382.672 -8399 -184.58)"
+			"plane" "(255.92 385.202 -184.63) (253.928 385.202 -184.58) (253.928 357.202 -184.58)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -1 0 -60] 0.25"
-			"vaxis" "[1 0 -0.0262 -5] 0.2499"
+			"uaxis" "[0 -1 0 20.8086] 0.25"
+			"vaxis" "[1 0 -0.0262 126.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4744,10 +4720,10 @@ entity
 		side
 		{
 			"id" "295"
-			"plane" "(385.34 -8371 -158.645) (384.66 -8399 -184.633) (385.34 -8399 -158.637)"
+			"plane" "(256.598 385.202 -158.639) (255.919 385.202 -184.63) (255.918 357.202 -184.632)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 -1 0 404.809] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4765,10 +4741,10 @@ entity
 		side
 		{
 			"id" "306"
-			"plane" "(315.343 -8400.8 -225.859) (347.14 -8401.1 -221.205) (347.3 -8400.9 -224.19)"
+			"plane" "(186.599 355.402 -225.858) (186.439 355.202 -222.869) (218.398 355.103 -221.199)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 58] 0.33"
+			"uaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -107.012] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4776,10 +4752,10 @@ entity
 		side
 		{
 			"id" "305"
-			"plane" "(315.181 -8373.1 -220.918) (315.341 -8372.9 -223.91) (347.141 -8373.2 -219.248)"
+			"plane" "(186.439 383.102 -220.918) (186.599 383.301 -223.91) (218.557 383.202 -222.239)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0.0664 -0.9978 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
+			"vaxis" "[0 0.0664 -0.9978 -277.647] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4787,10 +4763,10 @@ entity
 		side
 		{
 			"id" "304"
-			"plane" "(315.18 -8401 -222.875) (315.34 -8372.9 -223.91) (315.18 -8373.1 -220.918)"
+			"plane" "(186.438 355.202 -222.868) (186.598 355.401 -225.86) (186.598 383.301 -223.911)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4798,10 +4774,10 @@ entity
 		side
 		{
 			"id" "303"
-			"plane" "(347.137 -8401.1 -221.199) (315.18 -8373.1 -220.919) (347.14 -8373.2 -219.249)"
+			"plane" "(218.397 355.104 -221.199) (186.439 355.202 -222.869) (186.439 383.104 -220.919)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 73] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 204.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4809,10 +4785,10 @@ entity
 		side
 		{
 			"id" "302"
-			"plane" "(347.14 -8373.2 -219.25) (347.3 -8400.9 -224.191) (347.14 -8401.1 -221.199)"
+			"plane" "(218.398 383.001 -219.249) (218.558 383.202 -222.24) (218.558 355.302 -224.191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4820,10 +4796,10 @@ entity
 		side
 		{
 			"id" "301"
-			"plane" "(347.297 -8373 -222.24) (315.34 -8372.9 -223.91) (347.3 -8400.9 -224.19)"
+			"plane" "(218.557 383.202 -222.24) (186.599 383.302 -223.91) (186.597 355.402 -225.86)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-0.9986 0.0037 -0.0522 -201] 0.25"
-			"vaxis" "[0 0.9976 0.0698 192] 0.25"
+			"uaxis" "[-0.9986 0.0037 -0.0522 -332.838] 0.25"
+			"vaxis" "[0 0.9976 0.0698 -444.75] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4841,9 +4817,9 @@ entity
 		side
 		{
 			"id" "312"
-			"plane" "(348 -8371 -191) (348 -8371 -217) (350 -8371 -217)"
+			"plane" "(219.258 385.202 -217) (221.258 385.202 -217) (221.258 385.202 -191)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4852,10 +4828,10 @@ entity
 		side
 		{
 			"id" "311"
-			"plane" "(348 -8371 -217) (348 -8399 -217) (350 -8399 -217)"
+			"plane" "(221.258 385.202 -217) (219.258 385.202 -217) (219.258 357.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4863,10 +4839,10 @@ entity
 		side
 		{
 			"id" "310"
-			"plane" "(348 -8399 -191) (348 -8371 -191) (350 -8371 -191)"
+			"plane" "(219.258 357.202 -191) (219.258 385.202 -191) (221.258 385.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4874,9 +4850,9 @@ entity
 		side
 		{
 			"id" "309"
-			"plane" "(348 -8399 -191) (348 -8399 -217) (348 -8371 -217)"
+			"plane" "(219.258 357.202 -217) (219.258 385.202 -217) (219.258 385.202 -191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4885,9 +4861,9 @@ entity
 		side
 		{
 			"id" "308"
-			"plane" "(350 -8371 -191) (350 -8371 -217) (350 -8399 -217)"
+			"plane" "(221.258 385.202 -191) (221.258 385.202 -217) (221.258 357.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4896,9 +4872,9 @@ entity
 		side
 		{
 			"id" "307"
-			"plane" "(350 -8399 -191) (350 -8399 -217) (348 -8399 -217)"
+			"plane" "(221.258 357.202 -217) (219.258 357.202 -217) (219.258 357.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4917,9 +4893,9 @@ entity
 		side
 		{
 			"id" "318"
-			"plane" "(350 -8399 -188) (350 -8399 -191) (350 -8371 -191)"
+			"plane" "(221.258 357.202 -188) (221.258 357.202 -191) (221.258 385.202 -191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4928,9 +4904,9 @@ entity
 		side
 		{
 			"id" "317"
-			"plane" "(382 -8371 -188) (382 -8371 -191) (382 -8399 -191)"
+			"plane" "(253.258 385.202 -188) (253.258 385.202 -191) (253.258 357.202 -191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4939,9 +4915,9 @@ entity
 		side
 		{
 			"id" "316"
-			"plane" "(382 -8399 -188) (382 -8399 -191) (350 -8399 -191)"
+			"plane" "(253.258 357.202 -188) (253.258 357.202 -191) (221.258 357.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4950,9 +4926,9 @@ entity
 		side
 		{
 			"id" "315"
-			"plane" "(350 -8371 -188) (350 -8371 -191) (382 -8371 -191)"
+			"plane" "(221.258 385.202 -188) (221.258 385.202 -191) (253.258 385.202 -191)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4961,10 +4937,10 @@ entity
 		side
 		{
 			"id" "314"
-			"plane" "(350 -8371 -191) (350 -8399 -191) (382 -8399 -191)"
+			"plane" "(221.258 385.202 -191) (221.258 357.202 -191) (253.258 357.202 -191)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -136] 0.25"
-			"vaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[-1 0 0 -138.967] 0.25"
+			"vaxis" "[0 1 0 -4.80859] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4972,10 +4948,10 @@ entity
 		side
 		{
 			"id" "313"
-			"plane" "(350 -8399 -188) (350 -8371 -188) (382 -8371 -188)"
+			"plane" "(221.258 357.202 -188) (221.258 385.202 -188) (253.258 385.202 -188)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 0 10.9672] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -4993,9 +4969,9 @@ entity
 		side
 		{
 			"id" "324"
-			"plane" "(318 -8399 -191) (318 -8399 -217) (318 -8371 -217)"
+			"plane" "(189.258 357.202 -191) (189.258 357.202 -217) (189.258 385.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5004,9 +4980,9 @@ entity
 		side
 		{
 			"id" "323"
-			"plane" "(320 -8371 -191) (320 -8371 -217) (320 -8399 -217)"
+			"plane" "(191.258 385.202 -191) (191.258 385.202 -217) (191.258 357.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 -1 0 -316] 0.25"
+			"uaxis" "[0 -1 0 404.809] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5015,9 +4991,9 @@ entity
 		side
 		{
 			"id" "322"
-			"plane" "(320 -8399 -191) (320 -8399 -217) (318 -8399 -217)"
+			"plane" "(191.258 357.202 -191) (191.258 357.202 -217) (189.258 357.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5026,9 +5002,9 @@ entity
 		side
 		{
 			"id" "321"
-			"plane" "(318 -8371 -191) (318 -8371 -217) (320 -8371 -217)"
+			"plane" "(189.258 385.202 -191) (189.258 385.202 -217) (191.258 385.202 -217)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5037,10 +5013,10 @@ entity
 		side
 		{
 			"id" "320"
-			"plane" "(318 -8371 -217) (318 -8399 -217) (320 -8399 -217)"
+			"plane" "(189.258 385.202 -217) (189.258 357.202 -217) (191.258 357.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5048,10 +5024,10 @@ entity
 		side
 		{
 			"id" "319"
-			"plane" "(318 -8399 -191) (318 -8371 -191) (320 -8371 -191)"
+			"plane" "(189.258 357.202 -191) (189.258 385.202 -191) (191.258 385.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5069,10 +5045,10 @@ entity
 		side
 		{
 			"id" "330"
-			"plane" "(347.302 -8400.9 -224.191) (346.66 -8399.1 -250.2) (345.301 -8400.9 -224.301)"
+			"plane" "(218.56 355.302 -224.19) (219.918 357.103 -250.09) (217.919 357.103 -250.2)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 58] 0.33"
+			"uaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -107.012] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5080,10 +5056,10 @@ entity
 		side
 		{
 			"id" "329"
-			"plane" "(346.66 -8371.2 -248.251) (347.301 -8373 -222.23) (345.299 -8373 -222.34)"
+			"plane" "(217.919 385.002 -248.249) (219.917 385.002 -248.139) (218.559 383.202 -222.231)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 -0.0038 0 0] 0.25"
-			"vaxis" "[0 0.0691 -0.9976 0] 0.25"
+			"uaxis" "[-1 -0.0038 0 -381.873] 0.25"
+			"vaxis" "[0 0.0691 -0.9976 -372.214] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5091,10 +5067,10 @@ entity
 		side
 		{
 			"id" "328"
-			"plane" "(347.301 -8373 -222.234) (348.659 -8371.2 -248.14) (347.302 -8400.9 -224.191)"
+			"plane" "(218.559 383.202 -222.232) (219.917 385.002 -248.14) (219.918 357.102 -250.09)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5102,10 +5078,10 @@ entity
 		side
 		{
 			"id" "327"
-			"plane" "(347.305 -8400.9 -224.19) (345.3 -8400.9 -224.3) (345.297 -8373 -222.34)"
+			"plane" "(218.56 355.302 -224.19) (216.558 355.302 -224.3) (216.556 383.202 -222.34)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 0.9976 0.0698 -64] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -60.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5113,10 +5089,10 @@ entity
 		side
 		{
 			"id" "326"
-			"plane" "(348.656 -8371.2 -248.14) (346.656 -8399.1 -250.2) (348.66 -8399.1 -250.09)"
+			"plane" "(219.918 385.001 -248.14) (217.918 385.001 -248.25) (217.918 357.101 -250.2)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[0 -0.9976 -0.0698 -48] 0.25"
-			"vaxis" "[0.9986 -0.0037 0.0522 -55] 0.25"
+			"uaxis" "[0 -0.9976 -0.0698 76.75] 0.25"
+			"vaxis" "[0.9986 -0.0037 0.0522 76.838] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5124,10 +5100,10 @@ entity
 		side
 		{
 			"id" "325"
-			"plane" "(345.3 -8400.9 -224.297) (346.66 -8371.2 -248.25) (345.299 -8373 -222.344)"
+			"plane" "(216.558 355.302 -224.301) (217.919 357.103 -250.2) (217.918 385.002 -248.249)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 0.9976 0.0698 192] 0.25"
-			"vaxis" "[0.0523 0.0697 -0.9962 -277] 0.25"
+			"uaxis" "[0 0.9976 0.0698 -444.75] 0.25"
+			"vaxis" "[0.0523 0.0697 -0.9962 -131.296] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5145,9 +5121,9 @@ entity
 		side
 		{
 			"id" "336"
-			"plane" "(380 -8399 -223) (380 -8399 -249) (380 -8371 -249)"
+			"plane" "(251.258 357.202 -223) (251.258 357.202 -249) (251.258 385.202 -249)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5156,9 +5132,9 @@ entity
 		side
 		{
 			"id" "335"
-			"plane" "(382 -8371 -223) (382 -8371 -249) (382 -8399 -249)"
+			"plane" "(253.258 385.202 -223) (253.258 385.202 -249) (253.258 357.202 -249)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -496] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5167,9 +5143,9 @@ entity
 		side
 		{
 			"id" "334"
-			"plane" "(382 -8399 -223) (382 -8399 -249) (380 -8399 -249)"
+			"plane" "(253.258 357.202 -223) (253.258 357.202 -249) (251.258 357.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -124] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5178,9 +5154,9 @@ entity
 		side
 		{
 			"id" "333"
-			"plane" "(380 -8371 -223) (380 -8371 -249) (382 -8371 -249)"
+			"plane" "(251.258 385.202 -223) (251.258 385.202 -249) (253.258 385.202 -249)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5189,10 +5165,10 @@ entity
 		side
 		{
 			"id" "332"
-			"plane" "(380 -8371 -249) (380 -8399 -249) (382 -8399 -249)"
+			"plane" "(251.258 385.202 -249) (251.258 357.202 -249) (253.258 357.202 -249)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5200,10 +5176,10 @@ entity
 		side
 		{
 			"id" "331"
-			"plane" "(380 -8399 -223) (380 -8371 -223) (382 -8371 -223)"
+			"plane" "(251.258 357.202 -223) (251.258 385.202 -223) (253.258 385.202 -223)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5221,9 +5197,9 @@ entity
 		side
 		{
 			"id" "342"
-			"plane" "(318 -8399 -156) (318 -8399 -159) (318 -8371 -159)"
+			"plane" "(189.258 357.202 -156) (189.258 357.202 -159) (189.258 385.202 -159)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5232,9 +5208,9 @@ entity
 		side
 		{
 			"id" "341"
-			"plane" "(350 -8371 -156) (350 -8371 -159) (350 -8399 -159)"
+			"plane" "(221.258 385.202 -156) (221.258 385.202 -159) (221.258 357.202 -159)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -240] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5243,9 +5219,9 @@ entity
 		side
 		{
 			"id" "340"
-			"plane" "(350 -8399 -156) (350 -8399 -159) (318 -8399 -159)"
+			"plane" "(221.258 357.202 -156) (221.258 357.202 -159) (189.258 357.202 -159)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -58] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5254,9 +5230,9 @@ entity
 		side
 		{
 			"id" "339"
-			"plane" "(318 -8371 -156) (318 -8371 -159) (350 -8371 -159)"
+			"plane" "(189.258 385.202 -156) (189.258 385.202 -159) (221.258 385.202 -159)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5265,10 +5241,10 @@ entity
 		side
 		{
 			"id" "338"
-			"plane" "(318 -8371 -159) (318 -8399 -159) (350 -8399 -159)"
+			"plane" "(189.258 385.202 -159) (189.258 357.202 -159) (221.258 357.202 -159)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0 -264] 0.25"
-			"vaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[-1 0 0 -266.967] 0.25"
+			"vaxis" "[0 1 0 -4.80859] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5276,10 +5252,10 @@ entity
 		side
 		{
 			"id" "337"
-			"plane" "(318 -8399 -156) (318 -8371 -156) (350 -8371 -156)"
+			"plane" "(189.258 357.202 -156) (189.258 385.202 -156) (221.258 385.202 -156)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[1 0 0 136] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 0 138.967] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5297,9 +5273,9 @@ entity
 		side
 		{
 			"id" "348"
-			"plane" "(382 -8371 -191) (382 -8371 -217) (382 -8399 -217)"
+			"plane" "(253.258 385.202 -191) (253.258 385.202 -217) (253.258 357.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5308,9 +5284,9 @@ entity
 		side
 		{
 			"id" "347"
-			"plane" "(382 -8399 -191) (382 -8399 -217) (380 -8399 -217)"
+			"plane" "(253.258 357.202 -191) (253.258 357.202 -217) (251.258 357.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 10.9672] 0.25"
 			"vaxis" "[0 0 -1 -27] 0.33"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5319,9 +5295,9 @@ entity
 		side
 		{
 			"id" "346"
-			"plane" "(380 -8371 -191) (380 -8371 -217) (382 -8371 -217)"
+			"plane" "(251.258 385.202 -217) (253.258 385.202 -217) (253.258 385.202 -191)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5330,10 +5306,10 @@ entity
 		side
 		{
 			"id" "345"
-			"plane" "(380 -8371 -217) (380 -8399 -217) (382 -8399 -217)"
+			"plane" "(251.258 357.202 -217) (253.258 357.202 -217) (253.258 385.202 -217)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 -2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5341,10 +5317,10 @@ entity
 		side
 		{
 			"id" "344"
-			"plane" "(380 -8399 -191) (380 -8371 -191) (382 -8371 -191)"
+			"plane" "(251.258 385.202 -191) (253.258 385.202 -191) (253.258 357.202 -191)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 2.96716] 0.25"
+			"vaxis" "[0 -1 0 80.8086] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5352,9 +5328,9 @@ entity
 		side
 		{
 			"id" "343"
-			"plane" "(380 -8399 -191) (380 -8399 -217) (380 -8371 -217)"
+			"plane" "(251.258 357.202 -191) (251.258 357.202 -217) (251.258 385.202 -217)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
 			"vaxis" "[0 0 -1 -368] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5373,10 +5349,10 @@ entity
 		side
 		{
 			"id" "354"
-			"plane" "(415.328 -8371 -159.42) (383.348 -8371 -158.59) (383.352 -8399 -158.59)"
+			"plane" "(286.59 385.202 -159.42) (254.608 385.202 -158.59) (254.608 357.202 -158.59)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[-1 0 0.0262 5] 0.2499"
-			"vaxis" "[0 1 0 204] 0.25"
+			"uaxis" "[-1 0 0.0262 -510.173] 0.2499"
+			"vaxis" "[0 1 0 -4.80859] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5384,10 +5360,10 @@ entity
 		side
 		{
 			"id" "353"
-			"plane" "(383.35 -8399 -158.59) (383.42 -8399 -155.59) (415.41 -8399 -156.42)"
+			"plane" "(286.589 357.202 -159.42) (254.609 357.202 -158.59) (254.679 357.202 -155.59)"
 			"material" "PROPS/TVSCREEN001A"
-			"uaxis" "[1 0 -0.0262 -14] 0.2499"
-			"vaxis" "[-0.0262 0 -1 -26] 0.3299"
+			"uaxis" "[1 0 -0.0262 117.173] 0.2499"
+			"vaxis" "[-0.0262 0 -1 -36.2244] 0.3299"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5395,9 +5371,9 @@ entity
 		side
 		{
 			"id" "352"
-			"plane" "(383.418 -8371 -155.594) (415.334 -8371 -159.42) (415.414 -8371 -156.424)"
+			"plane" "(254.679 385.202 -155.59) (254.609 385.202 -158.59) (286.588 385.202 -159.42)"
 			"material" "CONCRETE/CONCRETEWALL_BUNKER06A"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 -514.967] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -5406,10 +5382,10 @@ entity
 		side
 		{
 			"id" "351"
-			"plane" "(383.42 -8399 -155.59) (383.35 -8399 -158.59) (383.35 -8371 -158.59)"
+			"plane" "(254.678 357.202 -155.589) (254.608 357.202 -158.591) (254.608 385.202 -158.591)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5417,10 +5393,10 @@ entity
 		side
 		{
 			"id" "350"
-			"plane" "(415.41 -8399 -156.42) (383.418 -8399 -155.59) (383.422 -8371 -155.59)"
+			"plane" "(286.668 357.202 -156.42) (254.68 357.202 -155.59) (254.68 385.202 -155.59)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[1 0 -0.0262 379] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[1 0 -0.0262 382.173] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5428,10 +5404,10 @@ entity
 		side
 		{
 			"id" "349"
-			"plane" "(415.41 -8371 -156.422) (415.33 -8399 -159.42) (415.41 -8399 -156.421)"
+			"plane" "(286.668 385.202 -156.421) (286.588 385.202 -159.42) (286.588 357.202 -159.42)"
 			"material" "METAL/METALHULL003A"
-			"uaxis" "[0 1 0 204] 0.25"
-			"vaxis" "[-0.0262 0 -1 -196] 0.2499"
+			"uaxis" "[0 1 0 -4.80859] 0.25"
+			"vaxis" "[-0.0262 0 -1 -209.498] 0.2499"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -5446,7 +5422,6 @@ entity
 	editor
 	{
 		"color" "0 180 0"
-		"visgroupid" "37"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 -2268]"

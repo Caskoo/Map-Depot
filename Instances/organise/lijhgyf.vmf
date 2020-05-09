@@ -1,20 +1,28 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8061"
-	"mapversion" "2"
+	"editorbuild" "8163"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "4460566"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -24,6 +32,7 @@ entity
 	"disablereceiveshadows" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"HaloScale" "60"
 	"HDRColorScale" ".3"
 	"renderamt" "75"
@@ -33,7 +42,7 @@ entity
 	"spawnflags" "3"
 	"spotlightlength" "64"
 	"spotlightwidth" "70"
-	"origin" "7769 -2650 -628"
+	"origin" "1 -26 -24"
 	editor
 	{
 		"color" "220 30 220"
@@ -65,7 +74,7 @@ entity
 	"pitch" "74.4921"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "7769 -2650 -629"
+	"origin" "1 -26 -25"
 	editor
 	{
 		"color" "220 30 220"
@@ -78,7 +87,7 @@ entity
 {
 	"id" "4460574"
 	"classname" "prop_static"
-	"angles" "-35 90 180"
+	"angles" "-35 90 -180"
 	"disableselfshadowing" "1"
 	"disableshadows" "1"
 	"disablevertexlighting" "1"
@@ -97,12 +106,86 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "0"
-	"origin" "7768 -2656 -636"
+	"origin" "0 -32 -32"
 	editor
 	{
 		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-9768 -4268]"
+	}
+}
+entity
+{
+	"id" "4460584"
+	"classname" "prop_static"
+	"angles" "2.3135 1.7385 13.43"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1800"
+	"fademindist" "1400"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_silo/industriallight01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2.27246 38.0002 10.1563"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 7000]"
+	}
+}
+entity
+{
+	"id" "4460588"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "251 242 196 1500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "0.5"
+	"_quadratic_attn" "1"
+	"angles" "-76.3758 101.334 -99.8684"
+	"pitch" "-76.3758"
+	"spawnflags" "0"
+	"origin" "1.00049 43.2563 -11.8337"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "4460593"
+	"classname" "point_spotlight"
+	"angles" "75.8828 100.983 -80.4727"
+	"gmod_allowphysgun" "1"
+	"HDRColorScale" "0.5"
+	"renderamt" "255"
+	"rendercolor" "251 242 196"
+	"spawnflags" "3"
+	"spotlightlength" "800"
+	"spotlightwidth" "90"
+	"origin" "1.00049 43.2563 -11.8337"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3768]"
 	}
 }

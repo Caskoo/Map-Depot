@@ -2,19 +2,27 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "1"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "2640125"
-	"mapversion" "1"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -26,9 +34,9 @@ entity
 		side
 		{
 			"id" "23100"
-			"plane" "(-372.622 -9934 192) (-372.622 -9934 182.607) (-372.622 -9925 182.607)"
+			"plane" "(-256 -9 0) (-256 -9 -9.39301) (-256 0 -9.39301)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[0 -1 0 20] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -37,10 +45,10 @@ entity
 		side
 		{
 			"id" "23101"
-			"plane" "(-370.622 -9925 192) (-370.622 -9925 182.607) (-370.622 -9934 182.607)"
+			"plane" "(-254 0 0) (-254 0 -9.39301) (-254 -9 -9.39301)"
 			"material" "EFFECTS/SILODISPLAY_FORESTCAMS_001"
-			"uaxis" "[0 1 0 183] 0.09"
-			"vaxis" "[0 0 -1 -171] 0.09"
+			"uaxis" "[0 1 0 -14.7734] 0.09"
+			"vaxis" "[0 0 -1 -0.333252] 0.09"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -48,9 +56,9 @@ entity
 		side
 		{
 			"id" "23102"
-			"plane" "(-370.622 -9934 192) (-370.622 -9934 182.607) (-372.622 -9934 182.607)"
+			"plane" "(-254 -9 0) (-254 -9 -9.39301) (-256 -9 -9.39301)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 -18.488] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -59,9 +67,9 @@ entity
 		side
 		{
 			"id" "23103"
-			"plane" "(-372.622 -9925 192) (-372.622 -9925 182.607) (-370.622 -9925 182.607)"
+			"plane" "(-256 0 0) (-256 0 -9.39301) (-254 0 -9.39301)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[-1 0 0 18.488] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -70,10 +78,10 @@ entity
 		side
 		{
 			"id" "23104"
-			"plane" "(-372.622 -9925 182.607) (-372.622 -9934 182.607) (-370.622 -9934 182.607)"
+			"plane" "(-256 0 -9.39304) (-256 -9 -9.39304) (-254 -9 -9.39304)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[-1 0 0 18.488] 0.25"
+			"vaxis" "[0 -1 0 20] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -81,10 +89,10 @@ entity
 		side
 		{
 			"id" "23105"
-			"plane" "(-372.622 -9934 192) (-372.622 -9925 192) (-370.622 -9925 192)"
+			"plane" "(-256 -9 0) (-256 0 0) (-253.999 0 0)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 -18.488] 0.25"
+			"vaxis" "[0 -1 0 20] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -138,7 +146,7 @@ entity
 	"shadowcastdist" "0"
 	"skin" "0"
 	"spawnflags" "1802"
-	"origin" "-377 -9928.57 186.733"
+	"origin" "-260.378 -3.57031 -5.267"
 	editor
 	{
 		"color" "220 30 220"
