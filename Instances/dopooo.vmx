@@ -6,15 +6,23 @@ versioninfo
 	"formatversion" "100"
 	"prefab" "1"
 }
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
 world
 {
 	"id" "726636"
 	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -140,7 +148,6 @@ entity
 	"id" "726645"
 	"classname" "ttt_traitor_button"
 	"description" "Open/Close Traitor Room"
-	"origin" "45 -2647.01 125"
 	"RemoveOnPress" "0"
 	"spawnflags" "0"
 	"targetname" "TraitorRoom1_Door1_Button"
@@ -150,6 +157,7 @@ entity
 	{
 		"OnPressed" "TraitorRoom1_Door1,Toggle,,0,-1"
 	}
+	"origin" "45 -2647.01 125"
 	editor
 	{
 		"color" "220 30 220"
@@ -355,7 +363,6 @@ entity
 	editor
 	{
 		"color" "0 255 255"
-		"visgroupid" "0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -10268]"
