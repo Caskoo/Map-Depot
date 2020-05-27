@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7719"
-	"mapversion" "576"
+	"editorbuild" "8163"
+	"mapversion" "578"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "576"
+	"mapversion" "578"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -412,7 +412,7 @@ world
 		side
 		{
 			"id" "96"
-			"plane" "(-4096 320 128) (-4096 320 -6.67572e-06) (-4096 448 -6.67572e-06)"
+			"plane" "(-4096 320 128) (-4096 320 -6.67572e-006) (-4096 448 -6.67572e-006)"
 			"material" "DEV/DEV_MEASUREGENERIC01B"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 64] 0.25"
@@ -423,7 +423,7 @@ world
 		side
 		{
 			"id" "95"
-			"plane" "(-4088 448 128) (-4088 448 -6.67572e-06) (-4088 320 -6.67572e-06)"
+			"plane" "(-4088 448 128) (-4088 448 -6.67572e-006) (-4088 320 -6.67572e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 32] 0.25"
 			"vaxis" "[0 0 -1 32] 0.25"
@@ -434,7 +434,7 @@ world
 		side
 		{
 			"id" "94"
-			"plane" "(-4088 320 128) (-4088 320 -6.67572e-06) (-4096 320 -6.67572e-06)"
+			"plane" "(-4088 320 128) (-4088 320 -6.67572e-006) (-4096 320 -6.67572e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -445,7 +445,7 @@ world
 		side
 		{
 			"id" "93"
-			"plane" "(-4096 448 128) (-4096 448 -6.67572e-06) (-4088 448 -6.67572e-06)"
+			"plane" "(-4096 448 128) (-4096 448 -6.67572e-006) (-4088 448 -6.67572e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -456,7 +456,7 @@ world
 		side
 		{
 			"id" "92"
-			"plane" "(-4096 448 -6.67572e-06) (-4096 320 -6.67572e-06) (-4088 320 -6.67572e-06)"
+			"plane" "(-4096 448 -6.67572e-006) (-4096 320 -6.67572e-006) (-4088 320 -6.67572e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 32] 0.25"
@@ -4144,6 +4144,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"lightingorigin" "npc_lighting"
 	"MaxAnimTime" "10"
@@ -4183,6 +4184,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "1"
 	"eludedist" "1024"
+	"gmod_allowphysgun" "1"
 	"hintlimiting" "0"
 	"ignorebugbait" "No"
 	"ignoreunseenenemies" "0"
@@ -4222,6 +4224,7 @@ entity
 	"FieldOfView" "-1.0"
 	"freepass_movetolerance" "1"
 	"freepass_refillrate" "0.1"
+	"gmod_allowphysgun" "1"
 	"MaxSearchDist" "1000000"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -4307,6 +4310,7 @@ entity
 	"classname" "npc_fastzombie"
 	"angles" "0 270.5 0"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -4328,6 +4332,7 @@ entity
 	"classname" "npc_zombie"
 	"angles" "0 270.5 0"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -4351,6 +4356,7 @@ entity
 	"FieldOfView" "-1.0"
 	"freepass_movetolerance" "1"
 	"freepass_refillrate" "0.1"
+	"gmod_allowphysgun" "1"
 	"MaxSearchDist" "1000000"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -4375,6 +4381,7 @@ entity
 	"FieldOfView" "-1.0"
 	"freepass_movetolerance" "1"
 	"freepass_refillrate" "0.1"
+	"gmod_allowphysgun" "1"
 	"MaxSearchDist" "1000000"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -4399,6 +4406,7 @@ entity
 	"FieldOfView" "-1.0"
 	"freepass_movetolerance" "1"
 	"freepass_refillrate" "0.1"
+	"gmod_allowphysgun" "1"
 	"MaxSearchDist" "1000000"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -4421,6 +4429,7 @@ entity
 	"classname" "npc_zombine"
 	"angles" "0 270.5 0"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -4587,11 +4596,13 @@ entity
 {
 	"id" "534"
 	"classname" "logic_classunlock"
+	"bossesenabled" "1"
+	"class" "zombie"
 	"targetname" "class_unlock"
 	"origin" "-1016 8 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8000 -7268]"
@@ -4622,7 +4633,7 @@ entity
 	"origin" "-1016 24 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8000 -8268]"
@@ -4653,7 +4664,7 @@ entity
 	"origin" "-1016 56 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7500 -11268]"
@@ -4669,7 +4680,7 @@ entity
 	"origin" "-1016 72 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -2268]"
@@ -4679,11 +4690,15 @@ entity
 {
 	"id" "544"
 	"classname" "logic_winlose"
+	"endcamera" "1"
+	"endslowmo" "1"
+	"losemusic" "default"
 	"targetname" "winlose_logic"
+	"winmusic" "default"
 	"origin" "-1016 88 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 -1768]"
@@ -4811,6 +4826,7 @@ entity
 	"fogdir" "1 0 0"
 	"fogenable" "0"
 	"fogend" "2000.0"
+	"fogmaxdensity" "1"
 	"fogstart" "500.0"
 	"scale" "16"
 	"use_angles" "0"
@@ -4927,6 +4943,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"dmg" "0"
+	"gmod_allowphysgun" "1"
 	"height" "4"
 	"ManualAccelSpeed" "0"
 	"ManualDecelSpeed" "0"
@@ -5482,6 +5499,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"excludednpc" "npc_antlion"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "32"
 	"invert_exclusion" "0"
 	"origin" "-4328 552 48"
@@ -5586,6 +5604,7 @@ entity
 	"classname" "func_brush"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "-4408 568 48"
@@ -5691,6 +5710,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"dmg" "0"
+	"gmod_allowphysgun" "1"
 	"height" "0"
 	"ManualAccelSpeed" "0"
 	"ManualDecelSpeed" "0"
@@ -5855,6 +5875,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"dmg" "0"
+	"gmod_allowphysgun" "1"
 	"height" "0"
 	"ManualAccelSpeed" "0"
 	"ManualDecelSpeed" "0"
@@ -6211,6 +6232,7 @@ entity
 	"classname" "func_brush"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "0 -3008 0.5"
@@ -6412,12 +6434,14 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_fence01b.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -6451,12 +6475,14 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_fence01a.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -6484,6 +6510,7 @@ entity
 	"classname" "func_brush"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "0 -2688 0"
@@ -6717,7 +6744,7 @@ entity
 	"origin" "-1000 24 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8000 -8268]"
@@ -6746,7 +6773,7 @@ entity
 	"origin" "-984 24 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8000 -8268]"
@@ -6873,7 +6900,7 @@ entity
 	"origin" "-952 24 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -11268]"
@@ -6883,11 +6910,12 @@ entity
 {
 	"id" "5312"
 	"classname" "logic_startingloadout"
+	"redeemloadout" "weapon_zs_redeemers:1,weapon_zs_knife:1,item_ammo_pistol:2,weapon_zs_f_banana:1"
 	"startingloadout" "weapon_zs_inferno:1,item_ammo_ar2:50,item_box_buckshot:50"
 	"origin" "-936 24 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -11768]"
@@ -6913,6 +6941,7 @@ entity
 	"classname" "func_brush"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "0 1405.5 100"
@@ -7018,6 +7047,7 @@ entity
 	"FieldOfView" "-1.0"
 	"freepass_movetolerance" "1"
 	"freepass_refillrate" "0.1"
+	"gmod_allowphysgun" "1"
 	"MaxSearchDist" "1000000"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7059,6 +7089,7 @@ entity
 	"classname" "npc_manhack"
 	"angles" "0 270.5 0"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7082,6 +7113,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7105,6 +7137,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7128,6 +7161,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7151,6 +7185,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7174,6 +7209,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7197,6 +7233,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7221,6 +7258,7 @@ entity
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
 	"enemyfilter" "nozombie_filter"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7244,6 +7282,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7267,6 +7306,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7290,6 +7330,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7313,6 +7354,7 @@ entity
 	"angles" "0 270.5 0"
 	"damagefilter" "invincible_filter"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7335,6 +7377,7 @@ entity
 	"classname" "npc_manhack"
 	"angles" "0 270.5 0"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7357,6 +7400,7 @@ entity
 	"classname" "npc_manhack"
 	"angles" "0 270.5 0"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7379,6 +7423,7 @@ entity
 	"classname" "npc_manhack"
 	"angles" "0 270.5 0"
 	"disableshadows" "1"
+	"gmod_allowphysgun" "1"
 	"ignoreclipbrushes" "0"
 	"physdamagescale" "1.0"
 	"renderamt" "255"
@@ -7626,6 +7671,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"lightingorigin" "npc_lighting"
 	"MaxAnimTime" "10"
@@ -7704,6 +7750,7 @@ entity
 	"classname" "func_brush"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
+	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "0 1240 0"
@@ -7805,10 +7852,13 @@ entity
 {
 	"id" "6567"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-832 832 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7818,10 +7868,13 @@ entity
 {
 	"id" "6581"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-704 704 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7831,10 +7884,13 @@ entity
 {
 	"id" "6583"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-576 576 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7844,10 +7900,13 @@ entity
 {
 	"id" "6585"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-448 448 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7857,10 +7916,13 @@ entity
 {
 	"id" "6587"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-320 320 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7870,10 +7932,13 @@ entity
 {
 	"id" "6589"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-192 192 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7883,10 +7948,13 @@ entity
 {
 	"id" "6591"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-64 64 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7896,10 +7964,13 @@ entity
 {
 	"id" "6593"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "64 -64 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7909,10 +7980,13 @@ entity
 {
 	"id" "6595"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "192 -192 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7922,10 +7996,13 @@ entity
 {
 	"id" "6597"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "320 -320 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7935,10 +8012,13 @@ entity
 {
 	"id" "6599"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "448 -448 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7948,10 +8028,13 @@ entity
 {
 	"id" "6601"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "576 -576 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7961,10 +8044,13 @@ entity
 {
 	"id" "6603"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "704 -704 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7974,10 +8060,13 @@ entity
 {
 	"id" "6605"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "832 -832 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -7987,10 +8076,13 @@ entity
 {
 	"id" "6611"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "832 832 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8000,10 +8092,13 @@ entity
 {
 	"id" "6613"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "704 704 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8013,10 +8108,13 @@ entity
 {
 	"id" "6615"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "576 576 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8026,10 +8124,13 @@ entity
 {
 	"id" "6617"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "448 448 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8039,10 +8140,13 @@ entity
 {
 	"id" "6619"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "320 320 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8052,10 +8156,13 @@ entity
 {
 	"id" "6621"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "192 192 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8065,10 +8172,13 @@ entity
 {
 	"id" "6623"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "64 64 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8078,10 +8188,13 @@ entity
 {
 	"id" "6625"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-64 -64 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8091,10 +8204,13 @@ entity
 {
 	"id" "6627"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-192 -192 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8104,10 +8220,13 @@ entity
 {
 	"id" "6629"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-320 -320 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8117,10 +8236,13 @@ entity
 {
 	"id" "6631"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-448 -448 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8130,10 +8252,13 @@ entity
 {
 	"id" "6633"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-576 -576 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -8143,10 +8268,13 @@ entity
 {
 	"id" "6635"
 	"classname" "weapon_zs_boomstick"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"origin" "-704 -704 1104"
 	editor
 	{
-		"color" "0 255 0"
+		"color" "0 0 200"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
@@ -12164,7 +12292,7 @@ entity
 	"origin" "-1016 -256 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 5000]"
@@ -12182,7 +12310,7 @@ entity
 	"origin" "-1016 -240 8"
 	editor
 	{
-		"color" "220 220 220"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[7000 7000]"
@@ -12971,12 +13099,14 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_fence01a.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -13011,12 +13141,14 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_combine/combine_fence01b.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -13201,7 +13333,7 @@ entity
 		side
 		{
 			"id" "1206"
-			"plane" "(-1040 -1088 -1.80006e-05) (1088 -1088 -1.80006e-05) (1088 1040 -1.80006e-05)"
+			"plane" "(-1040 -1088 -1.80006e-005) (1088 -1088 -1.80006e-005) (1088 1040 -1.80006e-005)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -13212,7 +13344,7 @@ entity
 		side
 		{
 			"id" "1205"
-			"plane" "(-1040 1040 280) (-1040 -1088 280) (-1040 -1088 -1.80006e-05)"
+			"plane" "(-1040 1040 280) (-1040 -1088 280) (-1040 -1088 -1.80006e-005)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -13223,7 +13355,7 @@ entity
 		side
 		{
 			"id" "1204"
-			"plane" "(1088 1040 -1.80006e-05) (1088 -1088 -1.80006e-05) (1088 -1088 280)"
+			"plane" "(1088 1040 -1.80006e-005) (1088 -1088 -1.80006e-005) (1088 -1088 280)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -13234,7 +13366,7 @@ entity
 		side
 		{
 			"id" "1203"
-			"plane" "(1088 1040 280) (-1040 1040 280) (-1040 1040 -1.80006e-05)"
+			"plane" "(1088 1040 280) (-1040 1040 280) (-1040 1040 -1.80006e-005)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -13245,7 +13377,7 @@ entity
 		side
 		{
 			"id" "1202"
-			"plane" "(1088 -1088 -1.80006e-05) (-1040 -1088 -1.80006e-05) (-1040 -1088 280)"
+			"plane" "(1088 -1088 -1.80006e-005) (-1040 -1088 -1.80006e-005) (-1040 -1088 280)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
