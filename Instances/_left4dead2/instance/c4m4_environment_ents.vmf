@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "4716"
-	"mapversion" "124"
+	"editorbuild" "8163"
+	"mapversion" "125"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "124"
+	"mapversion" "125"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35,13 +35,13 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "tonemap_globalSetAutoExposureMax100-1"
-		"OnMapSpawn" "tonemap_global_infectedSetAutoExposureMax100-1"
-		"OnMapSpawn" "tonemap_global_infectedSetAutoExposureMin10-1"
-		"OnMapSpawn" "tonemap_global_ghostSetAutoExposureMax100-1"
-		"OnMapSpawn" "tonemap_global_ghostSetAutoExposureMin10-1"
-		"OnMapSpawn" "tonemap_globalSetAutoExposureMin10-1"
-		"OnMapSpawn" "tonemap_globalSetTonemapRate.250-1"
+		"OnMapSpawn" "tonemap_globalSetAutoExposureMax100-1,,,0,-1"
+		"OnMapSpawn" "tonemap_global_infectedSetAutoExposureMax100-1,,,0,-1"
+		"OnMapSpawn" "tonemap_global_infectedSetAutoExposureMin10-1,,,0,-1"
+		"OnMapSpawn" "tonemap_global_ghostSetAutoExposureMax100-1,,,0,-1"
+		"OnMapSpawn" "tonemap_global_ghostSetAutoExposureMin10-1,,,0,-1"
+		"OnMapSpawn" "tonemap_globalSetAutoExposureMin10-1,,,0,-1"
+		"OnMapSpawn" "tonemap_globalSetTonemapRate.250-1,,,0,-1"
 	}
 	"origin" "-16 24 0"
 	editor
@@ -447,17 +447,9 @@ cameras
 {
 	"activecamera" "-1"
 }
-cordons
+cordon
 {
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
 	"active" "0"
-	cordon
-	{
-		"name" "cordon"
-		"active" "0"
-		box
-		{
-			"mins" "(-1024 -1024 -1024)"
-			"maxs" "(1024 1024 1024)"
-		}
-	}
 }

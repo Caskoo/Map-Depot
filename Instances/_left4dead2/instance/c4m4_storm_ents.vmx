@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "4778"
-	"mapversion" "19"
+	"editorbuild" "8163"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -610,9 +610,9 @@ entity
 	"targetname" "relay_lightning_strike"
 	connections
 	{
-		"OnTrigger" "fx_screen_flashStart0-1"
-		"OnTrigger" "fx_screen_flashStop1-1"
-		"OnTrigger" "case_lightning_strikePickRandomShuffle0-1"
+		"OnTrigger" "fx_screen_flashStart0-1,,,0,-1"
+		"OnTrigger" "fx_screen_flashStop1-1,,,0,-1"
+		"OnTrigger" "case_lightning_strikePickRandomShuffle0-1,,,0,-1"
 	}
 	"origin" "-960 0 -7488"
 	editor
@@ -694,34 +694,34 @@ entity
 	"targetname" "case_lightning_strike"
 	connections
 	{
-		"OnCase01" "fx_storm_lightning_strike_skybox_01Start0-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_01Stop1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_02Stop1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_02Start0-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_03Stop1-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_03Start0-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_04Stop1-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_04Start0-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_05Stop1-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_05Start0-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_06Stop1-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_06Start0.1-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_07Stop1-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_07Start0.1-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_08Stop1-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_08Start0.1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_09Stop1-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_09Start0.1-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_06Stop1-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_06Start0.1-1"
-		"OnCase06" "fx_storm_lightning_strike_skybox_4Start0.1-1"
-		"OnCase06" "fx_storm_lightning_strike_skybox_4Stop1-1"
-		"OnCase07" "fx_storm_lightning_strike_skybox_8Start0.1-1"
-		"OnCase07" "fx_storm_lightning_strike_skybox_8Stop1-1"
-		"OnCase08" "fx_storm_lightning_strike_skybox_5Start0.1-1"
-		"OnCase08" "fx_storm_lightning_strike_skybox_5Stop1-1"
-		"OnCase09" "fx_storm_lightning_strike_skybox_5Start0.1-1"
-		"OnCase09" "fx_storm_lightning_strike_skybox_5Stop1-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_01Start0-1,,,0,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_01Stop1-1,,,0,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02Stop1-1,,,0,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02Start0-1,,,0,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03Stop1-1,,,0,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03Start0-1,,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04Stop1-1,,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04Start0-1,,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05Stop1-1,,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05Start0-1,,,0,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06Stop1-1,,,0,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06Start0.1-1,,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07Stop1-1,,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07Start0.1-1,,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08Stop1-1,,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08Start0.1-1,,,0,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09Stop1-1,,,0,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09Start0.1-1,,,0,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06Stop1-1,,,0,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06Start0.1-1,,,0,-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4Start0.1-1,,,0,-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4Stop1-1,,,0,-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8Start0.1-1,,,0,-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8Stop1-1,,,0,-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5Start0.1-1,,,0,-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5Stop1-1,,,0,-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_5Start0.1-1,,,0,-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_5Stop1-1,,,0,-1"
 	}
 	"origin" "-944 0 -7488"
 	editor
@@ -910,9 +910,16 @@ entity
 }
 cameras
 {
-	"activecamera" "-1"
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-714.658 1583.38 -7017.22]"
+		"look" "[-940.717 1272.57 -7175.62]"
+	}
 }
-cordons
+cordon
 {
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
 	"active" "0"
 }
