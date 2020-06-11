@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5454"
-	"mapversion" "3"
+	"editorbuild" "8163"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -45,9 +45,11 @@ entity
 	"glowrange" "0"
 	"glowrangemin" "0"
 	"glowstate" "0"
+	"gmod_allowphysgun" "1"
 	"hardware" "1"
 	"health" "0"
 	"model" "models/props_downtown/door_interior_112_01.mdl"
+	"modelscale" "1.0"
 	"opendir" "0"
 	"rendercolor" "255 255 255"
 	"returndelay" "-1"
@@ -73,6 +75,8 @@ entity
 	"disablevertexlighting" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_downtown/door_trim_56_112_01.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -91,7 +95,7 @@ entity
 {
 	"id" "25"
 	"classname" "func_instance_parms"
-	"parm1" "$spawnposition integer"
+	"parm1" "$spawnposition choices"
 	"origin" "0 0 56"
 	editor
 	{
@@ -105,7 +109,9 @@ cameras
 {
 	"activecamera" "-1"
 }
-cordons
+cordon
 {
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
 	"active" "0"
 }

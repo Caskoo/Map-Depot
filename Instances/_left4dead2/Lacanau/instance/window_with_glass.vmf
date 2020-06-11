@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6082"
-	"mapversion" "4"
+	"editorbuild" "8163"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -47,6 +47,8 @@ entity
 	"disablevertexlighting" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_windows/window_urban_frame_triple.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -71,6 +73,8 @@ entity
 	"disablevertexlighting" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_windows/window_urban_frame_triple.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -102,6 +106,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"gibdir" "0 0 0"
+	"gmod_allowphysgun" "1"
 	"health" "1"
 	"material" "0"
 	"maxcpulevel" "0"
@@ -221,6 +226,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"gibdir" "0 0 0"
+	"gmod_allowphysgun" "1"
 	"health" "1"
 	"material" "0"
 	"maxcpulevel" "0"
@@ -340,6 +346,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"gibdir" "0 0 0"
+	"gmod_allowphysgun" "1"
 	"health" "1"
 	"material" "0"
 	"maxcpulevel" "0"
@@ -447,7 +454,9 @@ cameras
 {
 	"activecamera" "-1"
 }
-cordons
+cordon
 {
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
 	"active" "0"
 }
