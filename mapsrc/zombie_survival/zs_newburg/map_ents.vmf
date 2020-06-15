@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "4"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "4"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -235,6 +235,47 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5500 -1268]"
+	}
+}
+entity
+{
+	"id" "47"
+	"classname" "logic_gamerules"
+	"demibossbuildfactor" "1"
+	"globalsigilname" "Sigil"
+	"humansigildamagemul" "1"
+	"mapreplays" "2"
+	"mapreplaytime" "900"
+	"nailhpmul" "1"
+	"nestdistancemul" "1"
+	"nestverticalskewmul" "1"
+	"sigilcount" "3"
+	"startzombiepercent" "0.14"
+	"zombiesigildamagemul" "1"
+	"origin" "-140.752 -1889.77 401"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "49"
+	"classname" "logic_winlose"
+	"endcamera" "1"
+	"endslowmo" "1"
+	"losemusic" "default"
+	"winmusic" "default"
+	"origin" "-165.829 -1879.46 401"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
