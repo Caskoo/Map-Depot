@@ -1,20 +1,28 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7737"
-	"mapversion" "3"
+	"editorbuild" "8163"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "2152245"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
-	"skyname" "ramadisky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
 	"timeofday" "5"
 }
 entity
@@ -42,6 +50,7 @@ entity
 	"disableX360" "0"
 	"framerate" "10.0"
 	"GlowProxySize" "32"
+	"gmod_allowphysgun" "1"
 	"HDRColorScale" "1.0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
@@ -91,6 +100,7 @@ entity
 	"disableX360" "0"
 	"framerate" "10.0"
 	"GlowProxySize" "32"
+	"gmod_allowphysgun" "1"
 	"HDRColorScale" "1.0"
 	"maxcpulevel" "0"
 	"maxgpulevel" "0"
@@ -145,37 +155,5 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11500 15000]"
-	}
-}
-entity
-{
-	"id" "2152392"
-	"classname" "prop_static"
-	"angles" "90 135 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"disableX360" "0"
-	"drawinfastreflection" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/static_fittings/fluorescent_light_01.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-378.725 2917.51 88"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 7500]"
 	}
 }

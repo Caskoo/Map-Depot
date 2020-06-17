@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "30"
+	"mapversion" "38"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "9"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5285,7 +5285,7 @@ entity
 	"angles" "0 135 0"
 	"effect_name" "Skybox_Smoke_04"
 	"start_active" "1"
-	"origin" "1440 2432 -1832"
+	"origin" "1376 2560 -1832"
 	editor
 	{
 		"color" "220 30 220"
@@ -5366,6 +5366,54 @@ entity
 	"effect_name" "skybox_smoke_01"
 	"start_active" "1"
 	"origin" "2100 2168 -1828"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "3630"
+	"classname" "info_particle_system"
+	"angles" "0 135 0"
+	"effect_name" "skybox_fire_01 Version #2"
+	"start_active" "1"
+	"origin" "1504 1952 -1832"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "3890"
+	"classname" "info_particle_system"
+	"angles" "0 135 0"
+	"effect_name" "skybox_fire_01 Version #3"
+	"start_active" "1"
+	"origin" "2048 2720 -1832"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4345"
+	"classname" "info_particle_system"
+	"angles" "0 135 0"
+	"effect_name" "Skybox_Smoke_04"
+	"start_active" "1"
+	"origin" "1440 2336 -1832"
 	editor
 	{
 		"color" "220 30 220"

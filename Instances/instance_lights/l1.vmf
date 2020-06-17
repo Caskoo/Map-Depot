@@ -1,20 +1,28 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7737"
-	"mapversion" "2"
+	"editorbuild" "8163"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "2150478"
-	"mapversion" "2"
+	"mapversion" "4"
 	"classname" "worldspawn"
-	"skyname" "ramadisky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
 	"timeofday" "5"
 }
 entity
@@ -24,11 +32,10 @@ entity
 	"angles" "90 0 0"
 	"effect_name" "ins_vol_streetlamp"
 	"start_active" "1"
-	"origin" "-104 2156 304"
+	"origin" "0 0 0"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "45"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8500 -12768]"
@@ -42,6 +49,7 @@ entity
 	"disablereceiveshadows" "0"
 	"framerate" "10.0"
 	"GlowProxySize" "25"
+	"gmod_allowphysgun" "1"
 	"HDRColorScale" "1.7"
 	"model" "sprites/light_glow03.vmt"
 	"renderamt" "200"
@@ -50,11 +58,10 @@ entity
 	"rendermode" "9"
 	"scale" "1.4"
 	"spawnflags" "1"
-	"origin" "-104 2160 304"
+	"origin" "0 4 0"
 	editor
 	{
 		"color" "20 140 20"
-		"visgroupid" "45"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10000 -13268]"
@@ -74,11 +81,10 @@ entity
 	"rendercolor" "238 227 196"
 	"spawnflags" "0"
 	"VerticalGlowSize" "40"
-	"origin" "-104 2160 304"
+	"origin" "0 4 0"
 	editor
 	{
 		"color" "255 128 0"
-		"visgroupid" "45"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10000 -12768]"
@@ -105,11 +111,10 @@ entity
 	"pitch" "-90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "-104 2160 304"
+	"origin" "0 4 0"
 	editor
 	{
 		"color" "220 30 220"
-		"visgroupid" "45"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10000 -12268]"
