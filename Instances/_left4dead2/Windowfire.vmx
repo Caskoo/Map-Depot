@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "54"
+	"mapversion" "57"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "2996304"
-	"mapversion" "54"
+	"mapversion" "57"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2337,7 +2337,7 @@ entity
 	"angles" "-0 -180 0"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "2619 6559 316.152"
+	"origin" "0 0 316.152"
 	editor
 	{
 		"color" "220 30 220"
@@ -2369,7 +2369,7 @@ entity
 	"pitch" "16.5"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "2622 6571 323.152"
+	"origin" "3 12 323.152"
 	editor
 	{
 		"color" "220 30 220"
@@ -2401,7 +2401,7 @@ entity
 	"pitch" "-42"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "2622 6572 314.152"
+	"origin" "3 13 314.152"
 	editor
 	{
 		"color" "220 30 220"
@@ -2424,7 +2424,7 @@ entity
 	"cpoint7_parent" "0"
 	"effect_name" "emergency_light_strobe"
 	"start_active" "1"
-	"origin" "2619 6577 319.152"
+	"origin" "0 18 319.152"
 	editor
 	{
 		"color" "220 30 220"
@@ -2457,7 +2457,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "2619 6582 318.152"
+	"origin" "0 23 318.152"
 	editor
 	{
 		"color" "255 255 0"
@@ -2695,7 +2695,7 @@ entity
 	"pitch" "-64.8542"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "3462.87 7117.62 55.1117"
+	"origin" "159.54 341.62 55.1117"
 	editor
 	{
 		"color" "220 30 220"
@@ -2714,7 +2714,7 @@ entity
 	"_lightscaleHDR" "0.5"
 	"_quadratic_attn" "1"
 	"_shadoworiginoffset" "0 0 0"
-	"origin" "3463.33 7109.93 52.2385"
+	"origin" "160 333.93 52.2385"
 	editor
 	{
 		"color" "220 30 220"
@@ -4510,7 +4510,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "376 6544 132"
+	"origin" "0 256 132"
 	editor
 	{
 		"color" "220 30 220"
@@ -5354,22 +5354,6 @@ entity
 }
 entity
 {
-	"id" "2998127"
-	"classname" "info_particle_system"
-	"angles" "0 180 0"
-	"effect_name" "fire_window_hotel"
-	"start_active" "1"
-	"origin" "2557 6817 -354.875"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -9768]"
-	}
-}
-entity
-{
 	"id" "2998192"
 	"classname" "light"
 	"_castentityshadow" "1"
@@ -5389,29 +5373,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4500 -9268]"
-	}
-}
-entity
-{
-	"id" "2998197"
-	"classname" "light"
-	"_castentityshadow" "1"
-	"_fifty_percent_distance" "512"
-	"_light" "164 91 43 300"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "0.5"
-	"_quadratic_attn" "1"
-	"_shadoworiginoffset" "0 0 0"
-	"_zero_percent_distance" "1024"
-	"spawnflags" "0"
-	"style" "0"
-	"origin" "2496 6816 -351.875"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4500 -8768]"
 	}
 }
 entity
@@ -5483,7 +5444,7 @@ entity
 	"_zero_percent_distance" "300"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "2960 7136 -47.875"
+	"origin" "-343.33 360 -47.875"
 	editor
 	{
 		"color" "220 30 220"
@@ -5500,7 +5461,7 @@ entity
 	"effect_name" "inferno_wall_flat"
 	"start_active" "0"
 	"targetname" "longfall_fire_particles"
-	"origin" "2960 7152 -111.875"
+	"origin" "-343.33 376 -111.875"
 	editor
 	{
 		"color" "220 30 220"
@@ -5530,7 +5491,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "2968 7160 -102.847"
+	"origin" "-335.33 384 -102.847"
 	editor
 	{
 		"color" "220 30 220"
@@ -5733,154 +5694,18 @@ entity
 }
 entity
 {
-	"id" "2998289"
-	"classname" "trigger_hurt"
-	"damage" "2"
-	"damagecap" "20"
-	"damagemodel" "0"
-	"damagetype" "8"
-	"nodmgforce" "0"
-	"origin" "2532.16 6816 -275.71"
-	"spawnflags" "11"
-	"StartDisabled" "0"
-	solid
-	{
-		"id" "2998290"
-		side
-		{
-			"id" "260"
-			"plane" "(2504 6752 -255.875) (2504 6752 -351.875) (2504 6880 -351.875)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -29] 0.5"
-			"vaxis" "[0 0 -1 -25.75] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "259"
-			"plane" "(2560 6880 -255.875) (2560 6880 -351.875) (2560 6752 -351.875)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 -29] 0.5"
-			"vaxis" "[0 0 -1 -25.75] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "258"
-			"plane" "(2560 6752 -255.875) (2560 6752 -351.875) (2504 6752 -351.875)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 33] 0.5"
-			"vaxis" "[0 0 -1 -25.75] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "257"
-			"plane" "(2504 6880 -255.875) (2504 6880 -351.875) (2560 6880 -351.875)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 30] 0.25"
-			"vaxis" "[0 0 -1 -20.5] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "256"
-			"plane" "(2504 6880 -351.875) (2504 6752 -351.875) (2560 6752 -351.875)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 33] 0.5"
-			"vaxis" "[0 -1 0 29] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "255"
-			"plane" "(2504 6752 -255.875) (2504 6880 -255.875) (2560 6880 -255.875)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 33] 0.5"
-			"vaxis" "[0 -1 0 29] 0.5"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -3768]"
-	}
-}
-entity
-{
 	"id" "2998292"
 	"classname" "info_particle_system"
 	"angles" "0 270 7.63075"
 	"effect_name" "inferno_wall_flat"
 	"start_active" "1"
-	"origin" "3328 8416 160.125"
+	"origin" "192 192 160.125"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -1768]"
-	}
-}
-entity
-{
-	"id" "2998357"
-	"classname" "info_particle_system"
-	"angles" "0 270 0"
-	"effect_name" "fire_window_hotel2"
-	"start_active" "1"
-	"origin" "2464 7636 -75.875"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -1268]"
-	}
-}
-entity
-{
-	"id" "2998422"
-	"classname" "light"
-	"_castentityshadow" "1"
-	"_fifty_percent_distance" "512"
-	"_light" "164 91 43 400"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "0.5"
-	"_linear_attn" "1"
-	"_quadratic_attn" "0"
-	"_shadoworiginoffset" "0 0 0"
-	"_zero_percent_distance" "1024"
-	"spawnflags" "0"
-	"style" "0"
-	"origin" "2464 7616 0.125"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -768]"
 	}
 }
 entity
@@ -5977,7 +5802,7 @@ entity
 	"_zero_percent_distance" "1024"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "3231 8962 451.125"
+	"origin" "-32 477 451.125"
 	editor
 	{
 		"color" "220 30 220"
@@ -5993,7 +5818,7 @@ entity
 	"angles" "0 90 0"
 	"effect_name" "fire_window_hotel"
 	"start_active" "1"
-	"origin" "3232 8901 448.125"
+	"origin" "-31 416 448.125"
 	editor
 	{
 		"color" "220 30 220"
@@ -6017,7 +5842,7 @@ entity
 	"_zero_percent_distance" "1024"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "3328 8416 256.125"
+	"origin" "192 192 256.125"
 	editor
 	{
 		"color" "220 30 220"
@@ -6304,7 +6129,7 @@ entity
 	"_zero_percent_distance" "1024"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "1373 6560 -63.875"
+	"origin" "-99 192 -63.875"
 	editor
 	{
 		"color" "220 30 220"
@@ -6320,7 +6145,7 @@ entity
 	"angles" "0 0 0"
 	"effect_name" "fire_window_hotel"
 	"start_active" "1"
-	"origin" "1312 6559 -106.875"
+	"origin" "-160 191 -106.875"
 	editor
 	{
 		"color" "220 30 220"
@@ -7611,39 +7436,6 @@ entity
 }
 entity
 {
-	"id" "2999056"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "1"
-	"disableX360" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_waterfront/window03_56_96_flat_light.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2560 6844 -367.875"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-6768 -15268]"
-	}
-}
-entity
-{
 	"id" "2999060"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -7677,138 +7469,6 @@ entity
 }
 entity
 {
-	"id" "2999064"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "1"
-	"disableX360" "0"
-	"fademaxdist" "1310"
-	"fademindist" "1310"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_downtown/window03_56_96.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2436 7640 -79.875"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 15000]"
-	}
-}
-entity
-{
-	"id" "2999068"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "1"
-	"disableX360" "0"
-	"fademaxdist" "1306"
-	"fademindist" "1306"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_waterfront/balcony_72x48.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2464 7640 -87.875"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 15500]"
-	}
-}
-entity
-{
-	"id" "2999072"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "1"
-	"disableX360" "0"
-	"fademaxdist" "2000"
-	"fademindist" "2000"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_waterfront/window03_56_96_flat_dark.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2080 6236 675.165"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 13000]"
-	}
-}
-entity
-{
-	"id" "2999076"
-	"classname" "prop_static"
-	"angles" "0 180 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "1"
-	"disableX360" "0"
-	"fademaxdist" "2000"
-	"fademindist" "2000"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_waterfront/balcony_72x48.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2080 6208 662.125"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -10268]"
-	}
-}
-entity
-{
 	"id" "2999080"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -7831,7 +7491,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1312 6532 -111.875"
+	"origin" "-160 164 -111.875"
 	editor
 	{
 		"color" "255 255 0"
@@ -7864,7 +7524,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1312 6532 -111.875"
+	"origin" "-160 164 -111.875"
 	editor
 	{
 		"color" "255 255 0"

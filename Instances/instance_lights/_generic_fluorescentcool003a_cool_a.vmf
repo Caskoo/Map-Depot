@@ -2,19 +2,27 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "4"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "58853"
-	"mapversion" "4"
+	"mapversion" "5"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -25,7 +33,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"spawnflags" "0"
-	"origin" "578 682 66"
+	"origin" "16 16 -14"
 	editor
 	{
 		"color" "220 30 220"
@@ -44,10 +52,10 @@ entity
 		side
 		{
 			"id" "55290"
-			"plane" "(562 666 144) (562 666 142) (562 698 142)"
+			"plane" "(0 0 64) (0 0 62) (0 32 62)"
 			"material" "DM_NEON/IZZYNEO5"
-			"uaxis" "[0 1 0 -360] 0.25"
-			"vaxis" "[0 0 -1 -160] 0.25"
+			"uaxis" "[0 1 0 2304] 0.25"
+			"vaxis" "[0 0 -1 -480] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -55,10 +63,10 @@ entity
 		side
 		{
 			"id" "55291"
-			"plane" "(594 698 144) (594 698 142) (594 666 142)"
+			"plane" "(32 32 64) (32 32 62) (32 0 62)"
 			"material" "DM_NEON/IZZYNEO5"
-			"uaxis" "[0 1 0 -360] 0.25"
-			"vaxis" "[0 0 -1 -160] 0.25"
+			"uaxis" "[0 1 0 2304] 0.25"
+			"vaxis" "[0 0 -1 -480] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -66,10 +74,10 @@ entity
 		side
 		{
 			"id" "55292"
-			"plane" "(594 666 144) (594 666 142) (562 666 142)"
+			"plane" "(32 0 64) (32 0 62) (0 0 62)"
 			"material" "DM_NEON/IZZYNEO5"
-			"uaxis" "[-1 0 0 200] 0.25"
-			"vaxis" "[0 0 -1 -160] 0.25"
+			"uaxis" "[-1 0 0 -2048] 0.25"
+			"vaxis" "[0 0 -1 -480] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -77,10 +85,10 @@ entity
 		side
 		{
 			"id" "55293"
-			"plane" "(562 698 144) (562 698 142) (594 698 142)"
+			"plane" "(0 32 64) (0 32 62) (32 32 62)"
 			"material" "DM_NEON/IZZYNEO5"
-			"uaxis" "[-1 0 0 200] 0.25"
-			"vaxis" "[0 0 -1 -160] 0.25"
+			"uaxis" "[-1 0 0 -2048] 0.25"
+			"vaxis" "[0 0 -1 -480] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -88,10 +96,10 @@ entity
 		side
 		{
 			"id" "55294"
-			"plane" "(562 698 142) (562 666 142) (594 666 142)"
+			"plane" "(0 32 62) (0 0 62) (32 0 62)"
 			"material" "LIGHTS/FLUORESCENTCOOL003A"
-			"uaxis" "[0 1 0 48] 0.125"
-			"vaxis" "[1 0 0 -72] 0.25"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -99,10 +107,10 @@ entity
 		side
 		{
 			"id" "55295"
-			"plane" "(562 666 144) (562 698 144) (594 698 144)"
+			"plane" "(0 0 64) (0 32 64) (32 32 64)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[-1 0 0 -8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

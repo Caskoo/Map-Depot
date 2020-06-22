@@ -1,0 +1,124 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "58853"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "58854"
+	"classname" "light"
+	"_light" "198 234 255 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"spawnflags" "0"
+	"origin" "578 682 66"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 6500]"
+	}
+}
+entity
+{
+	"id" "58859"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "58860"
+		side
+		{
+			"id" "55290"
+			"plane" "(562 666 144) (562 666 142) (562 698 142)"
+			"material" "DM_NEON/IZZYNEO5"
+			"uaxis" "[0 1 0 -360] 0.25"
+			"vaxis" "[0 0 -1 -160] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55291"
+			"plane" "(594 698 144) (594 698 142) (594 666 142)"
+			"material" "DM_NEON/IZZYNEO5"
+			"uaxis" "[0 1 0 -360] 0.25"
+			"vaxis" "[0 0 -1 -160] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55292"
+			"plane" "(594 666 144) (594 666 142) (562 666 142)"
+			"material" "DM_NEON/IZZYNEO5"
+			"uaxis" "[-1 0 0 200] 0.25"
+			"vaxis" "[0 0 -1 -160] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55293"
+			"plane" "(562 698 144) (562 698 142) (594 698 142)"
+			"material" "DM_NEON/IZZYNEO5"
+			"uaxis" "[-1 0 0 200] 0.25"
+			"vaxis" "[0 0 -1 -160] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55294"
+			"plane" "(562 698 142) (562 666 142) (594 666 142)"
+			"material" "LIGHTS/FLUORESCENTCOOL003A"
+			"uaxis" "[0 1 0 48] 0.125"
+			"vaxis" "[1 0 0 -72] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55295"
+			"plane" "(562 666 144) (562 698 144) (594 698 144)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7500 -8268]"
+	}
+}
