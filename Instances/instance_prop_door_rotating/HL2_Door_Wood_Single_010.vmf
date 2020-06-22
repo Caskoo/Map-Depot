@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7538"
-	"mapversion" "1"
+	"editorbuild" "8163"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,22 +20,22 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "4"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 	solid
 	{
 		"id" "2"
 		side
 		{
 			"id" "1"
-			"plane" "(100.045 -36 56.1404) (100.045 -36 -55.8596) (100.045 -32 -55.8596)"
+			"plane" "(0 0 111.999) (0 0 0) (0 4 0)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[0 -1 0 -176] 0.25"
-			"vaxis" "[0 0 -1 -223.439] 0.25"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -0.00259399] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -43,10 +43,10 @@ world
 		side
 		{
 			"id" "2"
-			"plane" "(108.045 -32 56.1404) (108.045 -32 -55.8596) (108.045 -36 -55.8596)"
+			"plane" "(8 4 111.999) (8 4 0) (8 0 0)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[0 1 0 144] 0.25"
-			"vaxis" "[0 0 -1 -223.439] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -0.00259399] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -54,10 +54,10 @@ world
 		side
 		{
 			"id" "3"
-			"plane" "(108.045 -36 56.1404) (108.045 -36 -55.8596) (100.045 -36 -55.8596)"
-			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[-1 0 0 -127.821] 0.25"
-			"vaxis" "[0 0 -1 -95.4387] 0.25"
+			"plane" "(8 0 111.999) (8 0 0) (0 0 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -15.821] 0.25"
+			"vaxis" "[0 0 -1 63.9977] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -65,10 +65,10 @@ world
 		side
 		{
 			"id" "4"
-			"plane" "(100.045 -32 56.1404) (100.045 -32 -55.8596) (108.045 -32 -55.8596)"
+			"plane" "(0 4 111.999) (0 4 0) (8 4 0)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[1 0 0 31.821] 0.25"
-			"vaxis" "[0 0 -1 -215.439] 0.25"
+			"uaxis" "[1 0 0 175.821] 0.25"
+			"vaxis" "[0 0 -1 7.99741] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -76,10 +76,10 @@ world
 		side
 		{
 			"id" "5"
-			"plane" "(100.045 -32 -55.8591) (100.045 -36 -55.8591) (108.045 -36 -55.8591)"
-			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[0 -1 0 -200] 0.25"
-			"vaxis" "[-1 0 0 -23.821] 0.25"
+			"plane" "(0 4 7.62939e-006) (0 0 7.62939e-006) (8 0 7.62939e-006)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -16] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -87,10 +87,10 @@ world
 		side
 		{
 			"id" "6"
-			"plane" "(100.045 -36 56.1404) (100.045 -32 56.1404) (108.045 -32 56.1404)"
-			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[0 1 0 200] 0.25"
-			"vaxis" "[-1 0 0 -23.821] 0.25"
+			"plane" "(0 0 111.999) (0 4 111.999) (8 4 111.999)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 56] 0.25"
+			"vaxis" "[-1 0 0 -39.821] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -108,10 +108,10 @@ world
 		side
 		{
 			"id" "24"
-			"plane" "(100.045 -32 56.1404) (100.045 -32 52.0193) (100.045 16 52.0233)"
+			"plane" "(0 4 111.998) (0 4 107.859) (0 52 107.859)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[0 -1 0 -176] 0.25"
-			"vaxis" "[0 0 -1 -223.439] 0.25"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -0.00259399] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -119,10 +119,10 @@ world
 		side
 		{
 			"id" "23"
-			"plane" "(108.045 16 56.1404) (108.045 16 52.0193) (108.045 -32 52.0233)"
+			"plane" "(8 52 111.998) (8 52 107.859) (8 4 107.859)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[0 1 0 144] 0.25"
-			"vaxis" "[0 0 -1 -223.439] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -0.00259399] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -130,10 +130,10 @@ world
 		side
 		{
 			"id" "22"
-			"plane" "(108.045 -32 56.1404) (108.045 -32 52.0193) (100.045 -32 52.0233)"
-			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[1 0 0 23.821] 0.25"
-			"vaxis" "[0 0 -1 -215.439] 0.25"
+			"plane" "(8 4 111.998) (8 4 107.859) (0 4 107.859)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 39.821] 0.25"
+			"vaxis" "[0 0 -1 7.99741] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -141,10 +141,10 @@ world
 		side
 		{
 			"id" "21"
-			"plane" "(100.045 16 56.1404) (100.045 16 52.0193) (108.045 16 52.0233)"
+			"plane" "(0 52 111.998) (0 52 107.859) (8 52 107.859)"
 			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[1 0 0 23.821] 0.25"
-			"vaxis" "[0 0 -1 -215.439] 0.25"
+			"uaxis" "[1 0 0 167.821] 0.25"
+			"vaxis" "[0 0 -1 7.99741] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -152,10 +152,10 @@ world
 		side
 		{
 			"id" "20"
-			"plane" "(100.045 16 52.0214) (100.045 -32 52.0214) (108.045 -32 52.0214)"
+			"plane" "(0 52 107.859) (0 4 107.859) (8 4 107.859)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[-1 0 0 -159.821] 0.25"
-			"vaxis" "[0 -1 0 -320] 0.25"
+			"uaxis" "[-1 0 0 -47.821] 0.25"
+			"vaxis" "[0 -1 0 -176] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -163,10 +163,10 @@ world
 		side
 		{
 			"id" "19"
-			"plane" "(100.045 -32 56.1404) (100.045 16 56.1404) (108.045 16 56.1404)"
-			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[0 1 0 200] 0.25"
-			"vaxis" "[-1 0 0 -23.821] 0.25"
+			"plane" "(0 4 111.999) (0 52 111.999) (8 52 111.999)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 56] 0.25"
+			"vaxis" "[-1 0 0 -39.821] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -184,10 +184,10 @@ world
 		side
 		{
 			"id" "30"
-			"plane" "(100.045 16 56.1404) (100.045 16 -55.8596) (100.045 20 -55.8596)"
+			"plane" "(0 52 111.999) (0 52 0) (0 56 0)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[0 -1 0 -176] 0.25"
-			"vaxis" "[0 0 -1 -223.439] 0.25"
+			"uaxis" "[0 -1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -0.00259399] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -195,10 +195,10 @@ world
 		side
 		{
 			"id" "29"
-			"plane" "(108.045 20 56.1404) (108.045 20 -55.8596) (108.045 16 -55.8596)"
+			"plane" "(8 56 111.999) (8 56 0) (8 52 0)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[0 1 0 144] 0.25"
-			"vaxis" "[0 0 -1 -223.439] 0.25"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -0.00259399] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -206,10 +206,10 @@ world
 		side
 		{
 			"id" "28"
-			"plane" "(108.045 16 56.1404) (108.045 16 -55.8596) (100.045 16 -55.8596)"
+			"plane" "(8 52 111.999) (8 52 0) (0 52 0)"
 			"material" "WOOD/WOODDOOR038A"
-			"uaxis" "[1 0 0 31.821] 0.25"
-			"vaxis" "[0 0 -1 -215.439] 0.25"
+			"uaxis" "[1 0 0 175.821] 0.25"
+			"vaxis" "[0 0 -1 7.99741] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -217,10 +217,10 @@ world
 		side
 		{
 			"id" "27"
-			"plane" "(100.045 20 56.1404) (100.045 20 -55.8596) (108.045 20 -55.8596)"
+			"plane" "(0 56 111.999) (0 56 0) (8 56 0)"
 			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[-1 0 0 -127.821] 0.25"
-			"vaxis" "[0 0 -1 -95.4387] 0.25"
+			"uaxis" "[-1 0 0 -15.821] 0.25"
+			"vaxis" "[0 0 -1 127.998] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -228,10 +228,10 @@ world
 		side
 		{
 			"id" "26"
-			"plane" "(100.045 20 -55.8591) (100.045 16 -55.8591) (108.045 16 -55.8591)"
-			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[0 -1 0 -200] 0.25"
-			"vaxis" "[-1 0 0 -23.821] 0.25"
+			"plane" "(0 56 7.62939e-006) (0 52 7.62939e-006) (8 52 7.62939e-006)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -16] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -239,10 +239,10 @@ world
 		side
 		{
 			"id" "25"
-			"plane" "(100.045 16 56.1404) (100.045 20 56.1404) (108.045 20 56.1404)"
-			"material" "WOOD/WOODDOOR015A"
-			"uaxis" "[0 1 0 200] 0.25"
-			"vaxis" "[-1 0 0 -23.821] 0.25"
+			"plane" "(0 52 111.999) (0 56 111.999) (8 56 111.999)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 56] 0.25"
+			"vaxis" "[-1 0 0 -39.821] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -261,8 +261,9 @@ entity
 	"classname" "prop_door_rotating"
 	"ajarangles" "0 0 0"
 	"angles" "0 0 0"
-	"axis" "104.04 -31 -1.86, 104.04 -31 -1.86"
+	"axis" "4.04 5 54, 4.04 5 54"
 	"distance" "90"
+	"gmod_allowphysgun" "1"
 	"hardware" "1"
 	"model" "models/props_c17/door01_left.mdl"
 	"modelscale" "1.0"
@@ -270,7 +271,7 @@ entity
 	"skin" "10"
 	"spawnflags" "8192"
 	"speed" "100"
-	"origin" "104.045 -31 -1.85918"
+	"origin" "4.045 5 53.9999"
 	editor
 	{
 		"color" "220 30 220"

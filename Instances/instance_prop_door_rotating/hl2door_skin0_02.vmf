@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -37,10 +37,10 @@ entity
 		side
 		{
 			"id" "24"
-			"plane" "(0 56 52.125) (0 56 -55.875) (8 56 -55.875)"
+			"plane" "(0 56 108) (0 56 0) (8 56 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -31.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -48,10 +48,10 @@ entity
 		side
 		{
 			"id" "23"
-			"plane" "(8 52 52.125) (8 52 -55.875) (0 52 -55.875)"
+			"plane" "(8 52 108) (8 52 0) (0 52 0)"
 			"material" "WOOD/MILWALL021"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -223.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -59,10 +59,10 @@ entity
 		side
 		{
 			"id" "22"
-			"plane" "(0 52 52.125) (0 52 -55.875) (0 56 -55.875)"
+			"plane" "(0 52 108) (0 52 0) (0 56 0)"
 			"material" "WOOD/MILWALL021"
 			"uaxis" "[0 -1 0 60] 0.25"
-			"vaxis" "[0 0 -1 -223.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -70,10 +70,10 @@ entity
 		side
 		{
 			"id" "21"
-			"plane" "(8 56 52.125) (8 56 -55.875) (8 52 -55.875)"
+			"plane" "(8 56 108) (8 56 0) (8 52 0)"
 			"material" "WOOD/MILWALL021"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -223.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -81,7 +81,7 @@ entity
 		side
 		{
 			"id" "20"
-			"plane" "(8 56 -55.875) (0 56 -55.875) (0 52 -55.875)"
+			"plane" "(8 56 7.62939e-006) (0 56 7.62939e-006) (0 52 7.62939e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -92,7 +92,7 @@ entity
 		side
 		{
 			"id" "19"
-			"plane" "(0 56 52.125) (8 56 52.125) (8 52 52.125)"
+			"plane" "(8 52 108) (0 52 108) (0 56 108)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -113,7 +113,7 @@ entity
 		side
 		{
 			"id" "30"
-			"plane" "(0 56 56.125) (8 56 56.125) (8 0 56.125)"
+			"plane" "(8 0 112) (0 0 112) (0 56 112)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -124,10 +124,10 @@ entity
 		side
 		{
 			"id" "29"
-			"plane" "(8 56 52.125) (8 56 56.125) (0 56 56.125)"
+			"plane" "(8 56 108) (8 56 112) (0 56 112)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -31.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -135,10 +135,10 @@ entity
 		side
 		{
 			"id" "28"
-			"plane" "(-1.90735e-006 0 52.125) (-1.90735e-006 0 56.125) (8 0 56.125)"
+			"plane" "(0 0 108) (0 0 112) (8 0 112)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -31.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -146,9 +146,9 @@ entity
 		side
 		{
 			"id" "27"
-			"plane" "(0 56 52.125) (0 56 56.125) (-1.90735e-006 0 56.125)"
+			"plane" "(0 56 108) (0 56 112) (0 0 112)"
 			"material" "WOOD/MILWALL021"
-			"uaxis" "[0 0 1 31.5] 0.25"
+			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[0 -1 0 -288] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -157,9 +157,9 @@ entity
 		side
 		{
 			"id" "26"
-			"plane" "(8 0 52.125) (8 0 56.125) (8 56 56.125)"
+			"plane" "(8 0 108) (8 0 112) (8 56 112)"
 			"material" "WOOD/MILWALL021"
-			"uaxis" "[0 0 1 31.5] 0.25"
+			"uaxis" "[0 0 1 0] 0.25"
 			"vaxis" "[0 -1 0 -288] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -168,7 +168,7 @@ entity
 		side
 		{
 			"id" "25"
-			"plane" "(8 56 52.125) (0 56 52.125) (-1.90735e-006 0 52.125)"
+			"plane" "(8 56 108) (0 56 108) (0 0 108)"
 			"material" "WOOD/MILWALL021"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 208] 0.25"
@@ -189,10 +189,10 @@ entity
 		side
 		{
 			"id" "36"
-			"plane" "(-1.90735e-006 4 52.125) (-1.90735e-006 4 -55.875) (8 4 -55.875)"
+			"plane" "(0 4 108) (0 4 0) (8 4 0)"
 			"material" "WOOD/MILWALL021"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -223.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -200,10 +200,10 @@ entity
 		side
 		{
 			"id" "35"
-			"plane" "(8 0 52.125) (8 0 -55.875) (-1.90735e-006 0 -55.875)"
+			"plane" "(8 0 108) (8 0 0) (0 0 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -31.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -211,10 +211,10 @@ entity
 		side
 		{
 			"id" "34"
-			"plane" "(-1.90735e-006 0 52.125) (-1.90735e-006 0 -55.875) (-1.90735e-006 4 -55.875)"
+			"plane" "(0 0 108) (0 0 0) (0 4 0)"
 			"material" "WOOD/MILWALL021"
 			"uaxis" "[0 -1 0 20] 0.25"
-			"vaxis" "[0 0 -1 -223.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -222,10 +222,10 @@ entity
 		side
 		{
 			"id" "33"
-			"plane" "(8 4 52.125) (8 4 -55.875) (8 0 -55.875)"
+			"plane" "(8 4 108) (8 4 0) (8 0 0)"
 			"material" "WOOD/MILWALL021"
 			"uaxis" "[0 -1 0 16] 0.25"
-			"vaxis" "[0 0 -1 -223.5] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -233,7 +233,7 @@ entity
 		side
 		{
 			"id" "32"
-			"plane" "(8 4 -55.875) (-1.90735e-006 4 -55.875) (-1.90735e-006 0 -55.875)"
+			"plane" "(8 4 7.62939e-006) (0 4 7.62939e-006) (0 0 7.62939e-006)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -244,7 +244,7 @@ entity
 		side
 		{
 			"id" "31"
-			"plane" "(-1.90735e-006 4 52.125) (8 4 52.125) (8 0 52.125)"
+			"plane" "(8 0 108) (0 0 108) (0 4 108)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -273,7 +273,7 @@ entity
 	"classname" "prop_door_rotating"
 	"ajarangles" "0 0 0"
 	"angles" "0 0 0"
-	"axis" "4 5 -1.88, 4 5 -1.88"
+	"axis" "4 5 54, 4 5 54"
 	"disableshadows" "0"
 	"distance" "90"
 	"dmg" "0"
@@ -289,7 +289,7 @@ entity
 	"spawnflags" "8192"
 	"spawnpos" "0"
 	"speed" "100"
-	"origin" "4 5 -1.875"
+	"origin" "4 5 54"
 	editor
 	{
 		"color" "220 30 220"
