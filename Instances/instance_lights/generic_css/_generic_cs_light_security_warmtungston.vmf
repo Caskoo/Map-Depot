@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "19"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -63,11 +63,11 @@ entity
 	"id" "6"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "45"
+	"_cone" "80"
 	"_exponent" "1"
 	"_fifty_percent_distance" "0"
 	"_inner_cone" "20"
-	"_light" "238 207 162 220"
+	"_light" "238 207 162 400"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
@@ -126,6 +126,7 @@ entity
 	editor
 	{
 		"color" "20 140 20"
+		"visgroupid" "9"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[14000 9000]"
