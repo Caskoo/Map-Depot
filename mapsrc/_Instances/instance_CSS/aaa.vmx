@@ -1,0 +1,123 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "746583"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "746584"
+	"classname" "logic_timer"
+	"LowerRandomBound" "0.1"
+	"spawnflags" "1"
+	"UpperRandomBound" "2"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimerHigh" "light_flicker_model,Skin,1,0,-1"
+		"OnTimerHigh" "light_flicker,TurnOn,,0,-1"
+		"OnTimerLow" "light_flicker,TurnOff,,0,-1"
+		"OnTimerLow" "light_flicker_model,Skin,0,0,-1"
+		"OnTimerLow" "light_flicker_spark,SparkOnce,,0,-1"
+	}
+	"origin" "6 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -3268]"
+	}
+}
+entity
+{
+	"id" "746586"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"gmod_allowphysgun" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"StartDisabled" "0"
+	"targetname" "light_flicker_model"
+	"origin" "0 34.3501 2.8015"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "746590"
+	"classname" "light"
+	"_light" "255 255 176 80"
+	"_lightHDR" "255 255 128 200"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "100"
+	"_quadratic_attn" "10"
+	"targetname" "light_flicker"
+	"origin" "5.28302 34.0601 2.0015"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10768]"
+	}
+}
+entity
+{
+	"id" "746595"
+	"classname" "env_spark"
+	"angles" "37 69 0"
+	"Magnitude" "1"
+	"targetname" "light_flicker_spark"
+	"TrailLength" "1"
+	"origin" "0 62.3501 3.0867"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -2768]"
+	}
+}

@@ -1,0 +1,377 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "15"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "53"
+			"plane" "(-3 32 0) (-1 32 0) (-1 32 48)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-1 0 0 -3.33333] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52"
+			"plane" "(-1 32 0) (-3 32 0) (-3 24 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(-3 32 48) (-1 32 48) (-1 28 54)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-0.8321 -0.3077 0.4615 -3.17226] 1.5"
+			"vaxis" "[-0.5547 0.4615 -0.6923 -36.7723] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(-3 24 48) (-3 28 54) (-1 28 54)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0.8321 -0.3077 -0.4615 1.76485] 1.5"
+			"vaxis" "[-0.5547 -0.4615 -0.6923 -20.4017] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49"
+			"plane" "(-3 24 0) (-3 32 0) (-3 32 48)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 -1 0 4.33333] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "48"
+			"plane" "(-1 28 54) (-1 32 48) (-1 32 0)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 -1 0 4.33333] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-1 24 0) (-3 24 0) (-3 24 48)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[1 0 0 -1.66667] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "59"
+			"plane" "(-1 -48 42) (-1 -48 36) (-1 48 36)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 0 -1 5.19551] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(1 48 42) (1 48 36) (1 -48 36)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 0 1 -3.19551] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(1 -48 42) (1 -48 36) (-1 -48 36)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-1 0 0 -3] 1.5"
+			"vaxis" "[0 0 -1 94] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(-1 48 42) (-1 48 36) (1 48 36)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[1 0 0 5] 1.5"
+			"vaxis" "[0 0 -1 94] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(-1 48 36) (-1 -48 36) (1 -48 36)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-1 0 0 -3.33333] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "54"
+			"plane" "(-1 -48 42) (-1 48 42) (1 48 42)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-1 0 0 0.666667] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "65"
+			"plane" "(-1 -48 24) (-1 -48 18) (-1 48 18)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 0 -1 5.19551] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "64"
+			"plane" "(1 48 24) (1 48 18) (1 -48 18)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 0 1 -3.19551] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "63"
+			"plane" "(1 -48 24) (1 -48 18) (-1 -48 18)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-1 0 0 -3] 1.5"
+			"vaxis" "[0 0 -1 94] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "62"
+			"plane" "(-1 48 24) (-1 48 18) (1 48 18)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[1 0 0 5] 1.5"
+			"vaxis" "[0 0 -1 94] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "61"
+			"plane" "(-1 48 18) (-1 -48 18) (1 -48 18)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[1 0 0 2.33333] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "60"
+			"plane" "(-1 -48 24) (-1 48 24) (1 48 24)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-1 0 0 -3.33333] 1.5"
+			"vaxis" "[0 -1 0 94.3333] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5"
+		side
+		{
+			"id" "72"
+			"plane" "(-3 -32 48) (-3 -32 0) (-3 -24 0)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 -1 0 7.33333] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(-1 -24 48) (-1 -24 0) (-1 -32 0)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 -1 0 7.33333] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(-1 -32 48) (-1 -32 0) (-3 -32 0)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[1 0 0 -1.66667] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(-3 -24 48) (-3 -24 0) (-1 -24 0)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-1 0 0 -3.33333] 1.5"
+			"vaxis" "[0 0 -1 -16.8045] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(-3 -24 0) (-3 -32 0) (-1 -32 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-3 -28 54) (-3 -24 48) (-1 -24 48)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[-0.8321 -0.3077 0.4615 -6.17226] 1.5"
+			"vaxis" "[-0.5547 0.4615 -0.6923 -19.7723] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "66"
+			"plane" "(-1 -28 54) (-1 -32 48) (-3 -32 48)"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0.8321 -0.3077 -0.4615 5.76485] 1.5"
+			"vaxis" "[-0.5547 -0.4615 -0.6923 -37.4017] 1.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
