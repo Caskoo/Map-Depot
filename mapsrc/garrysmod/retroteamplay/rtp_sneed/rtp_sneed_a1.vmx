@@ -1,0 +1,119 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "11"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "11"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_stormfront_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "func_instance"
+	"angles" "0 0 0"
+	"file" "/mapsrc/garrysmod/retroteamplay/rtp_sneed/rtp_sneed_map/terrain.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/mapsrc/garrysmod/retroteamplay/rtp_sneed/rtp_sneed_map/bluebase.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/mapsrc/garrysmod/retroteamplay/rtp_sneed/rtp_sneed_map/redbase.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "37"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/mapsrc/garrysmod/retroteamplay/rtp_sneed/rtp_sneed_map/skybox.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "49"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/mapsrc/garrysmod/retroteamplay/rtp_sneed/rtp_sneed_map/map_entities.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-5796.65 3435.24 -1465.32]"
+		"look" "[-5795.73 3435.22 -1465.73]"
+	}
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
