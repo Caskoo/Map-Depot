@@ -1,0 +1,202 @@
+// Soundscapes for ep2 outland
+
+
+//-------------------------------- FOREST ----------------------------------------
+
+//-------------------- utility soundscapes -------------------------
+
+"ep2_forest.util_windgusts"
+{
+	"playrandom"
+	{
+		"volume"	"0.2,0.6"
+		"time"		"10.0, 30.0"
+		"pitch"		"90,130"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave" "ambient/levels/forest/treewind1.wav"
+			"wave" "ambient/levels/forest/treewind2.wav"
+			"wave" "ambient/levels/forest/treewind3.wav"
+			"wave" "ambient/levels/forest/treewind4.wav"
+		}
+	}
+}
+
+
+"ep2_forest.util_shoreline"
+{
+	"playrandom"
+	{
+		"volume"	"0.15,0.35"
+		"pitch"		"120"
+		"time"		"3.0, 4.0"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/canals/shore1.wav"
+			"wave"	"ambient/levels/canals/shore2.wav"
+			"wave"	"ambient/levels/canals/shore3.wav"
+			"wave"	"ambient/levels/canals/shore4.wav"
+		}
+	}
+}
+
+
+"ep2_forest.util_small_river"
+{
+	"dsp"	"1"
+	
+	
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"120"
+		"soundlevel" "SNDLVL_90dB"
+		"position"	"0"
+		"wave"		"ambient/water/water_run1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"130"
+		"soundlevel" "SNDLVL_90dB"
+		"position"	"1"
+		"wave"		"ambient/water/water_run1.wav"
+	}
+}
+
+
+"ep2_forest.util_birds"
+{
+	"playrandom"
+	{
+		"time"		"7,25"
+		"volume"	"0.25,0.45"
+		"pitch"		"90,115"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/forest/dist_birds1.wav"
+			"wave"	"ambient/levels/forest/dist_birds2.wav"
+			"wave"	"ambient/levels/forest/dist_birds3.wav"
+			"wave"	"ambient/levels/forest/dist_birds4.wav"
+			"wave"	"ambient/levels/forest/dist_birds5.wav"
+			"wave"	"ambient/levels/forest/dist_birds6.wav"
+		}
+	}
+}
+
+"ep2_forest.util_critters"
+{
+	"playrandom"
+	{
+		"time"		"7, 16"
+		"volume"	"0.2,0.4"
+		"pitch"		"95,110"
+		"position"	"random"
+		"soundlevel"	"SNDLVL_140db"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/forest/peckr1.wav"
+			"wave"	"ambient/levels/forest/peckr2.wav"
+			"wave"	"ambient/levels/forest/buzz1.wav"
+			"wave"	"ambient/levels/forest/buzz2.wav"
+			"wave"	"ambient/levels/forest/buzz3.wav"
+			"wave"	"ambient/levels/forest/buzz4.wav"
+			"wave"	"ambient/levels/forest/chicka1.wav"
+			"wave"	"ambient/levels/forest/chicka2.wav"
+			"wave"	"ambient/levels/forest/chicka3.wav"
+			"wave"	"ambient/levels/forest/chirp1.wav"
+			"wave"	"ambient/levels/forest/chirp2.wav"
+			"wave"	"ambient/levels/forest/chirp3.wav"
+			"wave"	"ambient/levels/forest/crik1.wav"
+			"wave"	"ambient/levels/forest/crik2.wav"
+			"wave"	"ambient/levels/forest/crik3.wav"
+			"wave"	"ambient/levels/forest/flit1.wav"
+			"wave"	"ambient/levels/forest/squeek1.wav"
+			"wave"	"ambient/levels/forest/squeek2.wav"
+			"wave"	"ambient/levels/forest/squeek3.wav"
+		}
+	}
+}
+
+
+//-------------------------------------------------------------------
+
+
+"ep2_forest.frogpond"
+{
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient/levels/forest/frogs_loop1.wav"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_birds"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_critters"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_shoreline"
+		"volume"	"0.5"
+	}
+}
+
+"ep2_forest.small_river"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_birds"
+		"volume"	"1.4"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_critters"
+		"volume"	"1.4"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_small_river"
+		"volume"	"0.7"
+	}
+}
+
+"ep2_forest.light_forest"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_birds"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_windgusts"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"ep2_forest.util_critters"
+		"volume"	"0.8"
+	}
+}
