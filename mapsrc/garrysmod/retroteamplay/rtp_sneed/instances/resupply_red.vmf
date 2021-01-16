@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "27"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "27"
+	"mapversion" "29"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34,7 +34,7 @@ entity
 	"filterteam" "4"
 	"Negated" "Allow entities that match criteria"
 	"targetname" "red"
-	"origin" "0 64 32"
+	"origin" "0 32 32"
 	editor
 	{
 		"color" "220 30 220"
@@ -92,7 +92,7 @@ entity
 	"damagetype" "0"
 	"filtername" "red"
 	"nodmgforce" "0"
-	"origin" "0 48 56"
+	"origin" "0 24 56"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	solid
@@ -101,7 +101,7 @@ entity
 		side
 		{
 			"id" "7"
-			"plane" "(-56 -16 112) (-56 -16 0) (-56 112 0)"
+			"plane" "(-56 -16 112) (-56 -16 0) (-56 64 0)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 -1 0 48] 1"
 			"vaxis" "[0 0 -1 47.75] 1"
@@ -112,7 +112,7 @@ entity
 		side
 		{
 			"id" "8"
-			"plane" "(56 112 112) (56 112 0) (56 -16 0)"
+			"plane" "(56 64 112) (56 64 0) (56 -16 0)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 -48] 1"
 			"vaxis" "[0 0 -1 47.75] 1"
@@ -134,7 +134,7 @@ entity
 		side
 		{
 			"id" "10"
-			"plane" "(-56 112 112) (-56 112 0) (56 112 0)"
+			"plane" "(-56 64 112) (-56 64 0) (56 64 0)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -9] 1"
 			"vaxis" "[0 0 -1 47.75] 1"
@@ -145,7 +145,7 @@ entity
 		side
 		{
 			"id" "11"
-			"plane" "(-56 112 0) (-56 -16 0) (56 -16 0)"
+			"plane" "(-56 64 0) (-56 -16 0) (56 -16 0)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[-1 0 0 -9] 1"
 			"vaxis" "[0 -1 0 48] 1"
@@ -156,7 +156,7 @@ entity
 		side
 		{
 			"id" "12"
-			"plane" "(-56 -16 112) (-56 112 112) (56 112 112)"
+			"plane" "(-56 -16 112) (-56 64 112) (56 64 112)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 9] 1"
 			"vaxis" "[0 -1 0 48] 1"
