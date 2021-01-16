@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "1"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "4"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -38,6 +38,8 @@ entity
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/frame002a.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "-14.49 4.13208 -1.09399"
@@ -155,9 +157,9 @@ entity
 		{
 			"id" "6"
 			"plane" "(-8 3.1001 0.253967) (-19.5879 0 0.251648) (-20.8005 4.51099 16)"
-			"material" "/AZURLANE_ECHAN01"
-			"uaxis" "[0.965926 0.258819 0 -216.607] 0.0234375"
-			"vaxis" "[0.0735085 -0.274337 -0.95882 104.994] 0.0160334"
+			"material" "CASKOCHAN/TEXTURES/MUMBLE/SCOTT/SCOTT"
+			"uaxis" "[0.965926 0.258819 0 147.74] 0.0468765"
+			"vaxis" "[0.0735085 -0.274337 -0.95882 26.2261] 0.0641595"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -186,7 +188,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
-	"origin" "-14.52 4.29 7.99"
+	"origin" "-38.52 11.71 7.99"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -203,10 +205,10 @@ entity
 		side
 		{
 			"id" "48"
-			"plane" "(-20.7976 4.51221 16) (-21.0576 5.47241 15.7082) (-9.46973 8.58203 15.7073)"
+			"plane" "(-44.8005 11.9283 16) (-45.0606 12.8891 15.7078) (-33.4698 15.9992 15.707)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0.965926 0.258819 0 15.6922] 0.25"
-			"vaxis" "[0.248161 -0.926149 0.284015 15.165] 0.25"
+			"uaxis" "[0.965926 0.258819 0 36.7418] 0.25"
+			"vaxis" "[0.248161 -0.926149 0.284015 2.46777] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -214,10 +216,10 @@ entity
 		side
 		{
 			"id" "47"
-			"plane" "(-19.8491 0.961914 0) (-19.5891 0.00170898 0.25354) (-8 3.10254 0.25592)"
+			"plane" "(-43.8479 8.41763 0) (-43.5876 7.41763 0.253781) (-32 10.5165 0.256279)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0.965926 0.258819 0 15.6922] 0.25"
-			"vaxis" "[0.248161 -0.926149 0.284015 15.165] 0.25"
+			"uaxis" "[0.965926 0.258819 0 36.7418] 0.25"
+			"vaxis" "[0.248161 -0.926149 0.284015 2.46777] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -225,10 +227,10 @@ entity
 		side
 		{
 			"id" "46"
-			"plane" "(-19.5908 0.00146484 0.255066) (-19.8508 0.961914 0) (-21.0608 5.47144 15.7084)"
+			"plane" "(-43.5908 7.41763 0.25473) (-43.8511 8.41763 0) (-45.0612 12.8893 15.709)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-0.248161 0.926149 -0.284015 -15.165] 0.25"
-			"vaxis" "[0.0735085 -0.274337 -0.95882 36.4153] 0.25"
+			"uaxis" "[-0.248161 0.926149 -0.284015 -2.46777] 0.25"
+			"vaxis" "[0.0735085 -0.274337 -0.95882 51.6118] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -236,10 +238,10 @@ entity
 		side
 		{
 			"id" "45"
-			"plane" "(-9.21021 7.58203 16) (-9.46997 8.58203 15.7094) (-8.26001 4.07202 0)"
+			"plane" "(-33.2164 15.0279 16) (-33.4689 16 15.709) (-32.2589 11.4898 0)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-0.248161 0.926149 -0.284015 -15.165] 0.25"
-			"vaxis" "[0.0735085 -0.274337 -0.95882 36.4153] 0.25"
+			"uaxis" "[-0.248161 0.926149 -0.284015 -2.46777] 0.25"
+			"vaxis" "[0.0735085 -0.274337 -0.95882 51.6118] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -247,10 +249,10 @@ entity
 		side
 		{
 			"id" "44"
-			"plane" "(-19.8486 0.962158 0) (-8.25952 4.07202 0) (-9.47021 8.58203 15.7088)"
+			"plane" "(-43.8539 8.41763 0) (-32.26 11.4897 0) (-33.4695 16 15.7084)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0.965926 0.258819 0 15.6922] 0.25"
-			"vaxis" "[0.0735085 -0.274337 -0.95882 36.4153] 0.25"
+			"uaxis" "[0.965926 0.258819 0 36.7418] 0.25"
+			"vaxis" "[0.0735085 -0.274337 -0.95882 51.6118] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -258,10 +260,10 @@ entity
 		side
 		{
 			"id" "43"
-			"plane" "(-8 3.10132 0.257507) (-19.5879 0.0012207 0.255219) (-20.7998 4.51099 16)"
-			"material" "/AZURLANE_DEUTSCHLAND01"
-			"uaxis" "[0.965926 0.258819 0 -216.607] 0.0234375"
-			"vaxis" "[0.0735085 -0.274337 -0.95882 52.4702] 0.0320663"
+			"plane" "(-32 10.516 0.256356) (-43.592 7.41763 0.253889) (-44.799 11.9278 16)"
+			"material" "CASKOCHAN/TEXTURES/MUMBLE/ARTY_MOONSET_UNLIT"
+			"uaxis" "[0.965926 0.258819 0 89.3935] 0.046871"
+			"vaxis" "[0.0735085 -0.274337 -0.95882 85.4608] 0.0641552"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
