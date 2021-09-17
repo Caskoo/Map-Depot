@@ -1,0 +1,168 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8849"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "204417"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "204418"
+		side
+		{
+			"id" "1870"
+			"plane" "(-234 -255 -256) (-234 -385 -256) (234 -385 -256)"
+			vertices_plus
+			{
+				"v" "-234 -255 -256"
+				"v" "-234 -385 -256"
+				"v" "234 -385 -256"
+				"v" "234 -255 -256"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1871"
+			"plane" "(-234 -385 -106) (-234 -255 -106) (234 -255 -106)"
+			vertices_plus
+			{
+				"v" "-234 -385 -106"
+				"v" "-234 -255 -106"
+				"v" "234 -255 -106"
+				"v" "234 -385 -106"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1872"
+			"plane" "(-234 -385 -106) (-234 -385 -256) (-234 -255 -256)"
+			vertices_plus
+			{
+				"v" "-234 -385 -256"
+				"v" "-234 -255 -256"
+				"v" "-234 -255 -106"
+				"v" "-234 -385 -106"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1873"
+			"plane" "(234 -255 -106) (234 -255 -256) (234 -385 -256)"
+			vertices_plus
+			{
+				"v" "234 -255 -256"
+				"v" "234 -385 -256"
+				"v" "234 -385 -106"
+				"v" "234 -255 -106"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1874"
+			"plane" "(234 -385 -106) (234 -385 -256) (-234 -385 -256)"
+			vertices_plus
+			{
+				"v" "234 -385 -256"
+				"v" "-234 -385 -256"
+				"v" "-234 -385 -106"
+				"v" "234 -385 -106"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1875"
+			"plane" "(-234 -255 -106) (-234 -255 -256) (234 -255 -256)"
+			vertices_plus
+			{
+				"v" "-234 -255 -256"
+				"v" "234 -255 -256"
+				"v" "234 -255 -106"
+				"v" "-234 -255 -106"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 229 186"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "204419"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_vehicles/train_flatcar_container.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 -320 -256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 1500]"
+	}
+}
