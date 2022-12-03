@@ -1,0 +1,1653 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8864"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(4416 4800 64) (4928 4800 64) (4928 4288 64)"
+			vertices_plus
+			{
+				"v" "4416 4800 64"
+				"v" "4928 4800 64"
+				"v" "4928 4288 64"
+				"v" "4416 4288 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(4416 4288 0) (4928 4288 0) (4928 4800 0)"
+			vertices_plus
+			{
+				"v" "4416 4288 0"
+				"v" "4928 4288 0"
+				"v" "4928 4800 0"
+				"v" "4416 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(4416 4800 64) (4416 4288 64) (4416 4288 0)"
+			vertices_plus
+			{
+				"v" "4416 4800 64"
+				"v" "4416 4288 64"
+				"v" "4416 4288 0"
+				"v" "4416 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(4928 4800 0) (4928 4288 0) (4928 4288 64)"
+			vertices_plus
+			{
+				"v" "4928 4800 0"
+				"v" "4928 4288 0"
+				"v" "4928 4288 64"
+				"v" "4928 4800 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(4928 4800 64) (4416 4800 64) (4416 4800 0)"
+			vertices_plus
+			{
+				"v" "4928 4800 64"
+				"v" "4416 4800 64"
+				"v" "4416 4800 0"
+				"v" "4928 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(4928 4288 0) (4416 4288 0) (4416 4288 64)"
+			vertices_plus
+			{
+				"v" "4928 4288 0"
+				"v" "4416 4288 0"
+				"v" "4416 4288 64"
+				"v" "4928 4288 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "14"
+		side
+		{
+			"id" "25"
+			"plane" "(2560 6272 0) (7680 6272 0) (7680 -1024 0)"
+			vertices_plus
+			{
+				"v" "2560 6272 0"
+				"v" "7680 6272 0"
+				"v" "7680 -1024 0"
+				"v" "2560 -1024 0"
+			}
+			"material" "NATURE/UNDERWORLD_LAVA001"
+			"uaxis" "[1 0 0 0] 5"
+			"vaxis" "[0 -1 0 0] 5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(2560 -1024 -64) (7680 -1024 -64) (7680 6272 -64)"
+			vertices_plus
+			{
+				"v" "2560 -1024 -64"
+				"v" "7680 -1024 -64"
+				"v" "7680 6272 -64"
+				"v" "2560 6272 -64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(2560 6272 0) (2560 -1024 0) (2560 -1024 -64)"
+			vertices_plus
+			{
+				"v" "2560 6272 0"
+				"v" "2560 -1024 0"
+				"v" "2560 -1024 -64"
+				"v" "2560 6272 -64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(7680 6272 -64) (7680 -1024 -64) (7680 -1024 0)"
+			vertices_plus
+			{
+				"v" "7680 6272 -64"
+				"v" "7680 -1024 -64"
+				"v" "7680 -1024 0"
+				"v" "7680 6272 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(7680 6272 0) (2560 6272 0) (2560 6272 -64)"
+			vertices_plus
+			{
+				"v" "7680 6272 0"
+				"v" "2560 6272 0"
+				"v" "2560 6272 -64"
+				"v" "7680 6272 -64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "30"
+			"plane" "(7680 -1024 -64) (2560 -1024 -64) (2560 -1024 0)"
+			vertices_plus
+			{
+				"v" "7680 -1024 -64"
+				"v" "2560 -1024 -64"
+				"v" "2560 -1024 0"
+				"v" "7680 -1024 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 150 107"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "35"
+		side
+		{
+			"id" "42"
+			"plane" "(4928 4800 64) (5440 4800 64) (5440 4288 64)"
+			vertices_plus
+			{
+				"v" "4928 4800 64"
+				"v" "5440 4800 64"
+				"v" "5440 4288 64"
+				"v" "4928 4288 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(4928 4288 0) (5440 4288 0) (5440 4800 0)"
+			vertices_plus
+			{
+				"v" "4928 4288 0"
+				"v" "5440 4288 0"
+				"v" "5440 4800 0"
+				"v" "4928 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(4928 4800 64) (4928 4288 64) (4928 4288 0)"
+			vertices_plus
+			{
+				"v" "4928 4800 64"
+				"v" "4928 4288 64"
+				"v" "4928 4288 0"
+				"v" "4928 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(5440 4800 0) (5440 4288 0) (5440 4288 64)"
+			vertices_plus
+			{
+				"v" "5440 4800 0"
+				"v" "5440 4288 0"
+				"v" "5440 4288 64"
+				"v" "5440 4800 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(5440 4800 64) (4928 4800 64) (4928 4800 0)"
+			vertices_plus
+			{
+				"v" "5440 4800 64"
+				"v" "4928 4800 64"
+				"v" "4928 4800 0"
+				"v" "5440 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(5440 4288 0) (4928 4288 0) (4928 4288 64)"
+			vertices_plus
+			{
+				"v" "5440 4288 0"
+				"v" "4928 4288 0"
+				"v" "4928 4288 64"
+				"v" "5440 4288 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 -575] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "36"
+		side
+		{
+			"id" "54"
+			"plane" "(5440 4800 64) (5952 4800 64) (5952 4288 64)"
+			vertices_plus
+			{
+				"v" "5440 4800 64"
+				"v" "5952 4800 64"
+				"v" "5952 4288 64"
+				"v" "5440 4288 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "53"
+			"plane" "(5440 4288 0) (5952 4288 0) (5952 4800 0)"
+			vertices_plus
+			{
+				"v" "5440 4288 0"
+				"v" "5952 4288 0"
+				"v" "5952 4800 0"
+				"v" "5440 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52"
+			"plane" "(5440 4800 64) (5440 4288 64) (5440 4288 0)"
+			vertices_plus
+			{
+				"v" "5440 4800 64"
+				"v" "5440 4288 64"
+				"v" "5440 4288 0"
+				"v" "5440 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 -0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(5952 4800 0) (5952 4288 0) (5952 4288 64)"
+			vertices_plus
+			{
+				"v" "5952 4800 0"
+				"v" "5952 4288 0"
+				"v" "5952 4288 64"
+				"v" "5952 4800 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(5952 4800 64) (5440 4800 64) (5440 4800 0)"
+			vertices_plus
+			{
+				"v" "5952 4800 64"
+				"v" "5440 4800 64"
+				"v" "5440 4800 0"
+				"v" "5952 4800 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "49"
+			"plane" "(5952 4288 0) (5440 4288 0) (5440 4288 64)"
+			vertices_plus
+			{
+				"v" "5952 4288 0"
+				"v" "5440 4288 0"
+				"v" "5440 4288 64"
+				"v" "5952 4288 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 -575] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "37"
+		side
+		{
+			"id" "78"
+			"plane" "(5440 4288 64) (5952 4288 64) (5952 3776 64)"
+			vertices_plus
+			{
+				"v" "5440 4288 64"
+				"v" "5952 4288 64"
+				"v" "5952 3776 64"
+				"v" "5440 3776 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "77"
+			"plane" "(5440 3776 0) (5952 3776 0) (5952 4288 0)"
+			vertices_plus
+			{
+				"v" "5440 3776 0"
+				"v" "5952 3776 0"
+				"v" "5952 4288 0"
+				"v" "5440 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "76"
+			"plane" "(5440 4288 64) (5440 3776 64) (5440 3776 0)"
+			vertices_plus
+			{
+				"v" "5440 4288 64"
+				"v" "5440 3776 64"
+				"v" "5440 3776 0"
+				"v" "5440 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75"
+			"plane" "(5952 4288 0) (5952 3776 0) (5952 3776 64)"
+			vertices_plus
+			{
+				"v" "5952 4288 0"
+				"v" "5952 3776 0"
+				"v" "5952 3776 64"
+				"v" "5952 4288 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "74"
+			"plane" "(5952 4288 64) (5440 4288 64) (5440 4288 0)"
+			vertices_plus
+			{
+				"v" "5952 4288 64"
+				"v" "5440 4288 64"
+				"v" "5440 4288 0"
+				"v" "5952 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "73"
+			"plane" "(5952 3776 0) (5440 3776 0) (5440 3776 64)"
+			vertices_plus
+			{
+				"v" "5952 3776 0"
+				"v" "5440 3776 0"
+				"v" "5440 3776 64"
+				"v" "5952 3776 64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "38"
+		side
+		{
+			"id" "84"
+			"plane" "(4928 4288 64) (5440 4288 64) (5440 3776 64)"
+			vertices_plus
+			{
+				"v" "4928 4288 64"
+				"v" "5440 4288 64"
+				"v" "5440 3776 64"
+				"v" "4928 3776 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(4928 3776 0) (5440 3776 0) (5440 4288 0)"
+			vertices_plus
+			{
+				"v" "4928 3776 0"
+				"v" "5440 3776 0"
+				"v" "5440 4288 0"
+				"v" "4928 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "82"
+			"plane" "(4928 4288 64) (4928 3776 64) (4928 3776 0)"
+			vertices_plus
+			{
+				"v" "4928 4288 64"
+				"v" "4928 3776 64"
+				"v" "4928 3776 0"
+				"v" "4928 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(5440 4288 0) (5440 3776 0) (5440 3776 64)"
+			vertices_plus
+			{
+				"v" "5440 4288 0"
+				"v" "5440 3776 0"
+				"v" "5440 3776 64"
+				"v" "5440 4288 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(5440 4288 64) (4928 4288 64) (4928 4288 0)"
+			vertices_plus
+			{
+				"v" "5440 4288 64"
+				"v" "4928 4288 64"
+				"v" "4928 4288 0"
+				"v" "5440 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(5440 3776 0) (4928 3776 0) (4928 3776 64)"
+			vertices_plus
+			{
+				"v" "5440 3776 0"
+				"v" "4928 3776 0"
+				"v" "4928 3776 64"
+				"v" "5440 3776 64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "39"
+		side
+		{
+			"id" "90"
+			"plane" "(4416 4288 64) (4928 4288 64) (4928 3776 64)"
+			vertices_plus
+			{
+				"v" "4416 4288 64"
+				"v" "4928 4288 64"
+				"v" "4928 3776 64"
+				"v" "4416 3776 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "89"
+			"plane" "(4416 3776 0) (4928 3776 0) (4928 4288 0)"
+			vertices_plus
+			{
+				"v" "4416 3776 0"
+				"v" "4928 3776 0"
+				"v" "4928 4288 0"
+				"v" "4416 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "88"
+			"plane" "(4416 4288 64) (4416 3776 64) (4416 3776 0)"
+			vertices_plus
+			{
+				"v" "4416 4288 64"
+				"v" "4416 3776 64"
+				"v" "4416 3776 0"
+				"v" "4416 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "87"
+			"plane" "(4928 4288 0) (4928 3776 0) (4928 3776 64)"
+			vertices_plus
+			{
+				"v" "4928 4288 0"
+				"v" "4928 3776 0"
+				"v" "4928 3776 64"
+				"v" "4928 4288 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "86"
+			"plane" "(4928 4288 64) (4416 4288 64) (4416 4288 0)"
+			vertices_plus
+			{
+				"v" "4928 4288 64"
+				"v" "4416 4288 64"
+				"v" "4416 4288 0"
+				"v" "4928 4288 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(4928 3776 0) (4416 3776 0) (4416 3776 64)"
+			vertices_plus
+			{
+				"v" "4928 3776 0"
+				"v" "4416 3776 0"
+				"v" "4416 3776 64"
+				"v" "4928 3776 64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "40"
+		side
+		{
+			"id" "114"
+			"plane" "(5440 3776 64) (5952 3776 64) (5952 3264 64)"
+			vertices_plus
+			{
+				"v" "5440 3776 64"
+				"v" "5952 3776 64"
+				"v" "5952 3264 64"
+				"v" "5440 3264 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "113"
+			"plane" "(5440 3264 0) (5952 3264 0) (5952 3776 0)"
+			vertices_plus
+			{
+				"v" "5440 3264 0"
+				"v" "5952 3264 0"
+				"v" "5952 3776 0"
+				"v" "5440 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "112"
+			"plane" "(5440 3776 64) (5440 3264 64) (5440 3264 0)"
+			vertices_plus
+			{
+				"v" "5440 3776 64"
+				"v" "5440 3264 64"
+				"v" "5440 3264 0"
+				"v" "5440 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "111"
+			"plane" "(5952 3776 0) (5952 3264 0) (5952 3264 64)"
+			vertices_plus
+			{
+				"v" "5952 3776 0"
+				"v" "5952 3264 0"
+				"v" "5952 3264 64"
+				"v" "5952 3776 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "110"
+			"plane" "(5952 3776 64) (5440 3776 64) (5440 3776 0)"
+			vertices_plus
+			{
+				"v" "5952 3776 64"
+				"v" "5440 3776 64"
+				"v" "5440 3776 0"
+				"v" "5952 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "109"
+			"plane" "(5952 3264 0) (5440 3264 0) (5440 3264 64)"
+			vertices_plus
+			{
+				"v" "5952 3264 0"
+				"v" "5440 3264 0"
+				"v" "5440 3264 64"
+				"v" "5952 3264 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 -575] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "41"
+		side
+		{
+			"id" "120"
+			"plane" "(4928 3776 64) (5440 3776 64) (5440 3264 64)"
+			vertices_plus
+			{
+				"v" "4928 3776 64"
+				"v" "5440 3776 64"
+				"v" "5440 3264 64"
+				"v" "4928 3264 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "119"
+			"plane" "(4928 3264 0) (5440 3264 0) (5440 3776 0)"
+			vertices_plus
+			{
+				"v" "4928 3264 0"
+				"v" "5440 3264 0"
+				"v" "5440 3776 0"
+				"v" "4928 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "118"
+			"plane" "(4928 3776 64) (4928 3264 64) (4928 3264 0)"
+			vertices_plus
+			{
+				"v" "4928 3776 64"
+				"v" "4928 3264 64"
+				"v" "4928 3264 0"
+				"v" "4928 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "117"
+			"plane" "(5440 3776 0) (5440 3264 0) (5440 3264 64)"
+			vertices_plus
+			{
+				"v" "5440 3776 0"
+				"v" "5440 3264 0"
+				"v" "5440 3264 64"
+				"v" "5440 3776 64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "116"
+			"plane" "(5440 3776 64) (4928 3776 64) (4928 3776 0)"
+			vertices_plus
+			{
+				"v" "5440 3776 64"
+				"v" "4928 3776 64"
+				"v" "4928 3776 0"
+				"v" "5440 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "115"
+			"plane" "(5440 3264 0) (4928 3264 0) (4928 3264 64)"
+			vertices_plus
+			{
+				"v" "5440 3264 0"
+				"v" "4928 3264 0"
+				"v" "4928 3264 64"
+				"v" "5440 3264 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 -575] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "42"
+		side
+		{
+			"id" "126"
+			"plane" "(4416 3776 64) (4928 3776 64) (4928 3264 64)"
+			vertices_plus
+			{
+				"v" "4416 3776 64"
+				"v" "4928 3776 64"
+				"v" "4928 3264 64"
+				"v" "4416 3264 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "125"
+			"plane" "(4416 3264 0) (4928 3264 0) (4928 3776 0)"
+			vertices_plus
+			{
+				"v" "4416 3264 0"
+				"v" "4928 3264 0"
+				"v" "4928 3776 0"
+				"v" "4416 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "124"
+			"plane" "(4416 3776 64) (4416 3264 64) (4416 3264 0)"
+			vertices_plus
+			{
+				"v" "4416 3776 64"
+				"v" "4416 3264 64"
+				"v" "4416 3264 0"
+				"v" "4416 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "123"
+			"plane" "(4928 3776 0) (4928 3264 0) (4928 3264 64)"
+			vertices_plus
+			{
+				"v" "4928 3776 0"
+				"v" "4928 3264 0"
+				"v" "4928 3264 64"
+				"v" "4928 3776 64"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "122"
+			"plane" "(4928 3776 64) (4416 3776 64) (4416 3776 0)"
+			vertices_plus
+			{
+				"v" "4928 3776 64"
+				"v" "4416 3776 64"
+				"v" "4416 3776 0"
+				"v" "4928 3776 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "121"
+			"plane" "(4928 3264 0) (4416 3264 0) (4416 3264 64)"
+			vertices_plus
+			{
+				"v" "4928 3264 0"
+				"v" "4416 3264 0"
+				"v" "4416 3264 64"
+				"v" "4928 3264 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "43"
+		side
+		{
+			"id" "150"
+			"plane" "(5440 3264 64) (5952 3264 64) (5952 2752 64)"
+			vertices_plus
+			{
+				"v" "5440 3264 64"
+				"v" "5952 3264 64"
+				"v" "5952 2752 64"
+				"v" "5440 2752 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "149"
+			"plane" "(5440 2752 0) (5952 2752 0) (5952 3264 0)"
+			vertices_plus
+			{
+				"v" "5440 2752 0"
+				"v" "5952 2752 0"
+				"v" "5952 3264 0"
+				"v" "5440 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "148"
+			"plane" "(5440 3264 64) (5440 2752 64) (5440 2752 0)"
+			vertices_plus
+			{
+				"v" "5440 3264 64"
+				"v" "5440 2752 64"
+				"v" "5440 2752 0"
+				"v" "5440 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "147"
+			"plane" "(5952 3264 0) (5952 2752 0) (5952 2752 64)"
+			vertices_plus
+			{
+				"v" "5952 3264 0"
+				"v" "5952 2752 0"
+				"v" "5952 2752 64"
+				"v" "5952 3264 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "146"
+			"plane" "(5952 3264 64) (5440 3264 64) (5440 3264 0)"
+			vertices_plus
+			{
+				"v" "5952 3264 64"
+				"v" "5440 3264 64"
+				"v" "5440 3264 0"
+				"v" "5952 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "145"
+			"plane" "(5952 2752 0) (5440 2752 0) (5440 2752 64)"
+			vertices_plus
+			{
+				"v" "5952 2752 0"
+				"v" "5440 2752 0"
+				"v" "5440 2752 64"
+				"v" "5952 2752 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 -575] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "44"
+		side
+		{
+			"id" "156"
+			"plane" "(4928 3264 64) (5440 3264 64) (5440 2752 64)"
+			vertices_plus
+			{
+				"v" "4928 3264 64"
+				"v" "5440 3264 64"
+				"v" "5440 2752 64"
+				"v" "4928 2752 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(4928 2752 0) (5440 2752 0) (5440 3264 0)"
+			vertices_plus
+			{
+				"v" "4928 2752 0"
+				"v" "5440 2752 0"
+				"v" "5440 3264 0"
+				"v" "4928 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "154"
+			"plane" "(4928 3264 64) (4928 2752 64) (4928 2752 0)"
+			vertices_plus
+			{
+				"v" "4928 3264 64"
+				"v" "4928 2752 64"
+				"v" "4928 2752 0"
+				"v" "4928 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(5440 3264 0) (5440 2752 0) (5440 2752 64)"
+			vertices_plus
+			{
+				"v" "5440 3264 0"
+				"v" "5440 2752 0"
+				"v" "5440 2752 64"
+				"v" "5440 3264 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "152"
+			"plane" "(5440 3264 64) (4928 3264 64) (4928 3264 0)"
+			vertices_plus
+			{
+				"v" "5440 3264 64"
+				"v" "4928 3264 64"
+				"v" "4928 3264 0"
+				"v" "5440 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "151"
+			"plane" "(5440 2752 0) (4928 2752 0) (4928 2752 64)"
+			vertices_plus
+			{
+				"v" "5440 2752 0"
+				"v" "4928 2752 0"
+				"v" "4928 2752 64"
+				"v" "5440 2752 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 -575] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "45"
+		side
+		{
+			"id" "162"
+			"plane" "(4416 3264 64) (4928 3264 64) (4928 2752 64)"
+			vertices_plus
+			{
+				"v" "4416 3264 64"
+				"v" "4928 3264 64"
+				"v" "4928 2752 64"
+				"v" "4416 2752 64"
+			}
+			"material" "HACKSAW_EVENT/BLENDGROUNDTORIVERBED002"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(4416 2752 0) (4928 2752 0) (4928 3264 0)"
+			vertices_plus
+			{
+				"v" "4416 2752 0"
+				"v" "4928 2752 0"
+				"v" "4928 3264 0"
+				"v" "4416 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(4416 3264 64) (4416 2752 64) (4416 2752 0)"
+			vertices_plus
+			{
+				"v" "4416 3264 64"
+				"v" "4416 2752 64"
+				"v" "4416 2752 0"
+				"v" "4416 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(4928 3264 0) (4928 2752 0) (4928 2752 64)"
+			vertices_plus
+			{
+				"v" "4928 3264 0"
+				"v" "4928 2752 0"
+				"v" "4928 2752 64"
+				"v" "4928 3264 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[0 1 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(4928 3264 64) (4416 3264 64) (4416 3264 0)"
+			vertices_plus
+			{
+				"v" "4928 3264 64"
+				"v" "4416 3264 64"
+				"v" "4416 3264 0"
+				"v" "4928 3264 0"
+			}
+			"material" "DEV/REFLECTIVITY_70"
+			"uaxis" "[1 0 0 -256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "157"
+			"plane" "(4928 2752 0) (4416 2752 0) (4416 2752 64)"
+			vertices_plus
+			{
+				"v" "4928 2752 0"
+				"v" "4416 2752 0"
+				"v" "4416 2752 64"
+				"v" "4928 2752 64"
+			}
+			"material" "NATURE/UNDERWORLD_ROCKWALL001"
+			"uaxis" "[1 0 0 449] 0.5"
+			"vaxis" "[0 0 -1 128] 0.5"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"gmod_allowphysgun" "1"
+	"origin" "5312 3424 65"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"gmod_allowphysgun" "1"
+	"origin" "5312 4064 65"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
