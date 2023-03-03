@@ -1,0 +1,288 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7554"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "2943274"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_l4d_rural02_hdr"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"musicpostfix" "Waterfront"
+}
+entity
+{
+	"id" "2943275"
+	"classname" "prop_static"
+	"angles" "0 345 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "1"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_vehicles/generatortrailer01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "5256 3216 -1050"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-14768 -12268]"
+	}
+}
+entity
+{
+	"id" "2943279"
+	"classname" "env_smokestack"
+	"angles" "-60 345 0"
+	"BaseSpread" "2"
+	"EndSize" "8"
+	"InitialState" "1"
+	"JetLength" "48"
+	"Rate" "16"
+	"renderamt" "50"
+	"rendercolor" "25 25 25"
+	"roll" "0"
+	"SmokeMaterial" "particle/smokestack.vmt"
+	"Speed" "10"
+	"SpreadSpeed" "4"
+	"StartSize" "2"
+	"twist" "0"
+	"WindAngle" "345"
+	"WindSpeed" "10"
+	"origin" "5222 3225 -991"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -14268]"
+	}
+}
+entity
+{
+	"id" "2943281"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "ihatemountains/underground/diesel_generator_loop.wav"
+	"pitch" "120"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "16"
+	"targetname" "background_atmosphere"
+	"origin" "5240 3216 -992"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -14768]"
+	}
+}
+entity
+{
+	"id" "2943284"
+	"classname" "keyframe_rope"
+	"MoveSpeed" "64"
+	"NextKey" "electric_wire19_2"
+	"RopeMaterial" "ihatemountains/underground/metal_wire.vmt"
+	"Slack" "0"
+	"Subdiv" "2"
+	"targetname" "electric_wire19_1"
+	"TextureScale" "1"
+	"Width" "1"
+	"origin" "5242 3199 -996"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 11500]"
+	}
+}
+entity
+{
+	"id" "2943287"
+	"classname" "keyframe_rope"
+	"MoveSpeed" "64"
+	"NextKey" "electric_wire19_3"
+	"RopeMaterial" "ihatemountains/underground/metal_wire.vmt"
+	"Slack" "110"
+	"Subdiv" "2"
+	"targetname" "electric_wire19_2"
+	"TextureScale" "1"
+	"Width" "1"
+	"origin" "5265 3234 -1009"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 12000]"
+	}
+}
+entity
+{
+	"id" "2943290"
+	"classname" "prop_static"
+	"angles" "0 225 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_equipment/light_floodlight.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "1"
+	"solid" "6"
+	"origin" "5349.61 3205.68 -1053.02"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-14768 2500]"
+	}
+}
+entity
+{
+	"id" "2943294"
+	"classname" "beam_spotlight"
+	"angles" "10 210 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" "1.0"
+	"maxspeed" "100"
+	"renderamt" "255"
+	"rendercolor" "80 80 60"
+	"spawnflags" "3"
+	"spotlightlength" "64"
+	"spotlightwidth" "32"
+	"origin" "5354.66 3194.61 -973.02"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 8000]"
+	}
+}
+entity
+{
+	"id" "2943296"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "60"
+	"_constant_attn" "20000"
+	"_exponent" "1"
+	"_inner_cone" "45"
+	"_light" "255 255 200 400"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"angles" "-10 210.5 0"
+	"pitch" "-10"
+	"spawnflags" "0"
+	"origin" "5354.92 3193.64 -973.02"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 9500]"
+	}
+}
+entity
+{
+	"id" "2943301"
+	"classname" "beam_spotlight"
+	"angles" "10 240 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HDRColorScale" "1.0"
+	"maxspeed" "100"
+	"renderamt" "255"
+	"rendercolor" "80 80 60"
+	"spawnflags" "3"
+	"spotlightlength" "64"
+	"spotlightwidth" "32"
+	"origin" "5338.85 3211.08 -973.02"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 8500]"
+	}
+}
+entity
+{
+	"id" "2943303"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "60"
+	"_constant_attn" "20000"
+	"_exponent" "1"
+	"_inner_cone" "45"
+	"_light" "255 255 200 400"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"angles" "-10 240 0"
+	"pitch" "-10"
+	"spawnflags" "0"
+	"origin" "5338.14 3209.86 -973.02"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 9000]"
+	}
+}
+entity
+{
+	"id" "2943308"
+	"classname" "keyframe_rope"
+	"MoveSpeed" "64"
+	"RopeMaterial" "ihatemountains/underground/metal_wire.vmt"
+	"Slack" "0"
+	"Subdiv" "2"
+	"targetname" "electric_wire19_3"
+	"TextureScale" "1"
+	"Width" "1"
+	"origin" "5350 3210 -992"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 12500]"
+	}
+}

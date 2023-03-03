@@ -1,0 +1,114 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7644"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "6083353"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"destalphascale" "1024"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "6083354"
+	"classname" "env_sprite"
+	"framerate" "0"
+	"GlowProxySize" "3"
+	"HDRColorScale" "0.6"
+	"model" "sprites/light_glow_001.vmt"
+	"renderamt" "155"
+	"rendercolor" "215 217 149"
+	"rendermode" "9"
+	"scale" "1.5"
+	"origin" "-5770.85 -6470.99 -2324.11"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 15000]"
+	}
+}
+entity
+{
+	"id" "6083357"
+	"classname" "env_sprite"
+	"framerate" "0"
+	"GlowProxySize" "3"
+	"HDRColorScale" "0.6"
+	"model" "sprites/light_glow_001.vmt"
+	"renderamt" "155"
+	"rendercolor" "215 217 149"
+	"rendermode" "9"
+	"scale" "1.5"
+	"origin" "-5748.03 -6448.56 -2324.11"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 14000]"
+	}
+}
+entity
+{
+	"id" "6083360"
+	"classname" "light_spot"
+	"_cone" "80"
+	"_exponent" "1"
+	"_inner_cone" "60"
+	"_light" "238 149 83 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-90 44.5 0"
+	"pitch" "-90"
+	"origin" "-5759.3 -6459.92 -2328.11"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[14000 14500]"
+	}
+}
+entity
+{
+	"id" "6083365"
+	"classname" "prop_static"
+	"angles" "0 44.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_electric/fluorescent_light_004.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "3"
+	"solid" "6"
+	"origin" "-5759.44 -6459.77 -2320.11"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 14000]"
+	}
+}

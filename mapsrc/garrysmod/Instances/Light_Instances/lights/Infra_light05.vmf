@@ -1,0 +1,152 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7644"
+	"mapversion" "5"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "2570493"
+	"mapversion" "5"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"destalphascale" "1024"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2570494"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "6"
+	"HDRColorScale" "0.5"
+	"model" "sprites/light_glow_001.vmt"
+	"renderamt" "255"
+	"rendercolor" "217 181 98"
+	"rendermode" "9"
+	"scale" "0.7"
+	"spawnflags" "0"
+	"targetname" "gen_puzzle_lights_spr"
+	"origin" "1088 -47 -658"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15768 -14768]"
+	}
+}
+entity
+{
+	"id" "2570497"
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_electric/fluorescent_light_004.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"SuppressAnimSounds" "0"
+	"targetname" "gen_puzzle_li_mdlb"
+	"origin" "1088 -32 -656"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -5268]"
+	}
+}
+entity
+{
+	"id" "2570501"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "6"
+	"HDRColorScale" "0.5"
+	"model" "sprites/light_glow_001.vmt"
+	"renderamt" "255"
+	"rendercolor" "217 181 98"
+	"rendermode" "9"
+	"scale" "0.7"
+	"spawnflags" "0"
+	"targetname" "gen_puzzle_lights_spr"
+	"origin" "1088 -17 -658"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15768 -15268]"
+	}
+}
+entity
+{
+	"id" "2570504"
+	"classname" "light_spot"
+	"_cone" "80"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "217 181 98 150"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-90 0 0"
+	"pitch" "-90"
+	"spawnflags" "1"
+	"targetname" "gen_puzzle_lightsb"
+	"origin" "1088 -32 -661"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13768 -13768]"
+	}
+}
+entity
+{
+	"id" "2570509"
+	"classname" "light_spot"
+	"_cone" "80"
+	"_exponent" "1"
+	"_inner_cone" "20"
+	"_light" "217 181 98 20"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "90 180 0"
+	"pitch" "90"
+	"spawnflags" "1"
+	"targetname" "gen_puzzle_lightsb"
+	"origin" "1088 -32 -699"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13768 -14268]"
+	}
+}

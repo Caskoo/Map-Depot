@@ -1,0 +1,335 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7538"
+	"mapversion" "9"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "9"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "36"
+			"plane" "(-48 0 108) (-48 -8 108) (48 -8 108)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[0 -1 0 0] 0.125"
+			"vaxis" "[-1 0 0 -448] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-56 -8 116) (-56 0 116) (56 0 116)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(48 0 108) (48 -8 108) (56 -8 116)"
+			"material" "METAL/METALTRACK001A"
+			"uaxis" "[0 1 0 288] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(-48 -8 108) (-48 0 108) (-56 0 116)"
+			"material" "METAL/METALTRACK001A"
+			"uaxis" "[0 1 0 288] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(48 -8 108) (-48 -8 108) (-56 -8 116)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[0 0 -1 -32] 0.125"
+			"vaxis" "[1 0 0 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "31"
+			"plane" "(-48 0 108) (48 0 108) (56 0 116)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[0 0 -1 -32] 0.125"
+			"vaxis" "[1 0 0 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "42"
+			"plane" "(-56 -8 116) (-56 -8 0) (-56 0 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 32] 0.25"
+			"vaxis" "[0 0 1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-48 0 108) (-48 0 0) (-48 -8 0)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[0 -1 0 0] 0.125"
+			"vaxis" "[0 0 1 -32] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-48 -8 108) (-48 -8 0) (-56 -8 0)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[1 0 0 0] 0.125"
+			"vaxis" "[0 0 1 -32] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(-56 0 116) (-56 0 0) (-48 0 0)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[1 0 0 0] 0.125"
+			"vaxis" "[0 0 1 -32] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(-56 0 0) (-56 -8 0) (-48 -8 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(-48 0 108) (-48 -8 108) (-56 -8 116)"
+			"material" "METAL/METALTRACK001A"
+			"uaxis" "[0 1 0 288] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5"
+		side
+		{
+			"id" "48"
+			"plane" "(48 -8 108) (48 -8 0) (48 0 0)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[0 -1 0 0] 0.125"
+			"vaxis" "[0 0 1 -32] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(56 0 116) (56 0 0) (56 -8 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(56 -8 116) (56 -8 0) (48 -8 0)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[-1 0 0 0] 0.125"
+			"vaxis" "[0 0 -1 -32] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(48 0 108) (48 0 0) (56 0 0)"
+			"material" "METAL/METALTRUSS017A"
+			"uaxis" "[-1 0 0 0] 0.125"
+			"vaxis" "[0 0 -1 -32] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(48 0 0) (48 -8 0) (56 -8 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(48 -8 108) (48 0 108) (56 0 116)"
+			"material" "METAL/METALTRACK001A"
+			"uaxis" "[0 1 0 288] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13000 -3268]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 270 0"
+	"axis" "-47.01 -4 54.88, -47.01 -4 54.88"
+	"disableshadows" "1"
+	"distance" "90"
+	"forceclosed" "0"
+	"hardware" "1"
+	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
+	"returndelay" "-1"
+	"skin" "8"
+	"slavename" "dr12a"
+	"spawnflags" "8192"
+	"speed" "100"
+	"targetname" "dr12b"
+	"origin" "-47 -4 54.887"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -15768]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 90 0"
+	"axis" "47 -4 54.88, 47 -4 54.88"
+	"disableshadows" "1"
+	"distance" "90"
+	"forceclosed" "0"
+	"hardware" "1"
+	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
+	"returndelay" "-1"
+	"skin" "8"
+	"slavename" "dr12b"
+	"spawnflags" "8192"
+	"speed" "100"
+	"targetname" "dr12a"
+	"origin" "47 -4 54.887"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 -16268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

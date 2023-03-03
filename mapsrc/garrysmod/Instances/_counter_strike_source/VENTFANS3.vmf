@@ -1,0 +1,110 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7889"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "3017347"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"skyname" "sky_dust"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "3017348"
+	"classname" "prop_dynamic"
+	"angles" "90 90 0"
+	"DefaultAnim" "spin"
+	"disableshadows" "1"
+	"fademaxdist" "1700"
+	"fademindist" "1700"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props/de_vertigo/hvac_fanblade_spinning_01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-4353 3424.01 352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 11000]"
+	}
+}
+entity
+{
+	"id" "3017352"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "3000"
+	"fademindist" "3000"
+	"fadescale" "1"
+	"lightingorigin" "sprp_lighting_21"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props/de_vertigo/hvac_fan_02.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "-4369 3424.01 320"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-2768 5000]"
+	}
+}
+entity
+{
+	"id" "3017356"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "ambient/machines/office_garage_vent_01.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "1"
+	"radius" "100"
+	"spawnflags" "0"
+	"origin" "-4344 3424 352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -8768]"
+	}
+}
+entity
+{
+	"id" "3017359"
+	"classname" "info_lighting"
+	"targetname" "sprp_lighting_21"
+	"origin" "-4336 3424 352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 8500]"
+	}
+}

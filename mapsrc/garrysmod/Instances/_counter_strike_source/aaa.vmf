@@ -1,0 +1,115 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "746583"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "746584"
+	"classname" "logic_timer"
+	"LowerRandomBound" "0.1"
+	"spawnflags" "1"
+	"UpperRandomBound" "2"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimerHigh" "light_flicker_model,Skin,1,0,-1"
+		"OnTimerHigh" "light_flicker,TurnOn,,0,-1"
+		"OnTimerLow" "light_flicker,TurnOff,,0,-1"
+		"OnTimerLow" "light_flicker_model,Skin,0,0,-1"
+		"OnTimerLow" "light_flicker_spark,SparkOnce,,0,-1"
+	}
+	"origin" "929 -1168.29 -50.1177"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -3268]"
+	}
+}
+entity
+{
+	"id" "746586"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"gmod_allowphysgun" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"StartDisabled" "0"
+	"targetname" "light_flicker_model"
+	"origin" "923 -1133.94 -47.3162"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "746590"
+	"classname" "light"
+	"_light" "255 255 176 80"
+	"_lightHDR" "255 255 128 200"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "100"
+	"_quadratic_attn" "10"
+	"targetname" "light_flicker"
+	"origin" "928.283 -1134.23 -48.1162"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10768]"
+	}
+}
+entity
+{
+	"id" "746595"
+	"classname" "env_spark"
+	"angles" "37 69 0"
+	"Magnitude" "1"
+	"targetname" "light_flicker_spark"
+	"TrailLength" "1"
+	"origin" "923 -1105.94 -47.031"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -2768]"
+	}
+}
