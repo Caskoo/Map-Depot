@@ -1,0 +1,126 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7538"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "info_particle_system"
+	"angles" "0 255.373 0"
+	"cpoint1" "AutoInstance1-target_lights_3"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "string_lights_01"
+	"start_active" "1"
+	"targetname" "AutoInstance1-fx_string_lights2"
+	connections
+	{
+		"OnUser1" "AutoInstance1-fx_string_lights2SetControlPointValue1 .25 .250-1,,,0,-1"
+	}
+	"origin" "25.0212 -7.71118 0.00889587"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "67"
+	"classname" "info_particle_system"
+	"angles" "0 266.553 0"
+	"cpoint1" "AutoInstance1-target_lights_2"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "string_lights_01"
+	"start_active" "1"
+	"targetname" "AutoInstance1-fx_string_lights1"
+	connections
+	{
+		"OnUser1" "AutoInstance1-fx_string_lights1SetControlPointValue1 .25 .250-1,,,0,-1"
+	}
+	"origin" "350.941 -16.9512 0.00889587"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 1500]"
+	}
+}
+entity
+{
+	"id" "132"
+	"classname" "info_particle_system"
+	"angles" "0 201.5 0"
+	"cpoint1" "InstanceAuto13-target_lights_01"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "string_lights_01"
+	"start_active" "1"
+	"targetname" "InstanceAuto13-fx_string_lights"
+	connections
+	{
+		"OnUser1" "InstanceAuto13-fx_string_lightsSetControlPointValue1 .25 .250-1,,,0,-1"
+	}
+	"origin" "-302.819 16.9688 0.00889587"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 4000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

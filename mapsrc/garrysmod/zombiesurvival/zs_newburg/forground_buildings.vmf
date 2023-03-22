@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8849"
-	"mapversion" "8"
+	"editorbuild" "8864"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -16,10 +16,63 @@ viewsettings
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "32"
 }
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
 world
 {
 	"id" "5"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4657,7 +4710,7 @@ world
 				"v" "-864 -2432 200"
 				"v" "-48 -2432 200"
 				"v" "-48 -2432 263.894"
-				"v" "-864.004 -2432 263.894"
+				"v" "-864 -2432 263.894"
 			}
 			"material" "BUILDING_TEMPLATE/COURTYARD_TEMPLATE006E"
 			"uaxis" "[-1 0 0 192] 0.25"
@@ -4691,7 +4744,7 @@ world
 			vertices_plus
 			{
 				"v" "-48 -2488 263.893"
-				"v" "-864.004 -2488 263.893"
+				"v" "-864 -2488 263.893"
 				"v" "-864 -2432 263.893"
 				"v" "-48 -2432 263.893"
 			}
@@ -6053,8 +6106,8 @@ world
 			vertices_plus
 			{
 				"v" "-908 -2016 423.952"
-				"v" "-864.002 -2016 423.952"
-				"v" "-864.002 -2272 423.952"
+				"v" "-864 -2016 423.952"
+				"v" "-864 -2272 423.952"
 				"v" "-908 -2272 423.952"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
@@ -6089,7 +6142,7 @@ world
 			vertices_plus
 			{
 				"v" "-864 -2016 392"
-				"v" "-864.004 -2016 423.953"
+				"v" "-864 -2016 423.953"
 				"v" "-908 -2016 423.953"
 				"v" "-908 -2016 392"
 			}
@@ -8371,7 +8424,7 @@ world
 				"v" "2976 -1408 712"
 				"v" "2752 -1408 712"
 			}
-			"material" "DEV/DEV_MEASUREWALL01A"
+			"material" "BRICK/BRICKWALL017A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"

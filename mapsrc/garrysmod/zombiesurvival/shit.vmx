@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8849"
-	"mapversion" "5"
+	"editorbuild" "8864"
+	"mapversion" "14"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -16,10 +16,63 @@ viewsettings
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "64"
 }
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "14"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -31,7 +84,7 @@ entity
 	"id" "2"
 	"classname" "func_instance"
 	"angles" "0 0 0"
-	"file" "mapsrc/garrysmod/zombiesurvival/zs_newburg/apartment.vmf"
+	"file" "zs_newburg/background_buildings_01.vmf"
 	"origin" "0 0 0"
 	editor
 	{
@@ -46,7 +99,7 @@ entity
 	"id" "9"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "mapsrc/garrysmod/zombiesurvival/zs_newburg/background_buildings_01.vmf"
+	"file" "zs_newburg/bar.vmf"
 	"origin" "0 0 0"
 	editor
 	{
@@ -61,7 +114,7 @@ entity
 	"id" "16"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "mapsrc/garrysmod/zombiesurvival/zs_newburg/bar.vmf"
+	"file" "zs_newburg/jail_building.vmf"
 	"origin" "0 0 0"
 	editor
 	{
@@ -76,7 +129,7 @@ entity
 	"id" "23"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "mapsrc/garrysmod/zombiesurvival/zs_newburg/buildings_01.vmf"
+	"file" "zs_newburg/buildings_01.vmf"
 	"origin" "0 0 0"
 	editor
 	{
@@ -91,7 +144,7 @@ entity
 	"id" "30"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "mapsrc/garrysmod/zombiesurvival/zs_newburg/forground_buildings.vmf"
+	"file" "zs_newburg/forground_buildings.vmf"
 	"origin" "0 0 0"
 	editor
 	{
@@ -106,6 +159,7 @@ entity
 	"id" "36"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
+	"file" "zs_newburg/apartment.vmf"
 	"origin" "0 0 0"
 	editor
 	{
@@ -120,8 +174,98 @@ entity
 	"id" "55"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "mapsrc/garrysmod/zombiesurvival/zs_newburg/main_apartment.vmf"
+	"file" "zs_newburg/main_apartment.vmf"
 	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1792"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "zs_newburg/restaurant.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1817"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "zs_newburg/map_ents.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1842"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "zs_newburg/second_restaurant.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2151"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "zs_newburg/skybox.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2157"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "zs_newburg/streetscape.vmf"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5283"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "zs_newburg/third_apartment.vmf"
+	"origin" "64 0 0"
 	editor
 	{
 		"color" "220 30 220"
