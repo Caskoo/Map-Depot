@@ -1,0 +1,180 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "2"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "24341"
+	"mapversion" "2"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "24342"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "24343"
+		side
+		{
+			"id" "20574"
+			"plane" "(-1274 -2032 64) (-1277.59 -2024.06 64) (-1280 -2026 64)"
+			"material" "METAL/METALCOMBINE002"
+			"uaxis" "[0.7071 0.7071 0 130] 0.25"
+			"vaxis" "[0.7071 -0.7071 0 -399] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20575"
+			"plane" "(-1280 -2026 104) (-1271.93 -2029.72 104) (-1274 -2032 104)"
+			"material" "METAL/METALCOMBINE002"
+			"uaxis" "[0.7071 0.7071 0 130] 0.25"
+			"vaxis" "[0.7071 -0.7071 0 -399] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20576"
+			"plane" "(-1271.93 -2029.72 64) (-1274 -2032 64) (-1274 -2032 104)"
+			"material" "METAL/METALCOMBINE002"
+			"uaxis" "[0.7071 0.7071 0 130] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20577"
+			"plane" "(-1280 -2026 64) (-1277.59 -2024.06 104) (-1280 -2026 104)"
+			"material" "METAL/METALCOMBINE002"
+			"uaxis" "[0.7071 0.7071 0 130] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20578"
+			"plane" "(-1274 -2032 64) (-1280 -2026 64) (-1280 -2026 104)"
+			"material" "METAL/METALCOMBINE002"
+			"uaxis" "[-0.7071 0.7071 0 463] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20579"
+			"plane" "(-1277.59 -2024.06 64) (-1271.93 -2029.72 64) (-1271.93 -2029.71 104)"
+			"material" "METAL/METALCOMBINE002"
+			"uaxis" "[-0.7071 0.7071 0 463] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4500 -8768]"
+	}
+}
+entity
+{
+	"id" "24344"
+	"classname" "prop_static"
+	"angles" "0 45 -90"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props/de_nuke/wall_light.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1274.05 -2029.01 84"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7500 10500]"
+	}
+}
+entity
+{
+	"id" "24348"
+	"classname" "prop_static"
+	"angles" "0 45 -90"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props/de_nuke/wall_light.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1276.88 -2026.18 84"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7500 10000]"
+	}
+}
+entity
+{
+	"id" "24352"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_light" "255 255 255 75"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-1256 -2008 84"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2000 -12768]"
+	}
+}

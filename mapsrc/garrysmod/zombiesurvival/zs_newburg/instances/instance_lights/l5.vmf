@@ -1,0 +1,118 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "4825"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "2343753"
+	"mapversion" "4825"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2343754"
+	"classname" "prop_static"
+	"angles" "-61.527 242.992 8.1165"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "800"
+	"fademindist" "700"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_silo/industriallight01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-454 399 -406.66"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-14268 -13768]"
+	}
+}
+entity
+{
+	"id" "2343758"
+	"classname" "info_particle_system"
+	"angles" "25.8701 254.82 -168.674"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "dust_motes_lit_cone"
+	"start_active" "1"
+	"targetname" "fx_dustmotes"
+	"origin" "-459 384 -415.66"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 -11268]"
+	}
+}
+entity
+{
+	"id" "2343823"
+	"classname" "point_spotlight"
+	"angles" "22.4536 253.176 96.5393"
+	"gmod_allowphysgun" "1"
+	"HDRColorScale" "0.5"
+	"renderamt" "255"
+	"rendercolor" "254 249 214"
+	"spawnflags" "3"
+	"spotlightlength" "700"
+	"spotlightwidth" "80"
+	"origin" "-460.5 380.15 -417.36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 6000]"
+	}
+}
+entity
+{
+	"id" "2343825"
+	"classname" "light_spot"
+	"_cone" "30"
+	"_exponent" "1"
+	"_fifty_percent_distance" "250"
+	"_inner_cone" "20"
+	"_light" "254 241 211 300"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "0.5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "600"
+	"angles" "-17.9821 252.637 83.6464"
+	"pitch" "-17.9821"
+	"spawnflags" "0"
+	"origin" "-460.48 378.82 -418"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 6500]"
+	}
+}
