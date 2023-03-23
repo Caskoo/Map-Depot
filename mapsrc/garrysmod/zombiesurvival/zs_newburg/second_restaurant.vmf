@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "326"
+	"mapversion" "333"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 }
 palette_plus
 {
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "5"
-	"mapversion" "326"
+	"mapversion" "333"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6432,124 +6432,6 @@ world
 	}
 	solid
 	{
-		"id" "4092"
-		side
-		{
-			"id" "1014"
-			"plane" "(32 -640 248) (488 -640 248) (488 -644 248)"
-			vertices_plus
-			{
-				"v" "32 -644 248"
-				"v" "32 -640 248"
-				"v" "488 -640 248"
-				"v" "488 -644 248"
-			}
-			"material" "METAL/MILROOF002"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 354] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1013"
-			"plane" "(32 -644 240) (488 -644 240) (488 -640 240)"
-			vertices_plus
-			{
-				"v" "32 -640 240"
-				"v" "32 -644 240"
-				"v" "488 -644 240"
-				"v" "488 -640 240"
-			}
-			"material" "DEV/REFLECTIVITY_50"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1012"
-			"plane" "(32 -640 248) (32 -644 248) (32 -644 240)"
-			vertices_plus
-			{
-				"v" "32 -644 240"
-				"v" "32 -640 240"
-				"v" "32 -640 248"
-				"v" "32 -644 248"
-			}
-			"material" "DEV/REFLECTIVITY_50"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1011"
-			"plane" "(488 -640 240) (488 -644 240) (488 -644 248)"
-			vertices_plus
-			{
-				"v" "488 -640 240"
-				"v" "488 -644 240"
-				"v" "488 -644 248"
-				"v" "488 -640 248"
-			}
-			"material" "DEV/REFLECTIVITY_50"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1010"
-			"plane" "(488 -640 248) (32 -640 248) (32 -640 240)"
-			vertices_plus
-			{
-				"v" "32 -640 240"
-				"v" "488 -640 240"
-				"v" "488 -640 248"
-				"v" "32 -640 248"
-			}
-			"material" "DEV/REFLECTIVITY_50"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1009"
-			"plane" "(488 -644 240) (32 -644 240) (32 -644 248)"
-			vertices_plus
-			{
-				"v" "488 -644 240"
-				"v" "32 -644 240"
-				"v" "32 -644 248"
-				"v" "488 -644 248"
-			}
-			"material" "DEV/REFLECTIVITY_50"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 174 179"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "3699"
 		side
 		{
@@ -7373,6 +7255,21 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "4850"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/hl2_dome_light_warm.vmf"
+	"origin" "160 -448 208"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
 	}
 }
 entity
@@ -10348,6 +10245,124 @@ entity
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "4092"
+		side
+		{
+			"id" "1014"
+			"plane" "(32 -640 248) (488 -640 248) (488 -644 248)"
+			vertices_plus
+			{
+				"v" "32 -644 248"
+				"v" "32 -640 248"
+				"v" "488 -640 248"
+				"v" "488 -644 248"
+			}
+			"material" "METAL/MILROOF002"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 354] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1013"
+			"plane" "(32 -644 240) (488 -644 240) (488 -640 240)"
+			vertices_plus
+			{
+				"v" "32 -640 240"
+				"v" "32 -644 240"
+				"v" "488 -644 240"
+				"v" "488 -640 240"
+			}
+			"material" "DEV/REFLECTIVITY_50"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1012"
+			"plane" "(32 -640 248) (32 -644 248) (32 -644 240)"
+			vertices_plus
+			{
+				"v" "32 -644 240"
+				"v" "32 -640 240"
+				"v" "32 -640 248"
+				"v" "32 -644 248"
+			}
+			"material" "DEV/REFLECTIVITY_50"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1011"
+			"plane" "(488 -640 240) (488 -644 240) (488 -644 248)"
+			vertices_plus
+			{
+				"v" "488 -640 240"
+				"v" "488 -644 240"
+				"v" "488 -644 248"
+				"v" "488 -640 248"
+			}
+			"material" "DEV/REFLECTIVITY_50"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1010"
+			"plane" "(488 -640 248) (32 -640 248) (32 -640 240)"
+			vertices_plus
+			{
+				"v" "32 -640 240"
+				"v" "488 -640 240"
+				"v" "488 -640 248"
+				"v" "32 -640 248"
+			}
+			"material" "DEV/REFLECTIVITY_50"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1009"
+			"plane" "(488 -644 240) (32 -644 240) (32 -644 248)"
+			vertices_plus
+			{
+				"v" "488 -644 240"
+				"v" "32 -644 240"
+				"v" "32 -644 248"
+				"v" "488 -644 248"
+			}
+			"material" "DEV/REFLECTIVITY_50"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 174 179"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	editor
 	{
 		"color" "0 180 0"
@@ -11065,7 +11080,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 0 0"
 	"file" "instances/hl2_dome_light_warm.vmf"
-	"origin" "464 -208 208"
+	"origin" "464 -128 208"
 	editor
 	{
 		"color" "220 30 220"
@@ -13983,6 +13998,21 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4842"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/hl2_dome_light_warm.vmf"
+	"origin" "464 -480 208"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
 	}
 }
 cameras
