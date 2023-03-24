@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "56"
+	"mapversion" "67"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "5"
-	"mapversion" "56"
+	"mapversion" "67"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1342,414 +1342,68 @@ entity
 }
 entity
 {
-	"id" "212"
-	"classname" "info_particle_system"
-	"angles" "0 135 0"
-	"effect_name" "Skybox_Smoke_04"
-	"start_active" "1"
-	"origin" "944 8704 135.25"
+	"id" "5511"
+	"classname" "prop_static"
+	"angles" "0 267 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "1"
+	"disableX360" "0"
+	"fademaxdist" "2000"
+	"fademindist" "1800"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_unique/skybox_cityscape_highrise.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "488 7344 88"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
+		"logicalpos" "[1500 15500]"
 	}
 }
 entity
 {
-	"id" "537"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "Skybox_Smoke_04"
-	"start_active" "1"
-	"origin" "1008 8320 127.25"
+	"id" "5503"
+	"classname" "prop_static"
+	"angles" "0 192 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"disableX360" "0"
+	"fademaxdist" "2000"
+	"fademindist" "1800"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_unique/skybox_cityscape_highrise.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "1730.86 9310 88"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "602"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"effect_name" "skybox_smoke_01"
-	"start_active" "1"
-	"origin" "1344 8768 143.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "667"
-	"classname" "info_particle_system"
-	"angles" "0 285 0"
-	"effect_name" "skybox_smoke_01"
-	"start_active" "1"
-	"origin" "1600 8624 139.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "3162"
-	"classname" "info_particle_system"
-	"angles" "0 285 0"
-	"effect_name" "capital_skybox_fire_1_smoke"
-	"start_active" "1"
-	"origin" "1468 8180 139.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "3227"
-	"classname" "info_particle_system"
-	"angles" "0 285 0"
-	"effect_name" "skybox_smoke_01"
-	"start_active" "1"
-	"origin" "1668 8312 139.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "6687"
-	"classname" "info_particle_system"
-	"angles" "0 285 0"
-	"effect_name" "capital_skybox_fire_1_smoke"
-	"start_active" "1"
-	"origin" "1024 8256 139.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "3890"
-	"classname" "info_particle_system"
-	"angles" "0 135 0"
-	"effect_name" "skybox_fire_01 Version #3"
-	"start_active" "1"
-	"origin" "1616 8864 135.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "4345"
-	"classname" "info_particle_system"
-	"angles" "0 135 0"
-	"effect_name" "Skybox_Smoke_04"
-	"start_active" "1"
-	"origin" "1008 8480 135.25"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "4947"
-	"classname" "info_particle_system"
-	"angles" "0 241 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_3"
-	"start_active" "1"
-	"origin" "2011.79 8108.58 248"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -8768]"
-	}
-}
-entity
-{
-	"id" "5012"
-	"classname" "info_particle_system"
-	"angles" "0 233 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_4"
-	"start_active" "1"
-	"origin" "2203 8487.77 348"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -8268]"
-	}
-}
-entity
-{
-	"id" "5077"
-	"classname" "info_particle_system"
-	"angles" "0 188 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_4"
-	"start_active" "1"
-	"origin" "870.08 9223.03 227"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -7768]"
-	}
-}
-entity
-{
-	"id" "5142"
-	"classname" "info_particle_system"
-	"angles" "0 308 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_4"
-	"start_active" "1"
-	"origin" "1659.22 9242.84 348"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -7268]"
-	}
-}
-entity
-{
-	"id" "5207"
-	"classname" "info_particle_system"
-	"angles" "0 113 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_4"
-	"start_active" "1"
-	"origin" "1979.63 9244.89 227"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -6768]"
-	}
-}
-entity
-{
-	"id" "5272"
-	"classname" "info_particle_system"
-	"angles" "0 316 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_3"
-	"start_active" "1"
-	"origin" "1976 8960 248"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -6268]"
-	}
-}
-entity
-{
-	"id" "5337"
-	"classname" "info_particle_system"
-	"angles" "0 233 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_4"
-	"start_active" "1"
-	"origin" "2189.76 8744.83 280"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -5768]"
-	}
-}
-entity
-{
-	"id" "5402"
-	"classname" "beam_spotlight"
-	"angles" "-60 180 0"
-	"BeamSprite" "sprites/glow_test02.vmt"
-	"fademindist" "-1"
-	"fadescale" "0.1"
-	"gmod_allowphysgun" "1"
-	"HaloSprite" "sprites/light_glow03.vmt"
-	"HDRColorScale" ".75"
-	"maxspeed" "40"
-	"renderamt" "200"
-	"rendercolor" "191 208 219"
-	"renderfx" "0"
-	"rendermode" "5"
-	"spawnflags" "71"
-	"spotlightlength" "512"
-	"spotlightwidth" "16"
-	"targetname" "spotlight3_base"
-	"origin" "1764 11200 156"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -5268]"
-	}
-}
-entity
-{
-	"id" "5404"
-	"classname" "beam_spotlight"
-	"angles" "-60 0 0"
-	"BeamSprite" "sprites/glow_test02.vmt"
-	"fademindist" "-1"
-	"fadescale" "0.1"
-	"gmod_allowphysgun" "1"
-	"HaloSprite" "sprites/light_glow03.vmt"
-	"HDRColorScale" ".75"
-	"maxspeed" "30"
-	"renderamt" "200"
-	"rendercolor" "191 208 219"
-	"renderfx" "0"
-	"rendermode" "5"
-	"spawnflags" "71"
-	"spotlightlength" "512"
-	"spotlightwidth" "16"
-	"targetname" "spotlight_base"
-	"origin" "1760 11200 159"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -4768]"
-	}
-}
-entity
-{
-	"id" "5406"
-	"classname" "info_particle_system"
-	"angles" "0 308 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "skybox_burning_building_4"
-	"start_active" "1"
-	"origin" "1407.49 9296.58 280"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -4268]"
-	}
-}
-entity
-{
-	"id" "5471"
-	"classname" "sky_camera"
-	"angles" "0 180 0"
-	"clip_3D_skybox_near_to_world_fa" "0.0"
-	"fogblend" "0"
-	"fogcolor" "25 15 15"
-	"fogcolor2" "25 15 15"
-	"fogdir" "1 0 0"
-	"fogenable" "1"
-	"fogend" "3000"
-	"fogmaxdensity" "1"
-	"fogstart" "300"
-	"HDRColorScale" "1.0"
-	"scale" "32"
-	"use_angles" "1"
-	"origin" "1296 8512 104"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[9500 -13268]"
+		"logicalpos" "[1500 14500]"
 	}
 }
 entity
@@ -1820,35 +1474,34 @@ entity
 }
 entity
 {
-	"id" "5503"
-	"classname" "prop_static"
-	"angles" "0 192 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "1"
-	"disableX360" "0"
-	"fademaxdist" "2000"
-	"fademindist" "1800"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_unique/skybox_cityscape_highrise.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "1730.86 9310 88"
+	"id" "3162"
+	"classname" "info_particle_system"
+	"angles" "0 285 0"
+	"effect_name" "capital_skybox_fire_1_smoke"
+	"start_active" "1"
+	"origin" "1468 8180 139.25"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[1500 14500]"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "3227"
+	"classname" "info_particle_system"
+	"angles" "0 285 0"
+	"effect_name" "capital_skybox_fire_1"
+	"start_active" "1"
+	"origin" "1668 8312 139.25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -1886,35 +1539,150 @@ entity
 }
 entity
 {
-	"id" "5511"
-	"classname" "prop_static"
-	"angles" "0 267 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "1"
-	"disableX360" "0"
-	"fademaxdist" "2000"
-	"fademindist" "1800"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/props_unique/skybox_cityscape_highrise.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "488 7344 88"
+	"id" "7908"
+	"classname" "info_particle_system"
+	"angles" "0 285 0"
+	"effect_name" "capital_skybox_fire_1_smoke"
+	"start_active" "1"
+	"origin" "1056 8640 139.25"
 	editor
 	{
-		"color" "255 255 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15500]"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "4345"
+	"classname" "info_particle_system"
+	"angles" "0 135 0"
+	"effect_name" "newburg_Skybox_Haze_01"
+	"start_active" "1"
+	"origin" "1008 8480 135.25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5402"
+	"classname" "beam_spotlight"
+	"angles" "-60 180 0"
+	"BeamSprite" "sprites/glow_test02.vmt"
+	"fademindist" "-1"
+	"fadescale" "0.1"
+	"gmod_allowphysgun" "1"
+	"HaloSprite" "sprites/light_glow03.vmt"
+	"HDRColorScale" ".75"
+	"maxspeed" "40"
+	"renderamt" "200"
+	"rendercolor" "191 208 219"
+	"renderfx" "0"
+	"rendermode" "5"
+	"spawnflags" "71"
+	"spotlightlength" "512"
+	"spotlightwidth" "16"
+	"targetname" "spotlight3_base"
+	"origin" "1764 11200 156"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -5268]"
+	}
+}
+entity
+{
+	"id" "7977"
+	"classname" "info_particle_system"
+	"angles" "0 285 0"
+	"effect_name" "capital_skybox_fire_1_smoke"
+	"start_active" "1"
+	"origin" "1504 8640 139.25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5471"
+	"classname" "sky_camera"
+	"angles" "0 180 0"
+	"clip_3D_skybox_near_to_world_fa" "0.0"
+	"fogblend" "0"
+	"fogcolor" "25 15 15"
+	"fogcolor2" "25 15 15"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "3000"
+	"fogmaxdensity" "1"
+	"fogstart" "300"
+	"HDRColorScale" "1.0"
+	"scale" "32"
+	"use_angles" "1"
+	"origin" "1296 8512 104"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[9500 -13268]"
+	}
+}
+entity
+{
+	"id" "7839"
+	"classname" "info_particle_system"
+	"angles" "0 285 0"
+	"effect_name" "capital_skybox_fire_1_smoke"
+	"start_active" "1"
+	"origin" "800 8288 139.25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5404"
+	"classname" "beam_spotlight"
+	"angles" "-60 0 0"
+	"BeamSprite" "sprites/glow_test02.vmt"
+	"fademindist" "-1"
+	"fadescale" "0.1"
+	"gmod_allowphysgun" "1"
+	"HaloSprite" "sprites/light_glow03.vmt"
+	"HDRColorScale" ".75"
+	"maxspeed" "30"
+	"renderamt" "200"
+	"rendercolor" "191 208 219"
+	"renderfx" "0"
+	"rendermode" "5"
+	"spawnflags" "71"
+	"spotlightlength" "512"
+	"spotlightwidth" "16"
+	"targetname" "spotlight_base"
+	"origin" "1760 11200 159"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -4768]"
 	}
 }
 cameras
