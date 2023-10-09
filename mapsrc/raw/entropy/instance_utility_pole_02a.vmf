@@ -1,0 +1,193 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8157"
+	"mapversion" "17"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "17"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+	group
+	{
+		"id" "2"
+		editor
+		{
+			"color" "124 101 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "123"
+		editor
+		{
+			"color" "171 108 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademaxdist" "7000"
+	"fademindist" "5000"
+	"fadescale" "1"
+	"model" "models/props_c17/utilitypole03a.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 0.28125"
+	editor
+	{
+		"color" "124 101 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "move_rope"
+	"angles" "0 0 0"
+	"MoveSpeed" "64"
+	"NextKey" "$targetpole-cable1"
+	"PositionInterpolator" "2"
+	"RopeMaterial" "cable/cable.vmt"
+	"Slack" "$slack"
+	"Subdiv" "2"
+	"targetname" "cable1"
+	"TextureScale" "1"
+	"Width" "2"
+	"origin" "68 0 376"
+	editor
+	{
+		"color" "171 108 0"
+		"groupid" "123"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "move_rope"
+	"angles" "0 0 0"
+	"MoveSpeed" "64"
+	"NextKey" "$targetpole-cable2"
+	"PositionInterpolator" "2"
+	"RopeMaterial" "cable/cable.vmt"
+	"Slack" "$slack"
+	"Subdiv" "2"
+	"targetname" "cable2"
+	"TextureScale" "1"
+	"Width" "2"
+	"origin" "-68 0 376"
+	editor
+	{
+		"color" "171 108 0"
+		"groupid" "123"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "3"
+	"classname" "move_rope"
+	"angles" "0 0 0"
+	"MoveSpeed" "64"
+	"NextKey" "$targetpole-cable4"
+	"PositionInterpolator" "2"
+	"RopeMaterial" "cable/cable.vmt"
+	"Slack" "$slack"
+	"Subdiv" "2"
+	"targetname" "cable4"
+	"TextureScale" "1"
+	"Width" "2"
+	"origin" "-68 0 428"
+	editor
+	{
+		"color" "171 108 0"
+		"groupid" "123"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "move_rope"
+	"angles" "0 0 0"
+	"MoveSpeed" "64"
+	"NextKey" "$targetpole-cable3"
+	"PositionInterpolator" "2"
+	"RopeMaterial" "cable/cable.vmt"
+	"Slack" "$slack"
+	"Subdiv" "2"
+	"targetname" "cable3"
+	"TextureScale" "1"
+	"Width" "2"
+	"origin" "68 0 428"
+	editor
+	{
+		"color" "171 108 0"
+		"groupid" "123"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "107"
+	"classname" "func_instance_parms"
+	"parm1" "$targetpole target_destination"
+	"parm2" "$slack integer"
+	"origin" "0 0 416"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

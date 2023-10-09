@@ -1,0 +1,287 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8157"
+	"mapversion" "27"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "hidden"
+		"visgroupid" "6"
+		"color" "180 165 90"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "27"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "2"
+	"classname" "npc_furniture"
+	"angles" "0 180 0"
+	"BaseSpeedModifier" "1.0"
+	"FriendlyFireOverride" "2"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "0"
+	"model" "models/props_lab/reciever01b.mdl"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"SetDynamicInteractions" "2"
+	"SetForceServerRagdoll" "0"
+	"SetProficiencyOverride" "-1"
+	"sleepstate" "0"
+	"spawnflags" "516"
+	"SpawnWithStartScripting" "0"
+	"targetname" "radiobox_1"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "0.389984 -0.289433 3"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "0.31 -0.2 3.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "0"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "RADIOBOX_BUTTON"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "3"
+	connections
+	{
+		"OnPressed" "radiobox_$RBOXNUM_sprite,Color,255 128 64,0,-1"
+		"OnPressed" "Radio_Remarkable,Enable,,0,-1"
+		"OnPressed" "RadioBox_Microphone,Enable,,0.1,-1"
+		"OnPressed" "Radio_Remarkable,Disable,,3,-1"
+		"OnPressed" "CloneCopRecordingBoxActor_1,DispatchResponse,TLK_RECORDINGBOX,0.5,-1"
+		"OnPressed" "RADIOBOX_BUTTON,Lock,,0,-1"
+		"OnPressed" "RadioBox_Microphone,SetSpeakerName,RadioBox_$RBOXNUM_MicOut,0,-1"
+		"OnPressed" "$OUT_RELAY,Trigger,,0,-1"
+		"OnPressed" "radiobox_$RBOXNUM_autosave,Save,,0,1"
+		"OnPressed" "CloneCopRecordingBoxActor_1,AddContext,subject:$CONTEXT,0.4,-1"
+		"OnPressed" "radiobox_$RBOXNUM_achievement,FireEvent,,0,1"
+	}
+	solid
+	{
+		"id" "5"
+		side
+		{
+			"id" "1"
+			"plane" "(-8.99969 -10 7) (-8.99969 9.00061 7) (9 9.00061 7)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.0348992 0 -25.0671] 0.25"
+			"vaxis" "[-0.0348992 -1 0 1.21957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-8.99969 9.00061 0) (-8.99969 -9.99939 0) (9 -10 0)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.0348992 0 -25.0671] 0.25"
+			"vaxis" "[-0.0348992 -1 0 1.21957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(9 9.00061 0) (9 -9.99939 0) (9 -10 7)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0.0348992 1 0 -1.21957] 0.25"
+			"vaxis" "[0 0 -1 -39.9878] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-9 -10 0) (-9 9.00061 0) (-9 9.00061 7)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0.0348992 1 0 -1.21957] 0.25"
+			"vaxis" "[0 0 -1 -39.9878] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-8.99939 9.00061 0) (9 9.00061 0) (9 9.00061 7)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.0348992 0 -25.0671] 0.25"
+			"vaxis" "[0 0 -1 -39.9878] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(9 -9.99939 0) (-9 -9.99939 0) (-8.99939 -9.99939 7)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.0348992 0 -25.0671] 0.25"
+			"vaxis" "[0 0 -1 -39.9878] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "10"
+	"rendermode" "9"
+	"scale" "0.1"
+	"spawnflags" "1"
+	"targetname" "radiobox_$RBOXNUM_sprite"
+	"origin" "-6.39001 -6.10938 2"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "RadioBox_$RBOXNUM_MicOut"
+	"origin" "-1.39001 -0.109379 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "17"
+		"classname" "info_remarkable"
+		"contextsubject" "Listening_To_Radio_Box"
+		"origin" "-0.4 -0.11 9"
+		"StartDisabled" "1"
+		"targetname" "Radio_Remarkable"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupid" "6"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+entity
+{
+	"id" "44"
+	"classname" "logic_autosave"
+	"targetname" "radiobox_$RBOXNUM_autosave"
+	"origin" "0 -1 -13"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "66"
+	"classname" "logic_achievement"
+	"AchievementEvent" "$ACHIEVEMENT"
+	"targetname" "radiobox_$RBOXNUM_achievement"
+	"origin" "0 0 -9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

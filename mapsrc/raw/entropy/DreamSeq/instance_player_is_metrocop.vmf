@@ -1,0 +1,113 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8157"
+	"mapversion" "15"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "15"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "5"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "playerproxy,SetLegModel,models/weapons/ez1/v_kick_police.mdl,0,-1"
+		"OnMapSpawn" "!player,SetModel,models/police.mdl,0,-1"
+		"OnMapSpawn" "mod_maxarmor,Activate,,1,-1"
+		"OnMapSpawn" "mod_nvg,Activate,,1.25,-1"
+		"OnMapSpawn" "!player,AddContext,classname:player_dreamcop,0,-1"
+	}
+	"origin" "32 32 -1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "game_convar_mod"
+	"spawnflags" "0"
+	"target" "sk_suit_maxarmor 100"
+	"targetname" "mod_maxarmor"
+	"UseServer" "0"
+	"origin" "32 -32 0"
+	editor
+	{
+		"color" "239 163 14"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "game_convar_mod"
+	"spawnflags" "0"
+	"target" "sv_flashlight_cc_filename ez2_overworld_simple.raw"
+	"targetname" "mod_nvg"
+	"UseServer" "0"
+	"origin" "-32 -32 -1"
+	editor
+	{
+		"color" "239 163 14"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "logic_playerproxy"
+	"SetMaxInputArmor" "100"
+	"SetSuitZoomFOV" "25"
+	"targetname" "playerproxy"
+	"origin" "-32 32 -1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

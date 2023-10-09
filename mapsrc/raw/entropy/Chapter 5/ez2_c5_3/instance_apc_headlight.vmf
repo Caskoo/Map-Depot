@@ -1,0 +1,124 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8157"
+	"mapversion" "14"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "66"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "2"
+	"classname" "env_projectedtexture"
+	"angles" "0 0 0"
+	"brightnessscale" "10.0"
+	"enableshadows" "0"
+	"farz" "500.0"
+	"lightcolor" "255 255 255 255"
+	"lightfov" "60.0"
+	"lightworld" "1"
+	"linear_attn" "1"
+	"nearz" "4.0"
+	"parentname" "$parent"
+	"ProjectedTextureVersion" "1"
+	"shadowatten" "0.0"
+	"shadowquality" "1"
+	"spawnflags" "2"
+	"targetname" "projtex"
+	"texturename" "effects/flashlight001"
+	connections
+	{
+		"OnUser2" "projtex,TurnOff,,0,-1"
+		"OnUser1" "projtex,TurnOn,,0,-1"
+	}
+	"origin" "-4 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "point_spotlight"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"parentname" "$parent"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "2"
+	"spotlightlength" "125"
+	"spotlightwidth" "50"
+	"targetname" "spot"
+	"viewhideflags" "0"
+	connections
+	{
+		"OnUser1" "spot,LightOn,,0,-1"
+		"OnUser2" "spot,LightOff,,0,-1"
+		"OnUser1" "@apclights_on,PlaySoundOnEntity,!self,0,-1"
+		"OnUser2" "@apclights_off,PlaySoundOnEntity,!self,0,-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "73"
+	"classname" "func_instance_parms"
+	"parm1" "$parent target_destination"
+	"origin" "-16 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

@@ -1,0 +1,121 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8157"
+	"mapversion" "8"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "8"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_physics"
+	"angles" "0 0 0"
+	"fademaxdist" "$fademaxdist"
+	"fademindist" "$fademindist"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_vehicles/cara_82hatchback.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "$color"
+	"skin" "$skin"
+	"spawnflags" "256"
+	"targetname" "body"
+	"origin" "1.94436 -2 1.16943"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disableshadows" "1"
+	"fademaxdist" "$fademaxdist"
+	"fademindist" "$fademindist"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_vehicles/cara_82hatchback_glass.mdl"
+	"modelscale" "1.0"
+	"parentname" "body"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "$skin"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "glass"
+	connections
+	{
+		"OnBreak" "body,RunScriptCodeQuotable,self.EmitSound(''Breakable.Glass''),0,1"
+	}
+	"origin" "1.94436 -2 1.16943"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Since parented dynamic props lose their material index, we have to play the material breaking sound manually via an OnBreak output. It uses VScript instead of an ambient_generic to save on entity counts."
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "74"
+	"classname" "func_instance_parms"
+	"parm1" "$fademindist float"
+	"parm2" "$fademaxdist float"
+	"parm3" "$skin integer"
+	"parm4" "$color color255"
+	"origin" "0 -0.11275 49"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
