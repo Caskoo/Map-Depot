@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "55"
+	"mapversion" "57"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -69,7 +69,7 @@ bgimages_plus
 world
 {
 	"id" "1699"
-	"mapversion" "55"
+	"mapversion" "57"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -252,7 +252,8 @@ entity
 entity
 {
 	"id" "1709"
-	"classname" "env_sprite"
+	"classname" "env_sprite_clientside"
+	"angles" "0 0 0"
 	"disablereceiveshadows" "0"
 	"framerate" "10.0"
 	"GlowProxySize" "6"
@@ -266,6 +267,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "1.5"
+	"spawnflags" "0"
 	"origin" "0 16 0"
 	editor
 	{
@@ -318,6 +320,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" "1.5"
+	"spawnflags" "0"
 	"origin" "0 -16 0"
 	editor
 	{

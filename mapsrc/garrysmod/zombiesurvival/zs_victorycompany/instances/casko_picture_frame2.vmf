@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "23"
+	"mapversion" "25"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "23"
+	"mapversion" "25"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1605,7 +1605,7 @@ entity
 		"OnCase11" "picture_frame_big.image011,Enable,,0,-1"
 		"OnCase12" "picture_frame_big.image012,Enable,,0,-1"
 	}
-	"origin" "8 22 -2.729"
+	"origin" "8 -16 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -2342,6 +2342,24 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3000 -12268]"
+	}
+}
+entity
+{
+	"id" "93"
+	"classname" "logic_auto"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "picture_frame_big.case,PickRandom,,0,-1"
+	}
+	"origin" "8 -16 16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
