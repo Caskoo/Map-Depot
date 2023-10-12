@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8163"
-	"mapversion" "41"
+	"editorbuild" "8864"
+	"mapversion" "44"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -12,12 +12,64 @@ viewsettings
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "8"
-	"bShow3DGrid" "0"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "1699"
-	"mapversion" "41"
+	"mapversion" "44"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -29,9 +81,9 @@ entity
 	"id" "1844"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"disableselfshadowing" "1"
+	"disableselfshadowing" "0"
 	"disableshadows" "1"
-	"disablevertexlighting" "1"
+	"disablevertexlighting" "0"
 	"disableX360" "0"
 	"fademaxdist" "768"
 	"fademindist" "512"
@@ -42,7 +94,7 @@ entity
 	"maxgpulevel" "0"
 	"mincpulevel" "0"
 	"mingpulevel" "0"
-	"model" "models/Props_Lighting/light_shop.mdl"
+	"model" "models/props/cs_assault/light_shop2.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -122,6 +174,13 @@ entity
 		{
 			"id" "1"
 			"plane" "(7.99902 -34.0015 7.99937) (7.99902 -34.0015 7) (-10.002 -34.0015 7)"
+			vertices_plus
+			{
+				"v" "8 -34 8"
+				"v" "8 -34 7"
+				"v" "-10 -34 7"
+				"v" "-10 -34 8"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 58.3164] 0.25"
 			"vaxis" "[0 0 -1 -21.44] 0.25"
@@ -133,6 +192,13 @@ entity
 		{
 			"id" "2"
 			"plane" "(-10.002 31.9985 7.99937) (-10.002 31.9985 7) (7.99902 31.9985 7)"
+			vertices_plus
+			{
+				"v" "-10 32 8"
+				"v" "-10 32 7"
+				"v" "8 32 7"
+				"v" "8 32 8"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -58.3164] 0.25"
 			"vaxis" "[0 0 -1 -21.44] 0.25"
@@ -144,6 +210,13 @@ entity
 		{
 			"id" "3"
 			"plane" "(8 32 7.99937) (8 32 7) (8 -34.0005 7)"
+			vertices_plus
+			{
+				"v" "8 32 8"
+				"v" "8 32 7"
+				"v" "8 -34 7"
+				"v" "8 -34 8"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 45.4824] 0.25"
 			"vaxis" "[0 0 -1 -53.44] 0.25"
@@ -155,6 +228,13 @@ entity
 		{
 			"id" "4"
 			"plane" "(-10 -34.0005 7.99937) (-10 -34.0005 7) (-10 32 7)"
+			vertices_plus
+			{
+				"v" "-10 -34 8"
+				"v" "-10 -34 7"
+				"v" "-10 32 7"
+				"v" "-10 32 8"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 45.4824] 0.25"
 			"vaxis" "[0 0 -1 -53.44] 0.25"
@@ -166,6 +246,13 @@ entity
 		{
 			"id" "5"
 			"plane" "(-9.99902 -34.0005 7) (7.99902 -34.0005 7) (7.99902 32 7)"
+			vertices_plus
+			{
+				"v" "8 32 7"
+				"v" "-10 32 7"
+				"v" "-10 -34 7"
+				"v" "8 -34 7"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -58.3164] 0.25"
 			"vaxis" "[0 -1 0 -45.4824] 0.25"
@@ -177,6 +264,13 @@ entity
 		{
 			"id" "6"
 			"plane" "(7.99902 -34.0005 8) (-10.001 -34.0005 8) (-9.99903 32 8)"
+			vertices_plus
+			{
+				"v" "8 -34 8"
+				"v" "-10 -34 8"
+				"v" "-10 32 8"
+				"v" "8 32 8"
+			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 58.3164] 0.25"
 			"vaxis" "[0 -1 0 -45.4824] 0.25"
