@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8864"
-	"mapversion" "25"
+	"editorbuild" "8866"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -64,7 +64,24 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-	"hdr" "0"
+}
+postprocess_plus
+{
+	"enable" "1"
+	"copied_from_controller" "1"
+	"bloom_scale" "1"
+	"bloom_exponent" "2.5"
+	"bloom_saturation" "1"
+	"auto_exposure_min" "0.5"
+	"auto_exposure_max" "2"
+	"tonemap_percent_target" "60"
+	"tonemap_percent_bright_pixels" "2"
+	"tonemap_min_avg_luminance" "3"
+	"tonemap_rate" "1"
+	"vignette_enable" "0"
+	"vignette_start" "1"
+	"vignette_end" "2"
+	"vignette_blur" "0"
 }
 bgimages_plus
 {
@@ -72,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "25"
+	"mapversion" "29"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -615,9 +632,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_THEFRENCHREVOLUTION"
-			"uaxis" "[0 1 0 1380.17] 0.0449219"
-			"vaxis" "[0 0 -1 512] 0.0527344"
+			"material" "WOESTIJN/VIOLENCE/WANG/WANG_THEFRENCHREVOLUTION"
+			"uaxis" "[0 1 0 1380.17] 0.0449"
+			"vaxis" "[0 0 -1 512] 0.0527"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -634,7 +651,7 @@ entity
 				"v" "0 30 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -652,7 +669,7 @@ entity
 				"v" "-2 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -670,7 +687,7 @@ entity
 				"v" "0 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 -56] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -688,7 +705,7 @@ entity
 				"v" "0 30 -27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 -56] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -761,9 +778,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/OTHER/CHUMTOAD"
-			"uaxis" "[0 1 0 172.522] 0.359375"
-			"vaxis" "[0 0 -1 128] 0.210938"
+			"material" "WOESTIJN/VIOLENCE/CHUMTOAD01"
+			"uaxis" "[0 1 0 345.043] 0.179688"
+			"vaxis" "[0 0 -1 256] 0.105469"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -907,8 +924,8 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_EPICLATENIGHTZS"
-			"uaxis" "[0 1 0 345.044] 0.179688"
+			"material" "WOESTIJN/VIOLENCE/WANG/WANG_EPICLATENIGHTZS"
+			"uaxis" "[0 1 0 345.043] 0.179688"
 			"vaxis" "[0 0 -1 256] 0.105469"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1053,9 +1070,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_ZSHELLRIDE"
-			"uaxis" "[0 1 0 690.086] 0.0898438"
-			"vaxis" "[0 0 -1 256] 0.105469"
+			"material" "WOESTIJN/VIOLENCE/WANG/WANG_ZSHELLRIDE"
+			"uaxis" "[0 1 0 690.086] 0.0898"
+			"vaxis" "[0 0 -1 256] 0.1055"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1199,9 +1216,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/MUMBLE/THE_PASS"
-			"uaxis" "[0 1 0 -667.823] 0.0449219"
-			"vaxis" "[0 0 -1 512] 0.0527344"
+			"material" "WOESTIJN/VIOLENCE/THE_PASS"
+			"uaxis" "[0 1 0 -667.823] 0.0449"
+			"vaxis" "[0 0 -1 512] 0.0527"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1218,7 +1235,7 @@ entity
 				"v" "0 30 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1236,7 +1253,7 @@ entity
 				"v" "-2 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1254,7 +1271,7 @@ entity
 				"v" "0 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1272,7 +1289,7 @@ entity
 				"v" "0 30 -27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1345,9 +1362,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "TUKTUK/MUSGOG1"
-			"uaxis" "[0 1 0 345.015] 0.179688"
-			"vaxis" "[0 0 -1 -255.99] 0.105469"
+			"material" "WOESTIJN/VIOLENCE/WANG/WANG_SUNRUST_TOMANDJERRY02"
+			"uaxis" "[0 1 0 690.087] 0.0898438"
+			"vaxis" "[0 0 -1 256] 0.105469"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1364,7 +1381,7 @@ entity
 				"v" "0 30 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1382,7 +1399,7 @@ entity
 				"v" "-2 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1400,7 +1417,7 @@ entity
 				"v" "0 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 -56] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1418,7 +1435,7 @@ entity
 				"v" "0 30 -27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 -56] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1491,9 +1508,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/OTHER/MUSGOG5"
-			"uaxis" "[0 1 0 -166.954] 0.179688"
-			"vaxis" "[0 0 -1 128] 0.210938"
+			"material" "WOESTIJN/TUKTUK/MUSGOG5"
+			"uaxis" "[0 1 0 -166.954] 0.1797"
+			"vaxis" "[0 0 -1 128] 0.2109"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1666,9 +1683,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_FORGOTTENRIPPER"
-			"uaxis" "[0 1 0 -333.912] 0.0898438"
-			"vaxis" "[0 0 -1 256] 0.105469"
+			"material" "WOESTIJN/VIOLENCE/WANG/WANG_FORGOTTENRIPPER"
+			"uaxis" "[0 1 0 -333.912] 0.0898"
+			"vaxis" "[0 0 -1 256] 0.1055"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1812,9 +1829,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_DARKSOULSNOX"
-			"uaxis" "[0 1 0 -333.912] 0.0898438"
-			"vaxis" "[0 0 -1 512] 0.0527344"
+			"material" "WOESTIJN/VIOLENCE/WANG/WANG_DARKSOULSNOX"
+			"uaxis" "[0 1 0 -333.912] 0.0898"
+			"vaxis" "[0 0 -1 512] 0.0527"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1831,7 +1848,7 @@ entity
 				"v" "0 30 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1849,7 +1866,7 @@ entity
 				"v" "-2 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1867,7 +1884,7 @@ entity
 				"v" "0 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1885,7 +1902,7 @@ entity
 				"v" "0 30 -27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1958,9 +1975,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_TODAYIWILLPLAYSYSTEMSHOCK"
-			"uaxis" "[0 1 0 -333.912] 0.0898438"
-			"vaxis" "[0 0 -1 512] 0.0527344"
+			"material" "WOESTIJN/VIOLENCE/WANG/CLANCY_MODELING"
+			"uaxis" "[0 1 0 345.043] 0.179688"
+			"vaxis" "[0 0 -1 256] 0.105469"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2104,9 +2121,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_UNKNOWN (15)"
-			"uaxis" "[0 1 0 -333.912] 0.0898438"
-			"vaxis" "[0 0 -1 256] 0.105469"
+			"material" "WOESTIJN/VIOLENCE/WANG/WANG_NOXSCHOOLSHOOTING"
+			"uaxis" "[0 1 0 690.087] 0.0898438"
+			"vaxis" "[0 0 -1 512] 0.0527344"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2123,7 +2140,7 @@ entity
 				"v" "0 30 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2141,7 +2158,7 @@ entity
 				"v" "-2 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2159,7 +2176,7 @@ entity
 				"v" "0 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2177,7 +2194,7 @@ entity
 				"v" "0 30 -27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2250,9 +2267,9 @@ entity
 				"v" "0 -62 -27"
 				"v" "0 -62 27"
 			}
-			"material" "CASKOCHAN/TEXTURES/WANG/WANG_CLANCYMODELING"
-			"uaxis" "[0 1 0 -166.956] 0.179688"
-			"vaxis" "[0 0 -1 256] 0.105469"
+			"material" "WOESTIJN/VIOLENCE/WANG/CLANCY_MODELING"
+			"uaxis" "[0 1 0 -166.956] 0.1797"
+			"vaxis" "[0 0 -1 256] 0.1055"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2269,7 +2286,7 @@ entity
 				"v" "0 30 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2287,7 +2304,7 @@ entity
 				"v" "-2 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 0 -1 -60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2305,7 +2322,7 @@ entity
 				"v" "0 -62 27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -2323,7 +2340,7 @@ entity
 				"v" "0 30 -27"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8] 0.25"
+			"uaxis" "[1 0 0 -56] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
