@@ -1,0 +1,13 @@
+[breencast_studio.vmf]
+
+Description: This is the room where the npc_breen is found. It is where the breencast camera itself is located. This room is to be placed in an unreachable spot in the map.
+
+Configuration: Due to restrictions within how point_camera and func_monitor work. You can have only a jumbotron, a console or a tv in a room at any given time. Having two types of monitors in the same room will cause issues with the combine slate size. You can use trigger_multiples to tell the game which slate size to display when the breencast ends by triggering the relay_jumbozone, relay_tvzone and relay_consolezone relays. 
+
+Replace <monitornameshere> with the name of the func_monitor in question, duplicate this output if necessary and replace <scenenamehere> with the logic_choreographed_scene entity you are using.
+
+In the logic_choreographed_scene entity (you have to make this yourself), you should set 'If an Actor is talking...' to Start immediately and you should use 'OnTrigger1' to trigger the Breen camera relay and use 'OnTrigger2' to trigger the Combine Slate relay. If you want the Breencast to repeat, simply trigger relay_restartbreencastforce with an OnCompletion Output. If on the off-chance that the VCD file you are using is not set up to use these outputs, Replace OnTrigger1 with OnStart and OnTrigger2 with OnComplete
+
+To start the breencast when the map has first started, set up a logic_auto to trigger the 'relay_restartbreencastforce' relay. Keep in mind that this will not turn on the monitors which have been set to start disabled so make sure that you turn them on as well.
+
+Extra info: The full breen model is used instead of the half breen.

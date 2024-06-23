@@ -1,0 +1,13 @@
+[kleinercast_studio.vmf]
+
+Description: This is the room where the npc_kleiner is found. Use this prefab if you are making a HL2: Episode One map where Kleiner has hijacked the Jumbotron's and is making his speech. It is also where the kleinercast camera itself is located. This room is to be placed in an unreachable spot in the map.
+
+Configuration: Due to restrictions within how point_camera and func_monitor work. You can have only a jumbotron, a console or a tv in a room at any given time. Having two types of monitors in the same room will cause issues with the combine slate size. You can use trigger_multiples to tell the game which slate size to display when the kleinercast ends by triggering the relay_jumbozone, relay_tvzone and relay_consolezone relays. 
+
+Replace <monitornameshere> with the name of the func_monitor in question, duplicate this output if necessary.
+
+The scenes are already set up so do not worry about them. There are multiple scene entities, so you can do some trickery if you want to have the speech start halfway through when the map has loaded.
+
+To start the kleinercast when the map has first started, set up a logic_auto to trigger the 'relay_restartkleinercastforce' relay. Keep in mind that this will not turn on the monitors which have been set to start disabled so make sure that you turn them on as well.
+
+Extra info: The full kleiner model is used instead of the half breen.
